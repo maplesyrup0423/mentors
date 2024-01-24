@@ -141,11 +141,10 @@ table{
 .info_box{
     text-align: center;
     
-    
 }
 
 .info_info{
-    
+    display: inline-block;
     border: 2px solid blue;
     width: 1000px;
     height:800px;
@@ -153,6 +152,7 @@ table{
 }
 
 .info_training{
+    display: inline-block;
     border: 2px solid red;
     width: 1000px;
     height:800px;
