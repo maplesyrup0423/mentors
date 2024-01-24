@@ -1,0 +1,118 @@
+.all{
+    margin: auto;
+    padding: 50px;
+}
+
+.red{
+    color: red;
+}
+
+.paybox{
+    margin: auto; /*TO-DO 가운데 정렬!*/
+}
+
+.WT_pay{
+    margin-top: 20px;
+    width: 900px;
+    height: 250px;
+    border: 2px solid rgb(196, 193, 193);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.WT_pay>div{
+    float: left;
+}
+
+.cart_info{
+    width: 400px;
+    height: 200px;
+}
+
+.cart_title{
+    font-size: 20pt;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.cart_a{
+    font-size: 14pt;
+}
+
+.a_title{
+    display: inline-block;
+    width: 160px;
+    height: 30px;
+}
+
+.a_con{
+    opacity: 60%;
+}
+
+.cart_thum{
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    line-height: 250px;
+    border: 2px solid rgb(255, 203, 47);
+    background-color: rgb(255, 203, 47);
+}
+
+.cart_payment{
+    margin: 20px;
+    padding-top: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: right;
+}
+
+.cart_pay{
+    font-size: 18pt;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.cart_payment button{
+    width: 95px;
+    height: 40px;
+    margin-top: 5px;
+    border: none;
+    background-color: #1171d1;
+    color: aliceblue;
+    font-size: 12pt;
+    border-radius: 8px;
+}
+
+.cart_payment button.cart_del{
+    background-color: #71d111;
+}
+
+.WT_total{
+    margin-top: 20px;
+}
+
+.WT_total>div{
+    font-size: 22pt;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.WT_total button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: #1171d1;
+    color: aliceblue;
+    font-size: 12pt;
+    border-radius: 8px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgb(75, 181, 252);
+}
+
+button.cart_del:hover{
+    box-shadow: 1px 1px 10px 1px rgb(75, 252, 108);
+}
