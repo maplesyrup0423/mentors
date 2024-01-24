@@ -1,13 +1,19 @@
 .all{
     margin: auto;
     padding: 50px;
+    
 }
 
 .red{
     color: red;
 }
 
+.cen{
+    text-align: center;
+}
+
 .paybox{
+    display: inline-block;
     margin: auto; /*TO-DO 가운데 정렬!*/
 }
 
@@ -89,6 +95,7 @@
 }
 
 .WT_total{
+    display: inline-block;
     margin-top: 20px;
 }
 
