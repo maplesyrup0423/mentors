@@ -36,6 +36,7 @@
 }
 
 .cart_title{
+    text-align: left;
     font-size: 20pt;
     font-weight: 600;
     margin-top: 20px;
@@ -44,6 +45,7 @@
 
 .cart_a{
     font-size: 14pt;
+    text-align: left;
 }
 
 .a_title{
