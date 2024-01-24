@@ -1,0 +1,122 @@
+div {
+			display: inline-block;
+		}
+
+        .all{
+            width: 100%;
+        }
+		.all2{
+           display: block;
+          /* border: 2px solid rgb(195, 190, 190);*/
+            width: 80%;
+            margin: auto;
+            padding: 5px;
+
+        }
+
+		.title_div {
+			width: 100%;
+		}
+        .Tbox_all{
+           
+        }
+		.Tbox {
+			width: 150px;
+			height: 90px;
+			line-height: 90px;
+			/* 
+        [ine-height]
+        텍스트 세로 정렬을 부모 높이에 맞춤
+         height 값과 동일 해야함!!!!!!
+         heigh 수정시 같이 수정할 것!!
+        */
+			text-align: center;
+			border-radius: 5px;
+			
+
+
+		}
+		/*
+		Tbox_1 ,Tbox_2 오른쪽으로 바꾸기 
+		*/
+
+		.Tbox_1 {
+			background-color: rgb(246,249,255);
+			
+
+		}
+
+		.Tbox_2 {
+			background-color: rgb(241,249,241)
+		}
+		.select_div {
+			width: 100%;
+			
+		}
+		.span_num {
+			color: rgb(31, 90, 252);
+			font-weight: bold;
+		}
+
+		.WT_select {
+			float: right;
+		}
+
+		
+        .WT{
+            width: 90%;
+			margin: auto;
+			display: block;
+            height: 120px;
+            border: 1px solid rgb(193, 189, 189);
+            border-radius: 10px;
+			padding: 20px;
+        }
+		.WT:hover{
+		border-color:  rgb(31, 90, 252);
+		box-shadow: 3px 3px 15px rgb(31, 90, 252, 0.2);
+		}
+        .classbtn_div{
+            float: right;
+        }
+		.WT .WT_left{
+			width: 80%;
+
+		}
+		.WT .WT_schol_type{
+			border: 1px solid rgb(66, 126, 146);
+			background-color: rgb(218, 234, 239);
+			border-radius: 5px;
+			text-align: center;
+			width: 100px;
+		}
+		.WT .WT_category{
+			border: 1px solid rgb(49, 114, 71);
+			margin-left: 5px;
+			background-color: rgb(218, 239, 228);
+			border-radius: 5px;
+			text-align: center;
+			width: 100px;
+		}
+		.WT .WT_name{
+			font-weight: bold;
+			font-size: 18px;
+		}
+		.WT .time_span{
+			color: gray;
+		}
+		.WT .classbtn_div{
+			height: 100%;
+		}
+		.WT .classbtn{
+			height: 100%;
+			color: white;
+			border: 1px solid rgb(31, 90, 252);
+			background-color: rgb(31, 90, 252);
+			border-radius: 20px;
+			font-size: 15px;
+		}
+		#WT_area{
+
+			width: 100%;
+		}
