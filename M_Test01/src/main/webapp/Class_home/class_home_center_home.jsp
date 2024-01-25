@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>class_home_center</title>
+<title>class_home_center_home</title>
 <link rel="stylesheet" href="../style_yj/MY_Main_style.css" />
 </head>
 <body>
