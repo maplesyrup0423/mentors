@@ -10,13 +10,11 @@
 <body>
 	<div class="sidebar">
 		<ul class="sidebar_list">
-			<li class="list_home"><a href="class_home_Include.jsp?CHnum=1">강의 홈</a></li>
-			<li class="list_test"><a href="class_home_Include.jsp?CHnum=2">시험</a></li>
-			<li class="list_QnA"><a href="class_home_Include.jsp?CHnum=3">Q&A</a></li>
-			<li class="list_notification"><a href="class_home_Include.jsp?CHnum=4">공지사항</a></li>
+			<li class="list_home list"><a href="class_home_Include.jsp?CHnum=1">강의 홈</a></li>
+			<li class="list_test list"><a href="class_home_Include.jsp?CHnum=2">시험</a></li>
+			<li class="list_QnA list"><a href="class_home_Include.jsp?CHnum=3">Q&A</a></li>
+			<li class="list_notification list"><a href="class_home_Include.jsp?CHnum=4">공지사항</a></li>
 		</ul>
-
-
 	</div>
 </body>
 </html>

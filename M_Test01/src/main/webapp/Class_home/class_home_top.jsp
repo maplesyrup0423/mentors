@@ -13,7 +13,13 @@
 			<img src="../img/logo.PNG" id="logo" />
 		</div>
 		<div class="Exit_div">
-			<img src="../img/Exit.png" id="Exit" /> <span>나가기</span>
+			<div>
+				<img src="../img/Exit.png" id="Exit" />
+			</div>
+			<div>
+				<span>나가기</span>
+			</div>
+
 		</div>
 	</div>
 </body>

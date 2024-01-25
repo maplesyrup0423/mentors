@@ -1,82 +1,173 @@
+/*----------------------------class_home_Include.jsp-------------------------------------*/
+
+html,
+body {
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(230, 230, 230);
+
+}
+
+.main_f {
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+	background-color: #fff;
+
+}
+
+table,
+td,
+th,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*----------------------------class_home_top.jsp-------------------------------------*/
 .top {
-  width: 100%;
-  height: 80px;
-  display: block;
+	width: 100%;
+	height: 100px;
+	display: block;
+	border-bottom: 1px solid rgb(192, 192, 192);
 }
+
 .logo_div {
-  display: inline-block;
-  width: 180px;
+	display: inline-block;
+	width: 180px;
+	margin-top: 20px;
+	margin-left: 80px;
+	height: 100px;
+
+
 }
+
 #logo {
-  max-width: 100%;
+	max-width: 100%;
+
 }
+
 .Exit_div {
-  display: inline-grid;
-  width: 50px;
-  float: right;
+	display: inline-grid;
+	width: 80px;
+	height: 100%;
+	float: right;
+	border-left: 1px solid rgb(192, 192, 192);
 }
+
 #Exit {
-  max-width: 70%;
+	max-width: 50%;
+	margin: 7px;
 }
+
+/*----------------------------class_home_left.jsp-------------------------------------*/
+.sidebar_list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar {
+	height: 100%;
+}
+
+.list {
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #fff;
+}
+
+.list:hover {
+	border-color: rgb(31, 90, 252);
+
+}
+
+.list>a{
+	text-decoration: none;
+	color:  rgb(31, 90, 252);
+	font-weight: bold;
+}
+/*.list>a:hover {
+	color: #fff;
+}*/
+
+/*----------------------------class_home_center_home.jsp-------------------------------------*/
+/*----------------------------class_home_center_test.jsp-------------------------------------*/
+
+
+
 
 /*----------------------------도넛 그래프(임시)-------------------------------------*/
 .chart {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  transition: 0.3s;
-  background: lightgray;
-  display: inline-block;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	transition: 0.3s;
+	background: lightgray;
+	display: inline-block;
 }
 
 .chart:after {
-  /* 가상선택자는 도넛 모양을 만들기 위함이다.*/
-  content: "";
-  background: #fff; /* 백그라운드 컬러로 중앙가리기 */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100px;
-  height: 100px; /* 도넛의 너비 설정 */
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
+	/* 가상선택자는 도넛 모양을 만들기 위함이다.*/
+	content: "";
+	background: #fff;
+	/* 백그라운드 컬러로 중앙가리기 */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	/* 도넛의 너비 설정 */
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
 }
+
 .chart-bar {
-  width: inherit;
-  height: inherit;
-  border-radius: 50%;
-  background: conic-gradient(#9986dd 50deg, #fbb871 50deg); /* 차트 설정 */
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	background: conic-gradient(#9986dd 50deg, #fbb871 50deg);
+	/* 차트 설정 */
 }
 
 /*----------------------막대그래프(임시)---------------------------------*/
 .progress-bar {
-  width: 100%;
-  height: 30px;
-  background-color: #dedede;
-  font-weight: 600;
-  font-size: 0.8rem;
+	width: 100%;
+	height: 30px;
+	background-color: #dedede;
+	font-weight: 600;
+	font-size: 0.8rem;
 }
 
 .progress-bar .progress {
-  width: 72%; /*나타내고자 하는 퍼센트 값을 넣으면 됩니다.*/
-  height: 30px;
-  padding: 0;
-  text-align: center;
-  background-color: #4f98ff;
-  color: #111;
+	width: 72%;
+	/*나타내고자 하는 퍼센트 값을 넣으면 됩니다.*/
+	height: 30px;
+	padding: 0;
+	text-align: center;
+	background-color: #4f98ff;
+	color: #111;
 }
+
 .progress-bar_div {
-  width: 300px;
+	width: 300px;
 }
+
 /*-----------------------------------------------------------------*/
 
 .chart_div {
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-}
-.GS_table_div {
-  display: inline-block;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
 }
 
+.GS_table_div {
+	display: inline-block;
+}
