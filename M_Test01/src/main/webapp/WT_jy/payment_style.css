@@ -1,6 +1,11 @@
 .all{
     margin: auto;
     padding: 50px;
+    padding: 50px 350px 50px 350px;
+}
+
+.line{
+    border-top: 1px solid black;
 }
 
 table{
@@ -13,6 +18,11 @@ table{
 th, td{
     border: 1px solid black;
     padding: 15px;
+}
+
+#date{
+    width: 150px;
+    height: 25px;
 }
 
 .pay_buttons button{
@@ -35,13 +45,14 @@ th, td{
 
 .float{
     position: fixed; 
-    right: 50%; 
+    right: 70%; 
     top: 180px; 
-    margin-right: -720px;
+    margin-right: -600px;
     text-align:center;
     width: 120px;
 }
 
 .float table{
-    width: 300px;
+    width: 400px;
+    height: 300px;
 }
