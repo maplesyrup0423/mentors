@@ -1,6 +1,10 @@
 .all{
     margin: auto;
-    padding: 50px;
+    padding: 50px 350px 50px 350px;
+}
+
+.line{
+    border-top: 1px solid black;
 }
 
 
@@ -60,12 +64,11 @@ table{
 
 .info_top{
     display: flex;
-    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
-.info_top table >td{
-    
-}
 
 .info_top>div{
     margin-left: 20px;
@@ -164,4 +167,14 @@ button:hover{
     cursor: pointer;
     box-shadow: 1px 1px 8px 1px rgb(75, 181, 252);
 }
+
+/*
+#float{
+    position: fixed; 
+    right: 80%; 
+    top: 580px; 
+    margin-right: -600px;
+    text-align:center;
+    width: 200px;
+}*/
 
