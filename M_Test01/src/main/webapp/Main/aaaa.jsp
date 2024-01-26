@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-    일본어
+    한글
 </body>
 </html>
