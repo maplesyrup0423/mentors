@@ -8,6 +8,6 @@
 <link rel="stylesheet" href="../style_yj/MY_Main_style.css" />
 </head>
 <body>
-	<p>Q&A확인</p>
+	<p>Q&A</p>
 </body>
 </html>
