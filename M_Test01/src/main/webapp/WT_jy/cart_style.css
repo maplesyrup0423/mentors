@@ -1,11 +1,21 @@
 .all{
     margin: auto;
+    width: 1000px;
     padding: 50px;
-    
+    padding: 50px 350px 50px 350px;
+}
+
+.line{
+    border-top: 1px solid black;
+    margin-bottom: 25px;
 }
 
 .red{
     color: red;
+}
+
+.warning{
+    margin: 10px;
 }
 
 .cen{
@@ -14,7 +24,7 @@
 
 .paybox{
     display: inline-block;
-    margin: auto; /*TO-DO 가운데 정렬!*/
+    margin-bottom: 30px;
 }
 
 .WT_pay{
