@@ -8,6 +8,6 @@
 <link rel="stylesheet" href="../style_yj/MY_Main_style.css" />
 </head>
 <body>
-	<p>공지</p>
+	<p>공지입니다.</p>
 </body>
 </html>
