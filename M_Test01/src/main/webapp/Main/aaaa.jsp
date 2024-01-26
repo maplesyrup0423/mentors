@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-    한글
+    브런치 BBBB
 </body>
 </html>
