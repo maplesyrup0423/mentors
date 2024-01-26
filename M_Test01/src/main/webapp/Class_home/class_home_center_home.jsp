@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="../style_yj/MY_Main_style.css" />
 </head>
 <body>
-<!-- adsldsldksdksl -->
+<!-- adsldsㅇㅇㅇㅊㅊldksdksl -->
 	<div class="con">
 		<!--상단 강의 정보-->
 		<div class="headline">
