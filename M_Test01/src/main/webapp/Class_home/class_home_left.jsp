@@ -9,12 +9,21 @@
 </head>
 <body>
 	<div class="sidebar">
-		<ul class="sidebar_list">
+			<div class="sidebar_list">
+				<button class="list_home list" onclick="location.href='class_home_Include.jsp?CHnum=1'">강의 홈</button>
+				<button class="list_test list" onclick="location.href='class_home_Include.jsp?CHnum=2'">시험</button>
+				<button class="list_QnA list" onclick="location.href='class_home_Include.jsp?CHnum=3'">Q&A</button>
+				<button class="list_notification list" onclick="location.href='class_home_Include.jsp?CHnum=4'">공지사항</button>
+			</div>
+
+		<!--<ul class="sidebar_list">
+			 
 			<li class="list_home list"><a href="class_home_Include.jsp?CHnum=1">강의 홈</a></li>
 			<li class="list_test list"><a href="class_home_Include.jsp?CHnum=2">시험</a></li>
 			<li class="list_QnA list"><a href="class_home_Include.jsp?CHnum=3">Q&A</a></li>
-			<li class="list_notification list"><a href="class_home_Include.jsp?CHnum=4">공지사항</a></li>
-		</ul>
+			<li class="list_notification list"><a href="class_home_Include.jsp?CHnum=4">공지사항</a></li> 
+			
+		</ul>-->
 	</div>
 </body>
 </html>
