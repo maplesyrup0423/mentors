@@ -102,6 +102,28 @@ li {
 }*/
 
 /*----------------------------class_home_center_home.jsp-------------------------------------*/
+.gray{
+	background-color:rgb(230, 230, 230);
+	padding: 15px;
+}
+.con_grade_status_div,.con_TW{
+	background-color: #fff;
+	border-radius: 25px;
+}
+.color_div{
+
+	background-color:  #4f98ff;
+	width: 10px;
+	height: 25px;
+	display: inline-block;
+	
+}
+.headline_top_table{
+	width: 100%;
+}
+.headline{
+		border-left: 1px solid rgb(192, 192, 192);
+}
 /*----------------------------class_home_center_test.jsp-------------------------------------*/
 
 
