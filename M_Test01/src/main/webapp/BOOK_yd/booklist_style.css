@@ -3,9 +3,15 @@
 	padding: 0;
 }
 
+#blist_view{
+	margin: auto;
+	width: 1000px;
+}
+
 .top_title{
+	text-align: left;
 	display: block;
-	top: -4px;
+	top: 5px;
 	position: relative;
 	color: #333;
 	line-height: 30px;
@@ -13,6 +19,7 @@
 }
 
 .top_text{
+	text-align: left;
 	margin-top: 10px;
 	font-size: 15px;
 	color: gray;
@@ -46,6 +53,7 @@ body{
 .book_cate{
 	text-align: center;
 	margin-top: 20px;
+	font-size: 16px;
 }
 
 .book_c_A{
@@ -54,7 +62,7 @@ body{
 	color: #fff;
 	border: none;
 	border-radius: 20px;
-	width: 150px;
+	width: 120px;
 }
 
 .book_c_1{
@@ -63,7 +71,7 @@ body{
 	color: #fff;
 	border: none;
 	border-radius: 20px;
-	width: 150px;
+	width: 120px;
 }
 
 .book_c_2{
@@ -72,7 +80,7 @@ body{
 	color: #fff;
 	border: none;
 	border-radius: 20px;
-	width: 150px;
+	width: 120px;
 }
 
 .book_c_3{
@@ -81,7 +89,7 @@ body{
 	color: #fff;
 	border: none;
 	border-radius: 20px;
-	width: 150px;
+	width: 120px;
 }
 
 .book_c_4{
@@ -90,7 +98,7 @@ body{
 	color: #fff;
 	border: none;
 	border-radius: 20px;
-	width: 150px;
+	width: 120px;
 }
 
 .book_c_5{
@@ -99,7 +107,7 @@ body{
 	color: #fff;
 	border: none;
 	border-radius: 20px;
-	width: 150px;
+	width: 120px;
 }
 .book_c_6{
 	height: 38px;
@@ -107,7 +115,7 @@ body{
 	color: #fff;
 	border: none;
 	border-radius: 20px;
-	width: 150px;
+	width: 120px;
 }
 .book_c_7{
 	height: 38px;
@@ -115,7 +123,7 @@ body{
 	color: #fff;
 	border: none;
 	border-radius: 20px;
-	width: 150px;
+	width: 120px;
 }
 
 .btn_change{
@@ -181,10 +189,51 @@ body{
 	margin: auto;
 }
 
-#btn_img1{
-	margin: auto;
+.book_list{
+	width: 480px;
+	height: 300px;
+	border: 1px solid #888;
+	margin: 10px;
 }
 
-#btn_img2{
-	margin: auto;
+.book_info{
+	width: 440px;
+	height: 280px;
+	border: 1px solid #888;
+	margin: 10px 20px;
+}
+
+.book_img{
+	border: 1px solid red;
+	width: 210px;
+	height: 280px;
+	float: left;
+}
+
+.book_info_list{
+	margin-left: 10px;
+	float: left;
+}
+
+.info_title{
+	border: 1px solid yellow;
+	width: 215px;
+	height: 80px;
+}
+
+.info_list{
+	border: 1px solid green;
+	width: 215px;
+	height: 200px;
+}
+
+#sub_info{
+	list-style-type: none;
+	
+}
+
+#sub_info > li{
+	color: #737373;
+	font: 13px bold;
+	vertical-align: sub;
 }
