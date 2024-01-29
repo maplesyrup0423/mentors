@@ -4,6 +4,11 @@
     width: 1000px;
 }
 
+button:hover{
+    cursor: pointer;
+    background-color: #00457e;
+}
+
 .line{
     border-top: 1px solid black;
 }
@@ -21,32 +26,70 @@
     height: 140px;
     margin-left:10px;
     margin-right: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 1px solid #a09bff;
+    border-radius: 5px;
     margin: auto;
-    background: linear-gradient(#53d4f5 25%, #fff 25%);
+    background: linear-gradient(#a09bff 25%, #fff 25%);
 
 }
 
 .category_title{
-    margin-bottom: 10px;
-    font-weight: 700;
+    margin-left: 5px;
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-weight: 00;
+    color: aliceblue;
 }
 
 table{
-    border-spacing: 20px 10px;
+    border-spacing: 30px 20px;
     margin: auto;
 }
 
-.thumb{
-    width: 150px;
-    height: 100px;
-    border: 2px solid black;
+.WT_table_box{
+    border: 1px solid #00457e;
+    border-radius: 5%;
+    width: 210px;
+    height: 250px;
 }
+
+.thumb{
+    width: 210px;
+    height: 150px;
+    border-bottom: 1px solid #00457e;
+}
+
+.WT_table_bottom{
+    margin-top: 15px;
+}
+
+
 
 .wtt{
     text-align: center;
     font-weight: 600;
+}
+
+#wt_bot{
+    text-align: center;
+    margin: 10px;
+}
+
+#wt_bot span{
+    margin-left: 10px;
+}
+
+#wt_bot span button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #a09bff;
+    color: aliceblue;
+    border: none;
+}
+
+#wt_bot span button:hover{
+    background-color: #00457e;
 }
 
 
@@ -77,13 +120,21 @@ table{
 }
 
 .info_tag{
+    color: #008cff;
     font-weight: 700;
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .info_title{
     font-size: 24pt;
     font-weight: 700;
+}
+
+.info_table{
+    text-align: left;
+    margin: 0px;
+    margin-left: -15px;
+    border-spacing: 20px 10px;
 }
 
 .info_price{
@@ -100,9 +151,12 @@ table{
 }
 
 .info_select select{
-    width: 180px;
-    height: 25px;
-} 
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    text-indent: 3%;
+}
+
 
 .into_payment{
     margin: 15px;
@@ -123,14 +177,21 @@ table{
 }
 
 .total_buttons button{
+    font-size: 14px;
+    font-weight: 900;
     width: 120px;
     height: 35px;
-    background-color: #1171d1;
+    background-color: #a09bff;
     color: aliceblue;
     border: none;
     border-radius: 8px;
     margin: 5px;
 }
+
+.total_buttons button:hover{
+    background-color: #00457e;
+}
+
 
 .info_cate{
     text-align: center;
@@ -139,15 +200,58 @@ table{
 }
 
 .info_cate a{
-    margin: 10px;
-}
-
-.info_box{
-    text-align: center;
-    
+    text-decoration: none;
 }
 
 .info_info{
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #b6b6b6;
+}
+
+.info_info>a{
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.info_info:hover{
+    background-color: #ff5345;
+}
+
+
+
+.info_training{
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #b6b6b6;
+}
+
+.info_training>a{
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.info_training:hover{
+    background-color: #ff5345;
+}
+
+
+.info_box{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+#info_info{
     display: inline-block;
     border: 2px solid blue;
     width: 1000px;
@@ -155,7 +259,7 @@ table{
     margin: 10px;
 }
 
-.info_training{
+#info_training{
     display: inline-block;
     border: 2px solid red;
     width: 1000px;
@@ -164,10 +268,7 @@ table{
 }
 
 
-button:hover{
-    cursor: pointer;
-    box-shadow: 1px 1px 8px 1px rgb(75, 181, 252);
-}
+
 
 /*
 #float{
