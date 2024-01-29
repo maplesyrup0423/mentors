@@ -32,7 +32,7 @@ div.sign_in_id { /*ID  문자*/
 	color: gray;
 	font-size : 20px;
 	padding-bottom : 5px;
-	padding-left : 40px;
+	padding-left : 50px;
 }
 
 div.sign_in_pw { /*PASSWORD 문자*/
@@ -40,6 +40,7 @@ div.sign_in_pw { /*PASSWORD 문자*/
 	font-size: 20px;
 	margin-top : 10px;
 	padding-bottom : 5px;
+	padding-left : 50px;
 }
 
 /*ID와 PW입력이 담긴 상자 공간 여백*/
@@ -53,19 +54,13 @@ div.sign_in_pw { /*PASSWORD 문자*/
 .input_id {
 	display : flex;
 	align-items : center;
+	padding-left : 25px;
+	
 }
 .input_pw {
 	display : flex;
 	align-items : center;
-}
-
-.input_id i {
-	width : 40px;
-	height : 40px;
-	margin-top : auto;	
-	margin-bottom : auto;
-	margin-left : 10px;
-	margin-right : 10px;
+	padding-left : 50px;
 }
 
 	/*footer 하단 하이퍼링크 설정*/
