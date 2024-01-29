@@ -1,1 +1,17 @@
 @charset "UTF-8";
+
+.all_center{
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+    border:1px solid black;
+    text-align : center;
+}
+
+.td_cen{
+    width: 100px;    
+}
+
+a{
+    text-decoration-line: none;
+}
