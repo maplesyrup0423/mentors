@@ -131,7 +131,7 @@ div.other_login input {
 /*외부 로그인 - 네이버 채우기*/
 div.other_login input.naver {
 	color : white;
-	background-image : url("../pic/btnG_아이콘원형.png") ;
+	background-image : url("pic/btnG_아이콘원형.png") ;
 	background-size : contain;
 	background-repeat: no-repeat;
 	background-color : #03C75A;
@@ -140,7 +140,7 @@ div.other_login input.naver {
 /*외부 로그인 - 구글 채우기*/
 div.other_login input.google {
 	color : black;
-	background-image : url("../pic/스프레드-시트-48.png") ;
+	background-image : url("pic/스프레드-시트-48.png") ;
 	background-size : contain;
 	background-repeat: no-repeat;
 }
