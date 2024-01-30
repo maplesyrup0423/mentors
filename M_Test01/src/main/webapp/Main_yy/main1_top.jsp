@@ -3,6 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+	<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <title>main1_top</title>
 <link rel="stylesheet" href="main1.css">
@@ -20,10 +21,12 @@
 			<td class="td_cen"><a href="../Board_uc/Boardlist.html">게시판</a></td>
 			<td class="td_cen"><a href="../WT_yj/My_home.html">나의 강의실</a></td>
 			<td class="td_cen">  </td>
-			<td class="td_cen"><a href="../WT_jy/cart.html">장바구니</a></td>
-			<td class="td_cen" id="Login"><a href="../user_jm/Login.jsp">로그인/회원정보</a></td>
+			<td class="td_img"><a href="../WT_jy/cart.html"><i class="fas fa-cart-shopping"></i></a></td>
+			<td class="td_img"><a href="../user_jm/Login.jsp"><img src="./img_yy/login.png" alt="로그인" class="loginicon"></a></td>
 		</tr>
 		</table>
-	</center>
+	</center>	
+	</header>
+
 </body>
 </html>

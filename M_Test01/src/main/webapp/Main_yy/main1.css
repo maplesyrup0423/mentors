@@ -4,8 +4,6 @@
     margin: auto;
     width: 1000px;
     text-align: center;
-    border:1px solid black;
-    text-align : center;
 }
 
 .td_cen{
@@ -15,3 +13,20 @@
 a{
     text-decoration-line: none;
 }
+
+.td_img{
+    width: 50px;
+    height: 50px;
+}
+.loginicon{
+    width: 50px;
+    height: 50px;
+}
+
+.fa-cart-shopping{
+    width: 37px;
+    height: 37px;
+    color: black;
+}
+
+
