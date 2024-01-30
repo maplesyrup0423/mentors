@@ -2,6 +2,39 @@
     margin: auto;
     padding: 50px;
     padding: 50px 350px 50px 350px;
-    width: 1000px;
+    width: 1280px;
     
+}
+
+.line{
+    border-top: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.question{
+    margin-top: 30px;
+}
+
+.test_a{
+    position: fixed; 
+    right: 70%; 
+    top: 180px;
+    margin-top: 15px;
+    margin-right: -650px;
+    text-align:center;
+    width: 120px;
+}
+
+.test_a_table{
+    border: 1px solid black;
+    width: 200px;
+    height: 280px;
+    border-collapse: collapse;
+}
+
+.test_a_table tr td{
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
 }
