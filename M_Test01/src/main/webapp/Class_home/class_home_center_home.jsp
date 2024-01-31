@@ -38,6 +38,7 @@
 		<div class="gray">
 			<div class="con_grade_status_div">
 				<div class="GS_title">
+					<div class="color_div"></div>
 					<span>성적현황</span>
 				</div>
 				<div class="GS_cg_div">
@@ -48,7 +49,10 @@
 						</div>
 						<!--수료/미수료 표기-->
 						<div class="grade_status">
-							<span>수료여부</span> <span class="WTT_Completion">미수료</span>
+							<span>수료여부</span>
+							<div class="WTT_Completion_div">
+								<span class="WTT_Completion">미수료</span>
+							</div>
 						</div>
 					</div>
 					<!--성적 테이블-->
@@ -81,7 +85,8 @@
 			<!--강의-->
 			<div class="con_TW">
 				<div class="con_TW_title">
-					<p>강의 학습</p>
+					<div class="color_div"></div>
+					<span>강의 학습</span>
 				</div>
 				<div class="con_TW_table">
 					<table>
