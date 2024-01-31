@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>class_home_Include</title>
 <link rel="stylesheet" href="../style_yj/MY_Main_style.css" />
-<script src="./script_yj/class_home.js"></script>
+
 </head>
 <body>
 	<%
@@ -63,14 +63,14 @@
 						<div class="sidebar">
 							<div class="sidebar_list">
 								<button class="list_home list <%=home%>"
-									onclick="location.href='class_home_Include.jsp?CHnum=1';change_btn(event)">강의
+									onclick="location.href='class_home_Include.jsp?CHnum=1';">강의
 									홈</button>
 								<button class="list_test list <%=test%>"
-									onclick="location.href='class_home_Include.jsp?CHnum=2';change_btn(event);">시험</button>
+									onclick="location.href='class_home_Include.jsp?CHnum=2';">시험</button>
 								<button class="list_QnA list <%=QnA%>"
-									onclick="location.href='class_home_Include.jsp?CHnum=3';change_btn(event);">Q&A</button>
+									onclick="location.href='class_home_Include.jsp?CHnum=3';">Q&A</button>
 								<button class="list_notification list <%=notification%>"
-									onclick="location.href='class_home_Include.jsp?CHnum=4';change_btn(event);">공지사항</button>
+									onclick="location.href='class_home_Include.jsp?CHnum=4';">공지사항</button>
 							</div>
 						</div>
 					</td>
