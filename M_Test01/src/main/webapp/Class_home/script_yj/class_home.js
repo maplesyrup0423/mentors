@@ -2,11 +2,12 @@
 function change_btn(e) {
 	var btns = document.querySelectorAll(".list");
 	btns.forEach(function(btn, i) {
-		if (e.currentTarget == btn) {
+		if(e.currentTarget == btn) {
 			btn.classList.add("active");
-		} else {
+		}
+		else {
 			btn.classList.remove("active");
 		}
 	});
-	console.log(e.currentTarget);
+	console.log( e.currentTarget );
 }
