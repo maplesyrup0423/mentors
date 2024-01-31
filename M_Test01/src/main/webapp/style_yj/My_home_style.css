@@ -54,7 +54,7 @@ div {
 			
 		}
 		.span_num {
-			color: rgb(31, 90, 252);
+			color: #00457E;
 			font-weight: bold;
 		}
 
@@ -74,7 +74,7 @@ div {
         }
 		.WT:hover{
 		border-color:  rgb(31, 90, 252);
-		box-shadow: 3px 3px 15px rgb(31, 90, 252, 0.2);
+		box-shadow: 3px 3px 15px rgb(00, 45, 116, 0.2);
 		}
         .classbtn_div{
             float: right;
@@ -111,8 +111,8 @@ div {
 		.WT .classbtn{
 			height: 100%;
 			color: white;
-			border: 1px solid rgb(31, 90, 252);
-			background-color: rgb(31, 90, 252);
+			border: 1px solid #00457E;
+			background-color: #00457E;
 			border-radius: 20px;
 			font-size: 15px;
 		}
