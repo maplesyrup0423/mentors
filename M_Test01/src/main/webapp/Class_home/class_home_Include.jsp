@@ -50,15 +50,15 @@
 	%>
 	<div class="container">
 		<div class="main_f">
-			<table width="1000">
+			<table width="1280">
 				<!-- Top부분 -->
-				<tr height="100">
+				<tr height="80">
 					<td colspan="2" align="center"><jsp:include
 							page="class_home_top.jsp" /></td>
 				</tr>
 				<tr height="500">
 					<!-- Left 부분 -->
-					<td width="150" align="center" valign="top">
+					<td width="200" align="center" valign="top">
 
 						<div class="sidebar">
 							<div class="sidebar_list">
@@ -75,7 +75,7 @@
 						</div>
 					</td>
 					<!-- Center 부분 -->
-					<td width="900" align="center" valign="top"><jsp:include
+					<td width="1130" align="center" valign="top"><jsp:include
 							page="<%=CHurl%>"></jsp:include></td>
 				</tr>
 			</table>
