@@ -96,7 +96,7 @@
 								</div>
 							</td>
 							<td>
-								<button>학습하기</button>
+								<button class="blue_btn">학습하기</button>
 							</td>
 						</tr>
 					</table>
