@@ -24,7 +24,7 @@
 	}
 	
 	else if (mainNum.equals("3")) {
-		mainUrl = "class_home_center_QnA.jsp";//도서관 가져오기
+		mainUrl = "Booklist.jsp";//도서관
 	} else if (mainNum.equals("4")) {
 		mainUrl = "class_home_center_QnA.jsp";//게시판 가져오기
 	} else if (mainNum.equals("5")) {
