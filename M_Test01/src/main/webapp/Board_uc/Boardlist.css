@@ -1,6 +1,7 @@
-@charset "UTF-8";s
+
+
 div.list{	
-	width: 1200px;
+	width: 1280px;
 	height: 400px;
 	margin: auto;/*가운데 정렬*/
 	border: 3px solid #c0c0c0;
@@ -33,7 +34,7 @@ tr.view{
 }
 
 table.list_tbl{	
-	width: 1200px;
+	width: 1280px;
 	height: 400px;
 	margin: auto;/*가운데 정렬*/
 	border: 3px solid #c0c0c0;
@@ -75,10 +76,16 @@ table.list_tbl{
     height: 38px;
     background: #4caf50;
     color: #4caf50;
-    border-radius: 20px;
+    background-color: white;
+   /* border-radius: 20px;
+    border: 1px solid #4caf50;*/
+}
+.bordergreen{
+	height: 30px;
+	border-radius: 20px;
     background-color: white;
     border: 1px solid #4caf50;
-
+	
 }
 
 .category1>#num2{
@@ -116,12 +123,15 @@ table.list_tbl{
 	width: 10%;
 	text-align: center;
     height: 38px;
-    background: #bdbdbd;
     color: #bdbdbd;
-    border-radius: 20px;
+
+}
+
+.bordergrey{
+	height: 30px;
+	border-radius: 20px;
     background-color: white;
     border: 1px solid #bdbdbd;
-
 }
 
 .title1>#num3{
@@ -160,11 +170,18 @@ table.list_tbl{
 	text-align: center;
     height: 38px;
     background: #4caf50;
-    color: #4caf50;
     border-radius: 20px;
     background-color: white;
-    border: 1px solid #4caf50;
+    color: #4caf50;
+    
 
+}
+
+.bordergreen2{
+	height: 30px;
+	border-radius: 20px;
+    background-color: white;
+    border: 1px solid #4caf50;
 }
 
 .writer1>#num4{
@@ -203,13 +220,18 @@ table.list_tbl{
 	text-align: center;
     height: 38px;
     background: #4caf50;
-    color: #4caf50;
     border-radius: 20px;
     background-color: white;
-    border: 1px solid #4caf50;
+    color: #4caf50;
 
 }
 
+.bordergreen3{
+	height: 30px;
+	border-radius: 20px;
+    background-color: white;
+    border: 1px solid #4caf50;
+}
 .date1>#num5{
 	width: 13%;
 	text-align: center;
@@ -246,11 +268,17 @@ table.list_tbl{
 	text-align: center;
     height: 38px;
     background: #4caf50;
-    color: #4caf50;
     border-radius: 20px;
     background-color: white;
-    border: 1px solid #4caf50;
+    color: #4caf50;
 
+}
+
+.bordergreen4{
+	height: 30px;
+	border-radius: 20px;
+    background-color: white;
+    border: 1px solid #4caf50;
 }
 
 .state1>#num6{
@@ -289,16 +317,30 @@ table.list_tbl{
 	text-align: center;
     height: 38px;
     background: #4caf50;
-    color: #4caf50;
     border-radius: 20px;
     background-color: white;
-    border: 1px solid #4caf50;
+    color: #4caf50;
+}
 
+.bordergreen5{
+	height: 30px;
+	border-radius: 20px;
+    background-color: white;
+    border: 1px solid #4caf50;
 }
 .hr{
-	width: 1200px;
+	width: 1280px;
 }
 
 .title{
 	text-align: center;
+}
+
+#w_btn{
+	margin-left: 1230px;
+	margin-top: 5px;
+	border-radius: 20px;
+	
+	
+	
 }
