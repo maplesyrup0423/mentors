@@ -47,7 +47,8 @@
 							<td class="td_img"><a href="Mentors_Main.jsp?mainNum=6"><img
 									class="fas fa-cart-shopping" src="../img/cart.png"></img></a></td>
 							<td class="td_img"><a href="../user_jm/Login.jsp"><img
-									src="../img/login.png" alt="로그인" class="loginicon"></a></td>
+									src="../img/login.png" alt="로그인" class="loginicon"></a></td> 
+									<!-- TODO 로그인페이지 연결 -->
 						</tr>
 					</table></td>
 			</tr>
