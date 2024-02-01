@@ -19,12 +19,8 @@
 		mainUrl = "WT_list.jsp";//연수신청
 	} else if (mainNum.equals("2")) {
 		mainUrl = "event.jsp";//이벤트
-	}else if (mainNum.equals("2.5")) {
-		mainUrl = "event_end.jsp";//종료 이벤트
-	}
-	
-	else if (mainNum.equals("3")) {
-		mainUrl = "Booklist.jsp";//도서관
+	} else if (mainNum.equals("3")) {
+		mainUrl = "class_home_center_QnA.jsp";//도서관 가져오기
 	} else if (mainNum.equals("4")) {
 		mainUrl = "class_home_center_QnA.jsp";//게시판 가져오기
 	} else if (mainNum.equals("5")) {
@@ -36,7 +32,7 @@
 		mainUrl = "WT_payment.jsp";//결제
 	}
 	else if (mainNum.equals("8")) {
-		mainUrl = "WT_info.jsp";//상세페이지
+		mainUrl = "WT_info.jsp";//연수 상세 페이지
 	}
 	%>
 	<center class="all_center">

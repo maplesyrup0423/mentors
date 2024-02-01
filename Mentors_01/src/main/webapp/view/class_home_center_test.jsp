@@ -29,7 +29,7 @@
 						<td>20%</td>
 						<td>X</td>
 						<td>-</td>
-						<td><button>응시</button></td>
+						<td><button onclick="location.href='class_test.jsp'">응시</button></td>
 					</tr>
 				</tbody>
 			</table>
