@@ -30,7 +30,7 @@
 	}
 	%>
 	<center class="all_center">
-		<table border="1">
+		<table>
 			<!-- 헤더 -->
 			<tr>
 				<td><table class="table">
