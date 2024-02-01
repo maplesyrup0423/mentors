@@ -42,7 +42,7 @@
 					<div class="cart_payment">
 						<div class="cart_pay">18000원</div>
 						<div>
-							<button onclick="location.href='WT_payment.jsp'">결제하기</button>
+							<button onclick="location.href='Mentors_Main.jsp?mainNum=7'">결제하기</button>
 						</div>
 						<div>
 							<button class="cart_del">삭제하기</button>
@@ -71,7 +71,7 @@
 					<div class="cart_payment">
 						<div class="cart_pay">24000원</div>
 						<div>
-							<button onclick="location.href='WT_payment.jsp'">결제하기</button>
+							<button onclick="location.href='Mentors_Main.jsp?mainNum=7'">결제하기</button>
 						</div>
 						<div>
 							<button class="cart_del">삭제하기</button>
@@ -100,7 +100,7 @@
 					<div class="cart_payment">
 						<div class="cart_pay">15000원</div>
 						<div>
-							<button onclick="location.href='WT_payment.jsp'">결제하기</button>
+							<button onclick="location.href='Mentors_Main.jsp?mainNum=7'">결제하기</button>
 						</div>
 						<div>
 							<button class="cart_del">삭제하기</button>
@@ -114,7 +114,7 @@
 
 			<div class="WT_total">
 				<div>총 주문 금액 : 50000원</div>
-				<button onclick="location.href='WT_payment.jsp'">전부 결제하기</button>
+				<button onclick="location.href='Mentors_Main.jsp?mainNum=7'">전부 결제하기</button>
 			</div>
 		</div>
 
