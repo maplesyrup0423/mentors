@@ -18,7 +18,7 @@
 	} else if (mainNum.equals("1")) {
 		mainUrl = "WT_list.jsp";//연수신청
 	} else if (mainNum.equals("2")) {
-		mainUrl = "class_home_center_QnA.jsp";//이벤트 가져오기
+		mainUrl = "event.jsp";//이벤트
 	} else if (mainNum.equals("3")) {
 		mainUrl = "class_home_center_QnA.jsp";//도서관 가져오기
 	} else if (mainNum.equals("4")) {
