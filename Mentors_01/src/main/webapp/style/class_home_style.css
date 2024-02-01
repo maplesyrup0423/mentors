@@ -165,6 +165,41 @@ li {
 
 
 
+/*----------------------------class_home_center_home_video.jsp-------------------------------------*/
+
+.line{
+	border-top: 1px solid black;
+	margin-bottom: 40px;
+}
+
+.video{
+	margin: auto;
+	width: 900px;
+	height: 500px;
+
+}
+
+.video_title{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.video_out{
+	position: absolute;
+	top: 135px;
+	left: 360px;
+	margin-right: 160px;
+	float: right;
+	width: 100px;
+	height: 40px;
+}
+
+
+
+
+
 /*----------------------------도넛 그래프(임시)-------------------------------------*/
 .chart {
 	position: relative;

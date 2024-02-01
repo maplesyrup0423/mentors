@@ -101,7 +101,7 @@
 								</div>
 							</td>
 							<td>
-								<button class="blue_btn">학습하기</button>
+								<button class="blue_btn" onclick="location.href='class_home_center_home_video.jsp'">학습하기</button>
 							</td>
 						</tr>
 					</table>
