@@ -58,7 +58,7 @@ else if(mainNum.equals("5")){
 			</tr>
 			<!-- 내용 -->
 			<tr>
-				<td><p><%=mainNum %> <%=mainUrl %></p><jsp:include page="<%=mainUrl %>"></jsp:include>
+				<td><jsp:include page="<%=mainUrl %>"></jsp:include>
 				</td>
 			</tr>
 		</table>
