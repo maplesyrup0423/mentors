@@ -14,17 +14,17 @@
 	String mainUrl = "";
 	String mainNum = request.getParameter("mainNum");
 	if (mainNum == null) {
-		mainUrl = "event.jsp";//메인 컨텐츠
+		mainUrl = "class_home_center_QnA.jsp";//메인 컨텐츠 제작해야해 영열아!!!!! 일단 다른곳에 연결해둠
 	} else if (mainNum.equals("1")) {
-		mainUrl = "../WT_jy/WT.html";//연수신청
+		mainUrl = "WT_list.jsp";//연수신청
 	} else if (mainNum.equals("2")) {
-		mainUrl = "event.jsp";//이벤트
+		mainUrl = "class_home_center_QnA.jsp";//이벤트 가져오기
 	} else if (mainNum.equals("3")) {
-		mainUrl = "../BOOK_yd/book_list.html";//도서관
+		mainUrl = "class_home_center_QnA.jsp";//도서관 가져오기
 	} else if (mainNum.equals("4")) {
-		mainUrl = "../Board_uc/Boardlist.html";//게시판
+		mainUrl = "class_home_center_QnA.jsp";//게시판 가져오기
 	} else if (mainNum.equals("5")) {
-		mainUrl = "../WT_yj/My_home.html";//나의강의실
+		mainUrl = "WT_my_room.jsp";//나의강의실
 	}
 	%>
 	<center class="all_center">
@@ -33,13 +33,13 @@
 			<tr>
 				<td><table class="table">
 						<tr height="100">
-							<td><a href="main1_top.jsp"><img height="100"
+							<td><a href="Mentors_Main.jsp"><img height="100"
 									src="../img/mantis.jpg" alt="로고 위치" /></a></td>
-							<td class="td_cen"><a href="main1_top.jsp?mainNum=1">연수신청</a></td>
-							<td class="td_cen"><a href="main1_top.jsp?mainNum=2">이벤트</a></td>
-							<td class="td_cen"><a href="main1_top.jsp?mainNum=3">도서관</a></td>
-							<td class="td_cen"><a href="main1_top.jsp?mainNum=4">게시판</a></td>
-							<td class="td_cen"><a href="main1_top.jsp?mainNum=5">나의
+							<td class="td_cen"><a href="Mentors_Main.jsp?mainNum=1">연수신청</a></td>
+							<td class="td_cen"><a href="Mentors_Main.jsp?mainNum=2">이벤트</a></td>
+							<td class="td_cen"><a href="Mentors_Main.jsp?mainNum=3">도서관</a></td>
+							<td class="td_cen"><a href="Mentors_Main.jsp?mainNum=4">게시판</a></td>
+							<td class="td_cen"><a href="Mentors_Main.jsp?mainNum=5">나의
 									강의실</a></td>
 							<td class="td_cen"></td>
 							<td class="td_img"><a href="main1_top.jsp?mainNum=6"><img
@@ -51,7 +51,7 @@
 			</tr>
 			<!-- 내용 -->
 			<tr>
-				<td><jsp:include page="<%=mainUrl%>"></jsp:include></td>
+				<td width="1280"><jsp:include page="<%=mainUrl%>"></jsp:include></td>
 			</tr>
 		</table>
 

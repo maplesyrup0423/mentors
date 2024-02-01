@@ -75,7 +75,7 @@
 						</div>
 					</td>
 					<!-- Center 부분 -->
-					<td width="1130" align="center" valign="top"><jsp:include
+					<td width="1080" align="center" valign="top"><jsp:include
 							page="<%=CHurl%>"></jsp:include></td>
 				</tr>
 			</table>
