@@ -26,7 +26,7 @@
 				<div class="info_price">15000원</div>
 				<div class="info_line"></div>
 
-				<div>
+				<div class="info_table_box">
 					<table class="info_table">
 						<tr>
 							<td>학습 시간</td>
@@ -72,8 +72,8 @@
 		</div>
 		<div class="into_payment">
 			<span class="total">총 금액 15000원</span> <span class="total_buttons">
-				<button onclick="location.href='WT_payment.jsp'">연수 신청하기</button> <!--0원이면 바로 나의 강의실에 추가, 아니면 결제페이지로 이동-->
-				<button onclick="location.href='WT_cart.jsp'">장바구니에 넣기</button>
+				<button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수 신청하기</button> <!--0원이면 바로 나의 강의실에 추가, 아니면 결제페이지로 이동-->
+				<button onclick="location.href='Mentors_Main.jsp?mainNum=6'">장바구니에 넣기</button>
 			</span>
 		</div>
 
