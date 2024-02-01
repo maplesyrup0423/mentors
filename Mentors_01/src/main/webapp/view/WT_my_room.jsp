@@ -1,8 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 
 <head>
-	<link rel="stylesheet" href="../style_yj/My_home_style.css" />
+	<link rel="stylesheet" href="../style/WT_my_room_style.css" />
 	<meta charset="utf-8">
 	<title>나의 홈</title>
 </head>
