@@ -39,7 +39,7 @@
 			QnA = "active";
 			notification = "non";
 		} else if (CHnum.equals("4")) {
-			CHurl = "class_home_center_notification.jsp";
+			CHurl = "Notification.jsp";
 			home = "non";
 			test = "non";
 			QnA = "non";
@@ -62,14 +62,14 @@
 
 						<div class="sidebar">
 							<div class="sidebar_list">
-								<button class="list_home list <%=home%>"
+								<button class="list_home CH_list <%=home%>"
 									onclick="location.href='class_home_Include.jsp?CHnum=1';">강의
 									홈</button>
-								<button class="list_test list <%=test%>"
+								<button class="list_test CH_list <%=test%>"
 									onclick="location.href='class_home_Include.jsp?CHnum=2';">시험</button>
-								<button class="list_QnA list <%=QnA%>"
+								<button class="list_QnA CH_list <%=QnA%>"
 									onclick="location.href='class_home_Include.jsp?CHnum=3';">Q&A</button>
-								<button class="list_notification list <%=notification%>"
+								<button class="list_notification CH_list <%=notification%>"
 									onclick="location.href='class_home_Include.jsp?CHnum=4';">공지사항</button>
 							</div>
 						</div>

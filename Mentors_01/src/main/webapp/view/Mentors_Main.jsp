@@ -14,19 +14,21 @@
 	String mainUrl = "";
 	String mainNum = request.getParameter("mainNum");
 	if (mainNum == null) {
-		mainUrl = "class_home_center_QnA.jsp";//메인 컨텐츠 제작해야해 영열아!!!!! 일단 다른곳에 연결해둠
+		mainUrl = "class_home_center_notification.jsp";//메인 컨텐츠 제작해야해 영열아!!!!! 일단 다른곳에 연결해둠
 	} else if (mainNum.equals("1")) {
 		mainUrl = "WT_list.jsp";//연수신청
 	} else if (mainNum.equals("2")) {
 		mainUrl = "event.jsp";//이벤트
-	}else if (mainNum.equals("2.5")) {
-		mainUrl = "event_end.jsp";//종료 이벤트
-	}
+	} 
+	else if (mainNum.equals("2.5")) {
+		mainUrl = "event_end.jsp";//이벤트
+	} 
+	
 	
 	else if (mainNum.equals("3")) {
-		mainUrl = "class_home_center_QnA.jsp";//도서관 가져오기
+		mainUrl = "Booklist.jsp";//도서관 가져오기
 	} else if (mainNum.equals("4")) {
-		mainUrl = "class_home_center_QnA.jsp";//게시판 가져오기
+		mainUrl = "Boardlist.jsp";//게시판 가져오기
 	} else if (mainNum.equals("5")) {
 		mainUrl = "WT_my_room.jsp";//나의강의실
 	} else if (mainNum.equals("6")) {
@@ -34,6 +36,9 @@
 	}
 	else if (mainNum.equals("7")) {
 		mainUrl = "WT_payment.jsp";//결제
+	}
+	else if (mainNum.equals("8")) {
+		mainUrl = "WT_info.jsp";//연수 상세 페이지
 	}
 	%>
 	<center class="all_center">

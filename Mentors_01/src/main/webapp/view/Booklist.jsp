@@ -1,7 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
+
 <html>
 <head>
-<link rel="stylesheet" href="./Booklist_Style.css" />
+<link rel="stylesheet" href="../style/Booklist_Style.css" />
 <meta charset="UTF-8">
 <title>Mentors BookList</title>
 </head>
@@ -13,13 +16,13 @@
 			<input type="button" value="도서목록" />
 		</div>
 		<div class="book_search">
-			<img src="./img_yd/search_input_left.png" class="left" /> <input
+			<img src="../img/search_input_left.png" class="left" /> <input
 				type="text" id="s_bar" size="35" />
 			<button class="d_btn">
-				<img src="./img_yd/search_del.png" />
+				<img src="../img/search_del.png" />
 			</button>
 			<button class="s_btn">
-				<img src="./img_yd/search_input_right.png" />
+				<img src="../img/search_input_right.png" />
 			</button>
 		</div>
 		<div class="book_cate" id="cate_btn">
@@ -34,10 +37,10 @@
 		</div>
 		<div class="btn_change">
 			<button class="li_type">
-				<img src="./img_yd/type_list_off.png" id="btn_img1" />
+				<img src="../img/type_list_off.png" id="btn_img1" />
 			</button>
 			<button class="tn_type">
-				<img src="./img_yd/type_thumb_off.png" id="btn_img2" />
+				<img src="../img/type_thumb_off.png" id="btn_img2" />
 			</button>
 		</div>
 		<div class="book_list" id="b_list">
