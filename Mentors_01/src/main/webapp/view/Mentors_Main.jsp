@@ -25,6 +25,8 @@
 		mainUrl = "class_home_center_QnA.jsp";//게시판 가져오기
 	} else if (mainNum.equals("5")) {
 		mainUrl = "WT_my_room.jsp";//나의강의실
+	} else if (mainNum.equals("6")) {
+		mainUrl = "WT_cart.jsp";//장바구니
 	}
 	%>
 	<center class="all_center">
@@ -42,7 +44,7 @@
 							<td class="td_cen"><a href="Mentors_Main.jsp?mainNum=5">나의
 									강의실</a></td>
 							<td class="td_cen"></td>
-							<td class="td_img"><a href="main1_top.jsp?mainNum=6"><img
+							<td class="td_img"><a href="Mentors_Main.jsp?mainNum=6"><img
 									class="fas fa-cart-shopping" src="../img/cart.png"></img></a></td>
 							<td class="td_img"><a href="../user_jm/Login.jsp"><img
 									src="../img/login.png" alt="로그인" class="loginicon"></a></td>
