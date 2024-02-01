@@ -9,10 +9,13 @@
 .pay_teacher{
     margin-top: 40px;
     padding-left: 50px;
+    text-align: center;
 }
+
 
 .pay_info{
     padding-left: 50px;
+    text-align: center;
 }
 
 .line{
@@ -69,7 +72,7 @@ th, td{
 .float{
     position: fixed; 
     right: 55%; 
-    top: 120px;
+    top: 300px;
     margin-top: 15px;
     margin-right: -650px;
     text-align:center;
@@ -77,6 +80,7 @@ th, td{
     height: 510px;
     border: 2px solid rgb(211, 211, 211);
     border-radius: 10px;
+    background-color: #fff;
 }
 
 .float_table{
