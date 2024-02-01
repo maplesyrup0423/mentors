@@ -28,6 +28,9 @@
 	} else if (mainNum.equals("6")) {
 		mainUrl = "WT_cart.jsp";//장바구니
 	}
+	else if (mainNum.equals("7")) {
+		mainUrl = "WT_payment.jsp";//결제
+	}
 	%>
 	<center class="all_center">
 		<table>
