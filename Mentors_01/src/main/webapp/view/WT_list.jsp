@@ -90,12 +90,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
@@ -108,12 +108,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
@@ -126,12 +126,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
@@ -144,12 +144,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
@@ -164,12 +164,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
@@ -182,12 +182,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
@@ -200,12 +200,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
@@ -218,12 +218,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
@@ -239,12 +239,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
@@ -257,12 +257,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
@@ -275,12 +275,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
@@ -293,12 +293,12 @@
 					<td>
 						<div class="WT_table_box">
 							<div class="WT_table_top">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="thumb"></div>
 								</a>
 							</div>
 							<div class="WT_table_bottom">
-								<a href="WT_info.jsp">
+								<a href="Mentors_Main.jsp?mainNum=8">
 									<div class="wtt">제목1</div>
 								</a>
 								<div id="wt_bot">
