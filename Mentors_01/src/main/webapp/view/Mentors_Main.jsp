@@ -20,9 +20,9 @@
 	} else if (mainNum.equals("2")) {
 		mainUrl = "event.jsp";//이벤트
 	} else if (mainNum.equals("3")) {
-		mainUrl = "class_home_center_QnA.jsp";//도서관 가져오기
+		mainUrl = "Booklist.jsp";//도서관 가져오기
 	} else if (mainNum.equals("4")) {
-		mainUrl = "class_home_center_QnA.jsp";//게시판 가져오기
+		mainUrl = "Boardlist.jsp";//게시판 가져오기
 	} else if (mainNum.equals("5")) {
 		mainUrl = "WT_my_room.jsp";//나의강의실
 	} else if (mainNum.equals("6")) {
