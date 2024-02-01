@@ -147,7 +147,7 @@
 				</c:if>
 
 				<c:forEach var="i" begin="${startPage }" end="${endPage }">
-					<a href="BoardListCon.do?pageNum=${i }" style="text-decoration: none">
+						<a href="BoardListCon.do?pageNum=${i }" style="text-decoration: none">
 						[1]
 					</a>
 				</c:forEach>
