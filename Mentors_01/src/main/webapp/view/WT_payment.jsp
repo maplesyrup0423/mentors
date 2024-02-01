@@ -19,7 +19,7 @@
 
 		<div class="pay_teacher">
 			<h3>회원정보</h3>
-			<table>
+			<table class="pay_table">
 				<tr>
 					<td colspan="4">교육청 이수정보 등록을 위해서 정확한 회원정보를 확인 해 주세요.</td>
 				</tr>
@@ -44,7 +44,7 @@
 			<h3>신청 정보</h3>
 			<!--js for문 돌려서 여러개 표시-->
 
-			<table>
+			<table class="pay_table">
 				<tr>
 					<td colspan="4" class="pay_title">[140분] 제목입니다!</td>
 				</tr>
@@ -77,7 +77,7 @@
 			</table>
 
 
-			<table>
+			<table class="pay_table">
 				<tr>
 					<td colspan="4" class="pay_title">[260분] 직장인들을 위한 눈치보지 않고 칼퇴
 						하는 비법</td>
@@ -111,7 +111,7 @@
 			</table>
 
 
-			<table>
+			<table class="pay_table">
 				<tr>
 					<td colspan="4" class="pay_title">[60분] 잠이 부족한 당신을 위한 들키지 않고
 						자는 방법</td>
@@ -178,14 +178,14 @@
 					<td colspan="2" class="total">합계 46000 원</td>
 				</tr>
 				<tr>
-					<td colspan="2">필수 약관을 확인하였으며, <br>결제에 동의합니다 <input
+					<td colspan="2" class="agree">필수 약관을 확인하였으며, <br>결제에 동의합니다 <input
 						type="checkbox"></td>
 				</tr>
 				<tr>
-					<td colspan="2"><a href="">동의서?</a></td>
+					<td colspan="2" class="agree_file"><a href="">동의서?</a></td>
 				</tr>
 				<tr>
-					<td colspan="2"><button class="pay_confirm">결제하기</button></td>
+					<td colspan="2" class="pay_button_box"><button class="pay_confirm">결제하기</button></td>
 					<!--카카오 페이로 넘어감-->
 				</tr>
 			</table>

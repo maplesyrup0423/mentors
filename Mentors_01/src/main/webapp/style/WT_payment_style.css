@@ -1,7 +1,7 @@
 .all{
     margin: auto;
-    padding: 50px;
-    padding: 50px 350px 50px 350px;
+   /* padding: 50px;
+    padding: 50px 350px 50px 350px;*/
     width: 1280px;
     
 }
@@ -19,7 +19,7 @@
     border-top: 1px solid black;
 }
 
-table{
+.pay_table{
     border-top: 2px solid black;
     border-left: 1px solid rgb(195, 193, 193);
     border-right:  1px solid rgb(195, 193, 193);
@@ -74,13 +74,12 @@ th, td{
     margin-right: -650px;
     text-align:center;
     width: 350px;
-    height: 501px;
+    height: 510px;
     border: 2px solid rgb(211, 211, 211);
     border-radius: 10px;
 }
 
 .float_table{
-    background-color: #fff;
     width: 350px;
     height: 300px;
     border-style: hidden;
@@ -109,7 +108,7 @@ th, td{
 .float_table_class_title_first{
     font-weight: 700;
     background-color: #00457e67;
-    border-top-left-radius: 10px;
+    border-top-left-radius: 5px;
 }
 
 .float_table_class_title{
@@ -122,9 +121,22 @@ td.float_table_class_pay{
 }
 
 .total{
+    text-align: center;
     font-size: 20px;
     font-weight: 700;
     color: #002b4e;
+}
+
+.agree{
+    text-align: center;
+}
+
+.agree_file{
+    text-align: center;
+}
+
+.pay_button_box{
+    text-align: center;
 }
 
 button{   

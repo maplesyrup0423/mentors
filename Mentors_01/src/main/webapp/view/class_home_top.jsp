@@ -14,7 +14,7 @@
 		</div>
 		<div class="Exit_div">
 			<div>
-				<img src="../img/Exit.png" id="Exit" />
+				<a href="Mentors_Main.jsp"> <img src="../img/Exit.png" id="Exit" /></a>
 			</div>
 			<div>
 				<span>나가기</span>

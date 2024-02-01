@@ -18,17 +18,26 @@
 	} else if (mainNum.equals("1")) {
 		mainUrl = "WT_list.jsp";//연수신청
 	} else if (mainNum.equals("2")) {
-		mainUrl = "class_home_center_QnA.jsp";//이벤트 가져오기
-	} else if (mainNum.equals("3")) {
+		mainUrl = "event.jsp";//이벤트
+	}else if (mainNum.equals("2.5")) {
+		mainUrl = "event_end.jsp";//종료 이벤트
+	}
+	
+	else if (mainNum.equals("3")) {
 		mainUrl = "class_home_center_QnA.jsp";//도서관 가져오기
 	} else if (mainNum.equals("4")) {
 		mainUrl = "class_home_center_QnA.jsp";//게시판 가져오기
 	} else if (mainNum.equals("5")) {
 		mainUrl = "WT_my_room.jsp";//나의강의실
+	} else if (mainNum.equals("6")) {
+		mainUrl = "WT_cart.jsp";//장바구니
+	}
+	else if (mainNum.equals("7")) {
+		mainUrl = "WT_payment.jsp";//결제
 	}
 	%>
 	<center class="all_center">
-		<table border="1">
+		<table>
 			<!-- 헤더 -->
 			<tr>
 				<td><table class="table">
@@ -42,10 +51,10 @@
 							<td class="td_cen"><a href="Mentors_Main.jsp?mainNum=5">나의
 									강의실</a></td>
 							<td class="td_cen"></td>
-							<td class="td_img"><a href="main1_top.jsp?mainNum=6"><img
+							<td class="td_img"><a href="Mentors_Main.jsp?mainNum=6"><img
 									class="fas fa-cart-shopping" src="../img/cart.png"></img></a></td>
-							<td class="td_img"><a href="../user_jm/Login.jsp"><img
-									src="../img/login.png" alt="로그인" class="loginicon"></a></td>
+							<td class="td_img"><a href="Login.jsp"><img
+									src="../img/login.png" alt="로그인" class="loginicon"></a></td> 
 						</tr>
 					</table></td>
 			</tr>

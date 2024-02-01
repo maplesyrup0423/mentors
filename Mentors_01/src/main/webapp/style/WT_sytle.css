@@ -1,6 +1,6 @@
 .all{
     margin: auto;
-    padding: 50px 350px 50px 350px;
+    /*padding: 50px 350px 50px 350px;*/
     width: 1280px;
 }
 
@@ -16,8 +16,12 @@ button:hover{
 
 .container{
     padding: 10px;
-    
 
+}
+
+.container_table{
+	margin: auto;
+    border-spacing: 45px 0px;
 }
 
 .category_time{
@@ -41,7 +45,7 @@ button:hover{
     color: aliceblue;
 }
 
-table{
+.WT_table{
     border-spacing: 30px 20px;
     margin: auto;
 }
@@ -130,9 +134,12 @@ table{
     font-weight: 700;
 }
 
+.info_table_box{
+    margin: auto;
+}
+
 .info_table{
     text-align: left;
-    margin: 0px;
     margin-left: -15px;
     border-spacing: 20px 10px;
 }
