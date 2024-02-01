@@ -1,6 +1,6 @@
 .all{
     margin: auto;
-    width: 1000px;
+    width: 1280px;
     padding: 50px;
     padding: 50px 350px 50px 350px;
 }
@@ -73,8 +73,8 @@
     width: 300px;
     height: 200px;
     line-height: 250px;
-    border: 2px solid rgb(255, 203, 47);
-    background-color: rgb(255, 203, 47);
+    border: 2px solid black;
+    background-color: yellowgreen;
 }
 
 .cart_payment{
@@ -96,14 +96,14 @@
     height: 40px;
     margin-top: 5px;
     border: none;
-    background-color: #1171d1;
+    background-color: #ff5345;
     color: aliceblue;
     font-size: 12pt;
     border-radius: 8px;
 }
 
 .cart_payment button.cart_del{
-    background-color: #71d111;
+    background-color: #ffcd19;
 }
 
 .WT_total{
@@ -121,7 +121,7 @@
     width: 120px;
     height: 50px;
     border: none;
-    background-color: #1171d1;
+    background-color: #004572;
     color: aliceblue;
     font-size: 12pt;
     border-radius: 8px;
@@ -129,9 +129,4 @@
 
 button:hover{
     cursor: pointer;
-    box-shadow: 1px 1px 10px 1px rgb(75, 181, 252);
-}
-
-button.cart_del:hover{
-    box-shadow: 1px 1px 10px 1px rgb(75, 252, 108);
 }

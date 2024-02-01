@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
 <head>
@@ -19,7 +19,7 @@
 	<a href="https://namu.wiki/w/%ED%83%80%EC%B9%B4%EB%82%98%EC%8B%9C%20%EB%A6%BF%EC%B9%B4" class="aa">
 		<div class="e_main">
 			<span class="test">
-				<img src="rika.png" alt="릿카"><br>
+				<img src="./img_yy/rika.png" alt="릿카"><br>
 			</span>
 			<div class="tit">
 				<h3>타카나시 릿카</h3>
@@ -43,7 +43,7 @@
 	<a href="https://namu.wiki/w/%ED%83%80%EC%B9%B4%EB%82%98%EC%8B%9C%20%EB%A6%BF%EC%B9%B4" class="aa">
 		<div class="e_main">
 			<span class="test">
-				<img src="rika.png" alt="릿카"><br>
+				<img src="./img_yy/rika.png" alt="릿카"><br>
 			</span>
 			<div class="tit">
 				<h3>타카나시 릿카</h3>
@@ -67,7 +67,7 @@
 	<a href="" class="aa">
 		<div class="e_main">
 			<span class="test">
-				<img src="rika.png" alt="릿카"><br>
+				<img src="./img_yy/rika.png" alt="릿카"><br>
 			</span>
 			<div class="tit">
 				<h3>타카나시 릿카</h3>
@@ -91,7 +91,7 @@
 	<a href="" class="aa">
 		<div class="e_main">
 			<span class="test">
-				<img src="rika.png" alt="릿카"><br>
+				<img src="./img_yy/rika.png" alt="릿카"><br>
 			</span>
 			<div class="tit">
 				<h3>타카나시 릿카</h3>
@@ -115,7 +115,7 @@
 	<a href="https://namu.wiki/w/%ED%83%80%EC%B9%B4%EB%82%98%EC%8B%9C%20%EB%A6%BF%EC%B9%B4" class="aa">
 		<div class="e_main">
 			<span class="test">
-				<img src="rika.png" alt="릿카"><br>
+				<img src="./img_yy/rika.png" alt="릿카"><br>
 			</span>
 			<div class="tit">
 				<h3>타카나시 릿카</h3>
@@ -139,7 +139,7 @@
 	<a href="" class="aa">
 		<div class="e_main">
 			<span class="test">
-				<img src="rika.png" alt="릿카"><br>
+				<img src="./img_yy/rika.png" alt="릿카"><br>
 			</span>
 			<div class="tit">
 				<h3>타카나시 릿카</h3>
@@ -163,7 +163,7 @@
 	<a href="" class="aa">
 		<div class="e_main">
 			<span class="test">
-				<img src="rika.png" alt="릿카"><br>
+				<img src="./img_yy/rika.png" alt="릿카"><br>
 			</span>
 			<div class="tit">
 				<h3>타카나시 릿카</h3>
@@ -187,7 +187,7 @@
 	<a href="" class="aa">
 		<div class="e_main">
 			<span class="test">
-				<img src="rika.png" alt="릿카"><br>
+				<img src="./img_yy/rika.png" alt="릿카"><br>
 			</span>
 			<div class="tit">
 				<h3>타카나시 릿카</h3>
@@ -211,7 +211,7 @@
 	<a href="" class="aa">
 		<div class="e_main">
 			<span class="test">
-				<img src="rika.png" alt="릿카"><br>
+				<img src="./img_yy/rika.png" alt="릿카"><br>
 			</span>
 			<div class="tit">
 				<h3>타카나시 릿카</h3>
@@ -235,7 +235,7 @@
 	<a href="" class="aa">
 		<div class="e_main">
 			<span class="test">
-				<img src="rika.png" alt="릿카"><br>
+				<img src="./img_yy/rika.png" alt="릿카"><br>
 			</span>
 			<div class="tit">
 				<h3>타카나시 릿카</h3>
@@ -259,7 +259,7 @@
 	<a href="" class="aa">
 		<div class="e_main">
 			<span class="test">
-				<img src="rika.png" alt="릿카"><br>
+				<img src="./img_yy/rika.png" alt="릿카"><br>
 			</span>
 			<div class="tit">
 				<h3>타카나시 릿카</h3>

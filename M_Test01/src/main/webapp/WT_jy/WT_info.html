@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="WT_sytle.css">
-    <title>Document</title>
+    <title>연수 상세 페이지</title>
 </head>
 <body>
 <div class="all">
@@ -26,13 +26,26 @@
                         <div class="info_line"></div>
             
                         <div>
-                            <span>학습 시간</span> &nbsp; <span>aaaaaaaaaaa</span>
-                            <br>
-                            <span>모집 기간</span> &nbsp; <span>bbbbbbbbbbb</span>
-                            <br>
-                            <span>신청 현황</span> &nbsp; <span>ccccccccccc</span>
-                            <br>
-                            <span>학습 방법</span> &nbsp; <span>ddddddddddd</span>
+                            <table class="info_table">
+                                <tr>
+                                    <td>학습 시간</td>
+                                    <td>aaaaaaaaaaa</td>
+                                </tr>
+                                <tr>
+                                    <td>모집 기간</td>
+                                    <td>bbbbbbbbbbb</td>
+                                </tr>
+                                <tr>
+                                    <td>신청 현황</td>
+                                    <td>ccccccccccc</td>
+                                </tr>
+                                <tr>
+                                    <td>학습 방법</td>
+                                    <td>ddddddddddd</td>
+                                </tr>
+
+                            </table>
+
                         </div>
                     </div>
                 
@@ -67,13 +80,13 @@
     <div class="line"></div>
 
     <div class="info_cate" id="float">
-        <a href="#info_info">학습정보</a>
-        <a href="#info_training">연수정보</a>
+        <button class="info_info"><a href="#info_info">학습정보</a></button>
+        <button class="info_training"><a href="#info_training">연수정보</a></button>
     </div>
 
     <div class="info_box">
-        <div class="info_info" id="info_info"></div>
-        <div class="info_training" id="info_training"></div>
+        <div id="info_info"></div>
+        <div id="info_training"></div>
     </div>
 </div>
 </body>

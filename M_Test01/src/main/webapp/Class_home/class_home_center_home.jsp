@@ -8,37 +8,38 @@
 <link rel="stylesheet" href="../style_yj/MY_Main_style.css" />
 </head>
 <body>
-<!-- adsldsㅇㅇㅇㅊㅊldksdksl -->
 	<div class="con">
 		<!--상단 강의 정보-->
 		<div class="headline">
 			<div class="headline_top">
-				<div class="headline_top__left">
-					<span>교육과정</span>
-					<p class="WT_title">이것만 알자! 평가문항 출제 길잡이</p>
-				</div>
-				<div class="headline_top__right">
-					<!--TODO. 커스텀 select 말고 라이브러리 찾아볼것-->
-					<select name="WT_select" id="WT_select">
-						<option value="1">이것만 알자! 평가문항 출제 길잡이</option>
-						<option value="2">이것만 알자! 평가문항 출제 길잡이2</option>
-					</select>
-					<!-- <button class="WT_list_btn" onclick="select();">다른 강의 홈으로 이동</button>
-                <ul class="WT_list_box">
-                    <li><button class="WT_list">이것만 알자! 평가문항 출제 길잡이</button></li>
-                    <li><button class="WT_list">이것만 알자! 평가문항 출제 길잡이2</button></li>
-                    <li><button class="WT_list">강사를 위한 저작권법(상시)</button></li>
-                </ul> -->
-				</div>
+				<table class="headline_top_table">
+					<tr>
+						<td><div class="headline_top__left">
+								<div class="color_div"></div>
+								<span>교육과정</span>
+								<p class="WT_title">이것만 알자! 평가문항 출제 길잡이</p>
+							</div></td>
+						<td align="center">
+							<div class="headline_top__right">
+								<!--TODO. 커스텀 select 말고 라이브러리 찾아볼것-->
+								<select name="WT_select" id="WT_select">
+									<option value="1">이것만 알자! 평가문항 출제 길잡이</option>
+									<option value="2">이것만 알자! 평가문항 출제 길잡이2</option>
+								</select>
+							</div>
+						</td>
+					</tr>
+				</table>
+
+
 			</div>
 		</div>
-		<hr>
 		<!--강의 내용-->
-		<div>
+		<div class="gray">
 			<div class="con_grade_status_div">
 				<div class="GS_title">
-					<sp>성적현황
-					</p>
+					<div class="color_div"></div>
+					<span>성적현황</span>
 				</div>
 				<div class="GS_cg_div">
 					<div class="chart_div">
@@ -48,7 +49,10 @@
 						</div>
 						<!--수료/미수료 표기-->
 						<div class="grade_status">
-							<span>수료여부</span> <span class="WTT_Completion">미수료</span>
+							<span>수료여부</span>
+							<div class="WTT_Completion_div">
+								<span class="WTT_Completion">미수료</span>
+							</div>
 						</div>
 					</div>
 					<!--성적 테이블-->
@@ -78,11 +82,11 @@
 					</div>
 				</div>
 			</div>
-			<hr>
 			<!--강의-->
 			<div class="con_TW">
 				<div class="con_TW_title">
-					<p>강의 학습</p>
+					<div class="color_div"></div>
+					<span>강의 학습</span>
 				</div>
 				<div class="con_TW_table">
 					<table>
@@ -97,13 +101,12 @@
 								</div>
 							</td>
 							<td>
-								<button>학습하기</button>
+								<button class="blue_btn">학습하기</button>
 							</td>
 						</tr>
 					</table>
 				</div>
 			</div>
-			<hr>
 		</div>
 
 	</div>
