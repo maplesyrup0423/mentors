@@ -1,8 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 
 <head>
-	<link rel="stylesheet" href="../style_yj/My_home_style.css" />
+	<link rel="stylesheet" href="../style/WT_my_room_style.css" />
 	<meta charset="utf-8">
 	<title>나의 홈</title>
 </head>
@@ -46,7 +48,7 @@
 						<br>
 						<span class="time_span">교육 시간<span class="span_num WT_time"> 60</span> 분</span>
 					</div>
-					<div class="classbtn_div"><button class="classbtn" onclick="location.href='../Class_home/class_home_Include.jsp';">강의실 입장</button></div>
+					<div class="classbtn_div"><button class="classbtn" onclick="location.href='class_home_Include.jsp';">강의실 입장</button></div>
 
 				</div>
 				<br>
@@ -80,11 +82,11 @@ function change(cd)
     str = "";
     cnt ="";
         if (cd=="0") {
-            str = "<div class=\"WT\"><div class=\"WT_left\"><div class=\"WT_schol_type\"> 추천학급</div><div class=\"WT_category\">분야 </div><br><br><span class=\"WT_name\">[제 1회] 연수 이름이 들어갈자리입니다. [온라인/기초]</span><br><br><span class=\"time_span\">교육 시간<span class=\"span_num WT_time\"> 60</span> 분</span></div><div class=\"classbtn_div\"><button class=\"classbtn\"onclick=\"location.href='../Class_home/class_home_Include.jsp';\">강의실 입장</button></div></div><br>";
+            str = "<div class=\"WT\"><div class=\"WT_left\"><div class=\"WT_schol_type\"> 추천학급</div><div class=\"WT_category\">분야 </div><br><br><span class=\"WT_name\">[제 1회] 연수 이름이 들어갈자리입니다. [온라인/기초]</span><br><br><span class=\"time_span\">교육 시간<span class=\"span_num WT_time\"> 60</span> 분</span></div><div class=\"classbtn_div\"><button class=\"classbtn\"onclick=\"location.href='class_home_Include.jsp';\">강의실 입장</button></div></div><br>";
             cnt="1";
        
         } else {
-          str = "<div class=\"WT\"><div class=\"WT_left\"><div class=\"WT_schol_type\"> 중학교</div><div class=\"WT_category\">학습지도 </div><br><br><span class=\"WT_name\">이것만 알자! 평가문항 출제 길잡이</span><br><br><span class=\"time_span\">교육 시간<span class=\"span_num WT_time\"> 1800</span> 분</span></div><div class=\"classbtn_div\"><button class=\"classbtn\"onclick=\"location.href='../Class_home/class_home_Include.jsp';\">강의실 입장</button></div></div><br><div class=\"WT\"><div class=\"WT_left\"><div class=\"WT_schol_type\"> 중학교</div><div class=\"WT_category\">학습지도 </div><br><br><span class=\"WT_name\">이것만 알자! 평가문항 출제 길잡이2</span><br><br><span class=\"time_span\">교육 시간<span class=\"span_num WT_time\"> 1000</span> 분</span></div><div class=\"classbtn_div\"><button class=\"classbtn\"onclick=\"location.href='../Class_home/class_home_Include.jsp';\">강의실 입장</button></div></div><br>";
+          str = "<div class=\"WT\"><div class=\"WT_left\"><div class=\"WT_schol_type\"> 중학교</div><div class=\"WT_category\">학습지도 </div><br><br><span class=\"WT_name\">이것만 알자! 평가문항 출제 길잡이</span><br><br><span class=\"time_span\">교육 시간<span class=\"span_num WT_time\"> 1800</span> 분</span></div><div class=\"classbtn_div\"><button class=\"classbtn\"onclick=\"location.href='class_home_Include.jsp';\">강의실 입장</button></div></div><br><div class=\"WT\"><div class=\"WT_left\"><div class=\"WT_schol_type\"> 중학교</div><div class=\"WT_category\">학습지도 </div><br><br><span class=\"WT_name\">이것만 알자! 평가문항 출제 길잡이2</span><br><br><span class=\"time_span\">교육 시간<span class=\"span_num WT_time\"> 1000</span> 분</span></div><div class=\"classbtn_div\"><button class=\"classbtn\"onclick=\"location.href='class_home_Include.jsp';\">강의실 입장</button></div></div><br>";
             cnt="2";
         }
         WT_sum.innerText=cnt;
