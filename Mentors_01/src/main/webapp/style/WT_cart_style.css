@@ -1,0 +1,132 @@
+.all{
+    margin: auto;
+    width: 1280px;
+    padding: 50px;
+    padding: 50px 350px 50px 350px;
+}
+
+.line{
+    border-top: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.red{
+    color: red;
+}
+
+.warning{
+    margin: 10px;
+}
+
+.cen{
+    text-align: center;
+}
+
+.paybox{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.WT_pay{
+    margin-top: 20px;
+    width: 900px;
+    height: 250px;
+    border: 2px solid rgb(196, 193, 193);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.WT_pay>div{
+    float: left;
+}
+
+.cart_info{
+    width: 400px;
+    height: 200px;
+}
+
+.cart_title{
+    text-align: left;
+    font-size: 20pt;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.cart_a{
+    font-size: 14pt;
+    text-align: left;
+}
+
+.a_title{
+    display: inline-block;
+    width: 160px;
+    height: 30px;
+}
+
+.a_con{
+    opacity: 60%;
+}
+
+.cart_thum{
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    line-height: 250px;
+    border: 2px solid black;
+    background-color: yellowgreen;
+}
+
+.cart_payment{
+    margin: 20px;
+    padding-top: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: right;
+}
+
+.cart_pay{
+    font-size: 18pt;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.cart_payment button{
+    width: 95px;
+    height: 40px;
+    margin-top: 5px;
+    border: none;
+    background-color: #ff5345;
+    color: aliceblue;
+    font-size: 12pt;
+    border-radius: 8px;
+}
+
+.cart_payment button.cart_del{
+    background-color: #ffcd19;
+}
+
+.WT_total{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.WT_total>div{
+    font-size: 22pt;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.WT_total button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: #004572;
+    color: aliceblue;
+    font-size: 12pt;
+    border-radius: 8px;
+}
+
+button:hover{
+    cursor: pointer;
+}
