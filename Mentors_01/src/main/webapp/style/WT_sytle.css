@@ -41,7 +41,7 @@ button:hover{
     color: aliceblue;
 }
 
-table{
+.WT_table{
     border-spacing: 30px 20px;
     margin: auto;
 }

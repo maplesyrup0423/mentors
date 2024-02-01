@@ -84,8 +84,8 @@
 
 		<hr>
 
-		<div class="WT_table">
-			<table>
+		<div class="WT_table_all">
+			<table class="WT_table">
 				<tr class="WT_thumbnail">
 					<td>
 						<div class="WT_table_box">
