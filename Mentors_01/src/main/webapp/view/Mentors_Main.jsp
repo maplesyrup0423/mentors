@@ -18,7 +18,7 @@
 	} else if (mainNum.equals("1")) {
 		mainUrl = "WT_list.jsp";//연수신청
 	} else if (mainNum.equals("2")) {
-		mainUrl = "class_home_center_QnA.jsp";//이벤트 가져오기
+		mainUrl = "event.jsp";//이벤트
 	} else if (mainNum.equals("3")) {
 		mainUrl = "class_home_center_QnA.jsp";//도서관 가져오기
 	} else if (mainNum.equals("4")) {
@@ -30,7 +30,7 @@
 	}
 	%>
 	<center class="all_center">
-		<table border="1">
+		<table>
 			<!-- 헤더 -->
 			<tr>
 				<td><table class="table">
@@ -47,7 +47,8 @@
 							<td class="td_img"><a href="Mentors_Main.jsp?mainNum=6"><img
 									class="fas fa-cart-shopping" src="../img/cart.png"></img></a></td>
 							<td class="td_img"><a href="../user_jm/Login.jsp"><img
-									src="../img/login.png" alt="로그인" class="loginicon"></a></td>
+									src="../img/login.png" alt="로그인" class="loginicon"></a></td> 
+									<!-- TODO 로그인페이지 연결 -->
 						</tr>
 					</table></td>
 			</tr>
