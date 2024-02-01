@@ -19,7 +19,7 @@
 
 		<div class="pay_teacher">
 			<h3>회원정보</h3>
-			<table>
+			<table class="pay_table">
 				<tr>
 					<td colspan="4">교육청 이수정보 등록을 위해서 정확한 회원정보를 확인 해 주세요.</td>
 				</tr>
@@ -44,7 +44,7 @@
 			<h3>신청 정보</h3>
 			<!--js for문 돌려서 여러개 표시-->
 
-			<table>
+			<table class="pay_table">
 				<tr>
 					<td colspan="4" class="pay_title">[140분] 제목입니다!</td>
 				</tr>
@@ -77,7 +77,7 @@
 			</table>
 
 
-			<table>
+			<table class="pay_table">
 				<tr>
 					<td colspan="4" class="pay_title">[260분] 직장인들을 위한 눈치보지 않고 칼퇴
 						하는 비법</td>
@@ -111,7 +111,7 @@
 			</table>
 
 
-			<table>
+			<table class="pay_table">
 				<tr>
 					<td colspan="4" class="pay_title">[60분] 잠이 부족한 당신을 위한 들키지 않고
 						자는 방법</td>

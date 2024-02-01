@@ -72,8 +72,8 @@
 		</div>
 		<div class="into_payment">
 			<span class="total">총 금액 15000원</span> <span class="total_buttons">
-				<button onclick="location.href='payment.html'">연수 신청하기</button> <!--0원이면 바로 나의 강의실에 추가, 아니면 결제페이지로 이동-->
-				<button onclick="location.href='cart.html'">장바구니에 넣기</button>
+				<button onclick="location.href='WT_payment.jsp'">연수 신청하기</button> <!--0원이면 바로 나의 강의실에 추가, 아니면 결제페이지로 이동-->
+				<button onclick="location.href='WT_cart.jsp'">장바구니에 넣기</button>
 			</span>
 		</div>
 
