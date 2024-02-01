@@ -35,6 +35,9 @@
 	else if (mainNum.equals("7")) {
 		mainUrl = "WT_payment.jsp";//결제
 	}
+	else if (mainNum.equals("8")) {
+		mainUrl = "WT_info.jsp";//상세페이지
+	}
 	%>
 	<center class="all_center">
 		<table>
