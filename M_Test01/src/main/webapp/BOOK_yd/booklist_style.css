@@ -226,9 +226,11 @@ body{
 	border: 1px solid green;
 	width: 165px;
 	height: 195px;
+	position: relative;
 }
 .info_list2{
-	display: absolute;
+	position: absolute;
+	bottom: 0px;
 }
 #sub_info{
 	list-style-type: none;	
