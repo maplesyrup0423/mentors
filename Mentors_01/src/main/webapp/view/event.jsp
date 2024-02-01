@@ -15,8 +15,8 @@
    </div>
    <hr>
    <div class="live_ev" id="libox" align="center">
-      <button type="button" id="on" >진행중인 이벤트</button>
-      <button type="button" id="off" onclick="location.href='end_event.jsp'">종료된 이벤트</button>
+      <button type="button" id="on" onclick="location.href='Mentors_Main.jsp?mainNum=2'">진행중인 이벤트</button>
+      <button type="button" id="off" onclick="location.href='Mentors_Main.jsp?mainNum=2.5'">종료된 이벤트</button>
    </div>
    <a href="https://namu.wiki/w/%ED%83%80%EC%B9%B4%EB%82%98%EC%8B%9C%20%EB%A6%BF%EC%B9%B4" class="aa">
       <div class="e_main">
