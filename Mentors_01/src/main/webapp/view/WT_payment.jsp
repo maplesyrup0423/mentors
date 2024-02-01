@@ -178,14 +178,14 @@
 					<td colspan="2" class="total">합계 46000 원</td>
 				</tr>
 				<tr>
-					<td colspan="2">필수 약관을 확인하였으며, <br>결제에 동의합니다 <input
+					<td colspan="2" class="agree">필수 약관을 확인하였으며, <br>결제에 동의합니다 <input
 						type="checkbox"></td>
 				</tr>
 				<tr>
-					<td colspan="2"><a href="">동의서?</a></td>
+					<td colspan="2" class="agree_file"><a href="">동의서?</a></td>
 				</tr>
 				<tr>
-					<td colspan="2"><button class="pay_confirm">결제하기</button></td>
+					<td colspan="2" class="pay_button_box"><button class="pay_confirm">결제하기</button></td>
 					<!--카카오 페이로 넘어감-->
 				</tr>
 			</table>
