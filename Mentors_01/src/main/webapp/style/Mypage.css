@@ -1,0 +1,51 @@
+/* 마이페이지 틀 */
+table.main_table { 
+	width : 800px; 
+	height : 400px;
+	border : 1px solid black;
+	border-radius : 8px; 
+}
+
+/* 결제내역 테이블 가장자리 설정 */
+table.payment_table{
+	border : 1px solid #FFCD19;
+	border-radius : 8px;
+}
+
+div.div_payment { 
+	width : 800px; 
+	height: 150px; 
+	padding: 4px"
+}
+		
+/* 결제내역 테이블 각 너비 설정 */
+th.payment_date {
+	width : 100px;
+}
+
+th.payment_datails {
+	width : 400px;
+}
+
+th.payment_amount {
+	width : 100px;
+}
+
+th.payment_status {
+	width : 100px;
+}
+
+div h2 {
+	width : 180px;
+	height : 40px;
+	background-color : #FF5345;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	text-align : center;
+	color : white;	
+	line-height: 40px;
+}
+
+div_box {
+	border : 2px solid black;
+}
