@@ -8,6 +8,6 @@
 <link rel="stylesheet" href="../style/class_home_style.css" />
 </head>
 <body>
-	<p>공지입니다.</p>
+	<p>영열아 메인 만들자</p>
 </body>
 </html>

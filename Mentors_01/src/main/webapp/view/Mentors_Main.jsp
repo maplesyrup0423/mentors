@@ -14,12 +14,18 @@
 	String mainUrl = "";
 	String mainNum = request.getParameter("mainNum");
 	if (mainNum == null) {
-		mainUrl = "class_home_center_QnA.jsp";//메인 컨텐츠 제작해야해 영열아!!!!! 일단 다른곳에 연결해둠
+		mainUrl = "class_home_center_notification.jsp";//메인 컨텐츠 제작해야해 영열아!!!!! 일단 다른곳에 연결해둠
 	} else if (mainNum.equals("1")) {
 		mainUrl = "WT_list.jsp";//연수신청
 	} else if (mainNum.equals("2")) {
 		mainUrl = "event.jsp";//이벤트
-	} else if (mainNum.equals("3")) {
+	} 
+	else if (mainNum.equals("2.5")) {
+		mainUrl = "event_end.jsp";//이벤트
+	} 
+	
+	
+	else if (mainNum.equals("3")) {
 		mainUrl = "Booklist.jsp";//도서관 가져오기
 	} else if (mainNum.equals("4")) {
 		mainUrl = "Boardlist.jsp";//게시판 가져오기

@@ -85,7 +85,7 @@ li {
 	height: 100%;
 }
 
-.list {
+.CH_list {
 	height: 50px;
 	line-height: 50px;
 	border: none;
@@ -94,7 +94,7 @@ li {
 	background-color: #fff;
 }
 
-.list:hover,
+.CH_list:hover,
 .active {
 	background-color:#00457E;
 	color: #fff;
