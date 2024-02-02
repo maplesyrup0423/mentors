@@ -1,0 +1,33 @@
+.footer{
+    margin: auto;
+    width: 1280px;
+    height: 250px;
+    border-top: 1px;
+    background-color: #666362;
+    color: white;
+    padding: 20px;
+}
+
+.telnum{
+    float: right;
+    font-size: 16pt;
+}
+
+#log{
+    margin-bottom: 8px;
+}
+
+#log_but{
+    margin-bottom: 8px;
+}
+
+
+.f_right{
+    float: right;
+}
+
+.f_right img{
+    width: 180px;
+    height: 50px;
+
+}
