@@ -45,6 +45,13 @@
 			QnA = "non";
 			notification = "active";
 		}
+		else if (CHnum.equals("5")) {
+			CHurl = "Notification_Detailedpage.jsp";
+			home = "non";
+			test = "non";
+			QnA = "non";
+			notification = "active";
+		}
 
 	}
 	%>
