@@ -47,7 +47,7 @@
 			</table>
 		</div>
 		<div class="bottom_btn_right">
-			<button type="button" onclick="location.href='Notification.jsp'">목록</button>
+			<button type="button" onclick="location.href='class_home_Include.jsp?CHnum=4';">목록</button>
 		</div>
 	</div>
 	<script>
