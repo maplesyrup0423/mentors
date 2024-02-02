@@ -30,17 +30,16 @@
 			</center>
 		</form>
 		<footer>
-			<a href="https://www.naver.com">아이디 찾기</a> <span> | </span>
+			<a href="Find_ID.jsp">아이디 찾기</a> <span> | </span>
 			<a href="https://www.google.co.kr">비밀번호 찾기</a> <span> | </span>
-			<a href="Sign_up.jsp">회원가입</a>
+			<a href="https://www.youtube.com">회원가입</a>
 		</footer>
 		<div class = "other_login">
-			<input class = "naver" type="button" value = "네이버 로그인" />
+			<input class = "naver" type="button" value = "네이버 로그인" 
+			onClick="location.href='Mypage.jsp'"/>
 			<input class = "google" type="button" value = "구글 로그인" />
 		</div>		
 	</div>
-		
-	
 </body>
 </html>
 
