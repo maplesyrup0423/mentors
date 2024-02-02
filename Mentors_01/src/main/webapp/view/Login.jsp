@@ -31,8 +31,8 @@
 		</form>
 		<footer>
 			<a href="Find_ID.jsp">아이디 찾기</a> <span> | </span>
-			<a href="https://www.google.co.kr">비밀번호 찾기</a> <span> | </span>
-			<a href="https://www.youtube.com">회원가입</a>
+			<a href="Find_Password">비밀번호 찾기</a> <span> | </span>
+			<a href="Sign_up.jsp">회원가입</a>
 		</footer>
 		<div class = "other_login">
 			<input class = "naver" type="button" value = "네이버 로그인" 
