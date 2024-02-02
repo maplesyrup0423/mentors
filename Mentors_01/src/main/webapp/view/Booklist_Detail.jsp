@@ -31,6 +31,9 @@
 		     <div class="bd_info">
 		       <div class="info_box">
 		         <div class="title"></div>
+		         <div class="sub_title">
+		         
+		         </div>
 		         <hr />
 		         <div class="info_list"></div>
 		         <div class="list1">
@@ -42,9 +45,9 @@
 		         </div>
 		         <hr />
 		         <div class="list2">
-		             <ul>
+		             <ul class="ulist2">
 		                 <li>정가</li>
-		                 <li>판미처(도서)</li>
+		                 <li>판매처(도서)</li>
 		                 <input type="button" class="sales" value="교보문고"/>
 		                 <li>판매처(ebook)</li>
 		             </ul>
@@ -71,9 +74,7 @@
 		         <h2>도서 정보</h2>
 		     </div>
 		     <div class="box_info1">
-		         <button class="iw_btn">
-		             펼쳐보기<img src="../img/expand_btn.png"/>
-		         </button>
+		        <input type="button" id="iw_btn" value="펼쳐보기" />
 		     </div>
 		 </div>
 		 <div class="info_box2">
@@ -81,7 +82,7 @@
 		         <h2>목차 정보</h2>
 		     </div>
 		     <div class="box_info2">
-		         <button class="iw_btn">
+		         <button class="iw_btn" value="펼쳐보기">
 		             펼쳐보기<img src="../img/expand_btn.png"/>
 		         </button>
 		     </div>

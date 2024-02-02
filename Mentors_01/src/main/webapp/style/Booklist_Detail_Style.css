@@ -124,6 +124,7 @@ body{
 	border: 1px solid green;
 	margin-left: 45px;
 	margin-top: 40px;
+
 }
 
 .bd_info{
@@ -142,11 +143,72 @@ body{
 }
 
 .title{
-	width: 750px;
-	height: 50px;
+	font: 24px;
+	font-weight: bolder;
+}
+
+.sub_title{
+	font: 15px;
+	color: #888;
+	margin: 20px 0px;
+	padding: 0px 0px 20px;
+	font-weight: bolder;
 }
 
 .list1{
-	width: 750px;
+	font: 15px;
+	color: #888;
+	font-weight: bolder;
 	height: 100px;
+}
+
+.list2{
+	font: 15px;
+	color: #888;
+	font-weight: bolder;
+	height: 200px;
+}
+
+.ulist1{
+	list-style-type: none;
+}
+
+.ulist2{
+	list-style-type: none;
+}
+
+.info_box1{
+	width: 1275px;
+	border: 1px solid #888;
+}
+
+.box_title1{
+	border-bottom: 1px solid #888;
+	padding: 20px;
+}
+
+.box_info1{
+	height: 150px;
+}
+
+.iw_btn{
+	font: 15px;
+	font-weight: bolder;
+	color: #fff;
+	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	border: none;
+	border-radius: 20px;
+	width: 110px;
+	height: 30px;
+}
+
+#iw_btn{
+	font: 15px;
+	font-weight: bolder;
+	color: #fff;
+	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	border: none;
+	border-radius: 20px;
+	width: 110px;
+	height: 30px;
 }
