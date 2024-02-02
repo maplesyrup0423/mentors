@@ -1,33 +1,61 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
+	pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="../style/Notification.css" />
-	<title><a href="#">공지사항</a></title>
-	<style>
-		#searchInput {
-			text-align: center;
-		}
-	</style>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../style/Notification_Detail.css" />
+<title><a href="#">공지사항</title>
+<style>
+#searchInput {
+	text-align: center;
+}
+</style>
+
 </head>
 
 <body>
-	<h2 class="title">공지사항</h2>
-	<div id="searchInput">
-		<input type="text" class="sc" placeholder="검색어를 입력하세요">
-		<button class="search"><image src="../img/search_input_right.png"></image></button>
-	</div>
-	<br />
-	<hr class="hr"/>
+	<div class="box">
+		<select id="select">
+			<option value="공지사항">공지사항</option>
+			<option value="Q&A">Q&A</option>
+		</select>
 
+		<h2 class="title">공지사항</h2>
+		<div id="searchInput">
+			<input type="text" class="sc" placeholder="검색어를 입력하세요">
+			<button class="search">
+				<image src="../img/search_input_right.png"></image>
+			</button>
+		</div>
+		<br />
+		<hr class="hr" />
+		<div>
+			<table class="tbl view">
+				<tbody>
+					<tr>
+						<th class="th1">제목</th>
+					</tr>
+					<tr>
+						<th class="th2">내용</th>
+					</tr>
+					<tr>
+						<th class="th3">첨부파일</th>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="bottom_btn_right">
+			<button type="button" onclick="location.href='Notification.jsp'">목록</button>
+		</div>
+	</div>
 	<script>
 		// 검색을 수행하는 함수
 		function search() {
 			// 검색어 입력 상자에서 검색어를 가져옴
-			var searchText = document.getElementById('searchInput').value.toLowerCase();
+			var searchText = document.getElementById('searchInput').value
+					.toLowerCase();
 
 			// 결과를 초기화
 			searchResultsElement.innerHTML = '';
@@ -43,12 +71,13 @@
 		}
 
 		// 검색어 입력 상자에서 Enter 키가 눌렸을 때 검색 함수 호출
-		document.getElementById('searchInput').addEventListener('keyup', function (event) {
-			if (event.key === 'Enter') {
-				search();
-			}
-		});
-
+		document.getElementById('searchInput').addEventListener('keyup',
+				function(event) {
+					if (event.key === 'Enter') {
+						search();
+					}
+				});
 	</script>
+
 </body>
 </html>
