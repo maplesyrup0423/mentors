@@ -10,10 +10,12 @@
 <body>
 	<div class="con_test">
 		<div class="con_test_title">
-			<p>시험</p>
+
+			<span><div class="color_div"></div>시험</span>
+
 		</div>
 		<div class="con_test_table">
-			<table border="1">
+			<table border="1" width="1000">
 				<thead>
 					<tr>
 						<td>평가명</td>
@@ -35,5 +37,6 @@
 			</table>
 		</div>
 	</div>
+
 </body>
 </html>

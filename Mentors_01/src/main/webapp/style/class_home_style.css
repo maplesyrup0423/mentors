@@ -139,6 +139,7 @@ li {
 
 .headline {
 	border-left: 1px solid rgb(192, 192, 192);
+	border-bottom: 1px solid rgb(192, 192, 192);
 }
 
 .blue_btn {
@@ -159,10 +160,27 @@ li {
 .WTT_Completion{
 	color: #ff5345;
 }
+.class_home_center_home_Table{
+	width: 1000px;
+	padding: 5px;
+}
 
+.class_home_center_home_Table td{
+	padding: 5px;
+}
 /*----------------------------class_home_center_test.jsp-------------------------------------*/
 
-
+.con_test{
+	width: 1080px;
+}
+.con_test_title{
+	width: 1000px;
+}
+/*.con_test_title>p{
+	text-align: left;
+	width: 1000px;
+	text-align: left;
+}*/
 
 
 /*----------------------------class_home_center_home_video.jsp-------------------------------------*/
