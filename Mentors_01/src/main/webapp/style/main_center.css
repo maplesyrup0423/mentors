@@ -48,6 +48,10 @@ ul,li { list-style: none;}
     cursor: pointer;
 }
 
+/* .slidbox .slidelist .slideitem img{
+    object-fit: cover;
+} */
+
 label.left{
     left: 20px;
     background-image: url(../img/clean.jpg);
