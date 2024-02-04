@@ -14,17 +14,15 @@
 	String mainUrl = "";
 	String mainNum = request.getParameter("mainNum");
 	if (mainNum == null) {
-		mainUrl = "class_home_center_notification.jsp";//메인 컨텐츠 제작해야해 영열아!!!!! 일단 다른곳에 연결해둠
+		mainUrl = "Mentors_main_center.jsp";//메인 
 	} else if (mainNum.equals("1")) {
 		mainUrl = "WT_list.jsp";//연수신청
 	} else if (mainNum.equals("2")) {
 		mainUrl = "event.jsp";//이벤트
-	} 
-	else if (mainNum.equals("2.5")) {
+	} else if (mainNum.equals("2.5")) {
 		mainUrl = "event_end.jsp";//이벤트
-	} 
-	
-	
+	}
+
 	else if (mainNum.equals("3")) {
 		mainUrl = "Booklist.jsp";//도서관 가져오기
 	} else if (mainNum.equals("4")) {
@@ -33,11 +31,9 @@
 		mainUrl = "WT_my_room.jsp";//나의강의실
 	} else if (mainNum.equals("6")) {
 		mainUrl = "WT_cart.jsp";//장바구니
-	}
-	else if (mainNum.equals("7")) {
+	} else if (mainNum.equals("7")) {
 		mainUrl = "WT_payment.jsp";//결제
-	}
-	else if (mainNum.equals("8")) {
+	} else if (mainNum.equals("8")) {
 		mainUrl = "WT_info.jsp";//연수 상세 페이지
 	}
 	%>
@@ -59,7 +55,7 @@
 							<td class="td_img"><a href="Mentors_Main.jsp?mainNum=6"><img
 									class="fas fa-cart-shopping" src="../img/cart.png"></img></a></td>
 							<td class="td_img"><a href="Login.jsp"><img
-									src="../img/login.png" alt="로그인" class="loginicon"></a></td> 
+									src="../img/login.png" alt="로그인" class="loginicon"></a></td>
 						</tr>
 					</table></td>
 			</tr>
@@ -67,10 +63,14 @@
 			<tr>
 				<td width="1280"><jsp:include page="<%=mainUrl%>"></jsp:include></td>
 			</tr>
+			<!-- 하단 -->
+			<tr>
+				<td width="1280"><jsp:include page="Mentors_main_footer.jsp" />
+				</td>
+			</tr>
 		</table>
 
 	</center>
-	</header>
 
 </body>
 </html>
