@@ -14,7 +14,7 @@
 	String mainUrl = "";
 	String mainNum = request.getParameter("mainNum");
 	if (mainNum == null) {
-		mainUrl = "class_home_center_notification.jsp";//메인 컨텐츠 제작해야해 영열아!!!!! 일단 다른곳에 연결해둠
+		mainUrl = "Mentors_main_center.jsp";//메인 
 	} else if (mainNum.equals("1")) {
 		mainUrl = "WT_list.jsp";//연수신청
 	} else if (mainNum.equals("2")) {
