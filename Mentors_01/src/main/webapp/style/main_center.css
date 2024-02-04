@@ -1,5 +1,9 @@
 /* * {margin:0; padding: 0; box-sizing: border-box;} */
 ul,li { list-style: none;}
+.main_all{
+    margin: auto;
+    width: 1280px;
+}
 
 /* .main_event{
     width: 1280px;
@@ -94,16 +98,32 @@ label.right{
 [id="slide02"]:checked ~ .slidelist .slideitem {transform: translateX(-100%); animation: slide02 10s infinite;}
 [id="slide03"]:checked ~ .slidelist .slideitem {transform: translateX(-200%); animation: slide03 10s infinite;}
 
+.best_book{
+    /* float: left; */
+    width: 390px;
+}
+
+.new_book{
+    float: left;
+}
 
 .best_book img{
-    float: left;
+    display: block;
     width: 150px;
-    object-fit: cover;
 }
 
 .new_book img{
+    margin-right: 20px;
     float: left;
     width: 150px;
+    /* clear: both; */
 }
 
+.text{
+    font-size: 20pt;
+    text-align: center;
+}
 
+.noticeboard{
+    float: right;
+}
