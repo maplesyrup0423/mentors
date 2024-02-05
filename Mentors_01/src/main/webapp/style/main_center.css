@@ -145,10 +145,18 @@ label.right{
     font-size: 30px;
 }
 
+.contentlist_div{
+    width: 640px;
+}
+
 .contentlist td{
     padding: 15px;
 }
 
-.contentlist span{
-    margin-top: 50px;
+.contentall{
+    width: 1280px;
+}
+
+.besttext{
+    text-align: center;
 }
