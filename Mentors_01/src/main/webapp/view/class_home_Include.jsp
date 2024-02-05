@@ -33,7 +33,7 @@
 			QnA = "non";
 			notification = "non";
 		} else if (CHnum.equals("3")) {
-			CHurl = "class_home_center_QnA.jsp";
+			CHurl = "QnAlist.jsp";
 			home = "non";
 			test = "non";
 			QnA = "active";
@@ -51,6 +51,13 @@
 			test = "non";
 			QnA = "non";
 			notification = "active";
+		}
+		else if (CHnum.equals("6")) {
+			CHurl = "QnAlist_Detail.jsp";
+			home = "non";
+			test = "non";
+			QnA = "active";
+			notification = "non";
 		}
 
 	}
