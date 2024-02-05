@@ -81,7 +81,7 @@
 						<table>
 							<tr>
 								<td><input class = "change_fin" type="button" value = "수정완료"
-								onClick="location.href='Mypage.jsp'"/></td>
+								onClick="location.href='Mentors_Main.jsp?mainNum=9'"/></td>
 							</tr>
 						</table>
 					</div>
