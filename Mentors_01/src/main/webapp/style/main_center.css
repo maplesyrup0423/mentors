@@ -138,8 +138,17 @@ label.right{
 
 .bestlist{
     font-size: 30px;
+    
 }
 
 .newlist{
     font-size: 30px;
+}
+
+.contentlist td{
+    padding: 15px;
+}
+
+.contentlist span{
+    margin-top: 50px;
 }
