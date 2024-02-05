@@ -31,7 +31,7 @@
 		</form>
 		<footer>
 			<a href="Find_ID.jsp">아이디 찾기</a> <span> | </span>
-			<a href="Find_Password">비밀번호 찾기</a> <span> | </span>
+			<a href="Find_Password.jsp">비밀번호 찾기</a> <span> | </span>
 			<a href="Sign_up.jsp">회원가입</a>
 		</footer>
 		<div class = "other_login">

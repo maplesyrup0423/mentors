@@ -1,0 +1,136 @@
+body {
+	padding-top : 60px;
+	background-color: lightgray;
+}
+
+div.container { /*전체 영역*/
+	max-width : 700px;
+	max-height : 1600px;
+	margin : auto;
+	border : 1px solid gray;
+	padding-bottom : 30px;
+	border-radius : 8px;
+	box-shadow: 4px 4px 5px 0px gray;
+	background-color : white;
+}
+
+/* 간판 공간 */
+div.find_id_space {
+	width : 700px;
+	height : 150px;
+	text-align : center;
+}
+
+input[name="find_id_button"] {
+	width : 300px;
+	height : 90px;
+	font-size : 40px;
+	color : rgb(118, 119, 133);
+	border-top : 1px solid black;
+	border-bottom : 1px solid black;
+	margin-top : 30px;
+	background-color : transparent;
+	border-left : none;
+	border-right : none;
+}
+
+input[name="find_password_button"] {
+	margin-top : 10px;
+	width : 150px;
+	height : 40px;
+}
+
+input[name="find_password_button"]:hover {
+	background-color: lightgray;
+}
+
+input[name="find_password_button"]:focus {
+	box-shadow : 2px 2px 5px 4px gray inset;
+	
+}
+
+/* 성명 작성  */
+div.name { 
+	color: gray;
+	font-size : 17px;
+	padding-bottom : 5px;
+	padding-left : 40px;
+}
+
+/* 전화번호 작성 */
+div.tel {
+	color : gray;
+	font-size: 17px;
+	margin-top : 10px;
+	padding-bottom : 5px;
+	padding-left : 40px;
+}
+
+/*성명과 전화번호 작성하는 상자 공간 여백*/
+.body { 
+	margin-top : 70px;
+	margin-bottom : 40px;
+	margin-left : 10%;
+	margin-right : 10%;	
+}
+
+.input_name {
+	display : flex;
+	align-items : center;
+	padding-left : 40px;
+}
+.input_tel {
+	display : flex;
+	align-items : center;
+	padding-left : 40px;
+}
+
+input[type=text] {
+	border-width : 0 0 1px;
+	width : 450px;
+	height : 60px;
+	border-radius : 7px;
+	font-size : 20px;
+}
+
+input[type=text]:focus{
+	outline : 1px solid rgb(175, 175, 175);
+	transition: 0.3s;
+}
+
+input[type=submit] {
+	width : 300px;
+	height : 50px;
+	font-size : 25px;
+	color : white;
+	background-color : rgb(206, 176, 238);
+	border-width : 0px 0px 1px;
+	border : 1px solid gray;
+	box-shadow : 3px 3px 2px rgb(185, 143, 231);;
+	border-radius : 8px;
+}
+
+input[type=submit]:hover {
+	background-color: rgb(167, 116, 224);
+}
+
+input[type=submit]:focus {
+	box-shadow : 2px 2px 2px 4px rgb(155, 97, 220) inset;
+}
+
+input.cancel {
+	width : 300px;
+	height : 50px;
+	font-size : 25px;
+	background-color : white;
+	border: 1px solid black;
+	border-radius : 8px;
+}
+
+input.cancel:hover {
+	box-shadow : 2px 2px 2px 0px lightgray;
+}
+
+input.cancel:focus {
+	box-shadow : 2px 2px 2px 2px lightgray inset;
+}
