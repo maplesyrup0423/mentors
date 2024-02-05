@@ -187,6 +187,28 @@
 				<tr>
 					<td colspan="2" class="pay_button_box"><button class="pay_confirm">결제하기</button></td>
 					<!--카카오 페이로 넘어감-->
+					
+					<script src = "https://cdn.iamport.kr/v1/iamport.js"></script>
+					<script>
+					IMP.init("imp87331343");
+					 
+					const button = document.querySelector("button");
+					 
+					const onClickPay = async () => {
+					 
+						IMP.request_pay({
+						 	pg: "kakaopay.TC0ONETIME",
+						 	pay_method: "card",
+						 	amount: "1000",
+						 	name: "결제 테스트",
+						 	merchant_uid: "order-2024-02-04",
+
+					 	}); 
+					 };
+					 
+					 button.addEventListener("click",onClickPay);
+					
+					</script>
 				</tr>
 			</table>
 
