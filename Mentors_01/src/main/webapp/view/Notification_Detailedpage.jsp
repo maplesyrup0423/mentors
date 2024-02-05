@@ -17,22 +17,34 @@
 
 <body>
 	<div class="box">
-		<select id="select">
-			<option value="공지사항">공지사항</option>
-			<option value="Q&A">Q&A</option>
-		</select>
 
-		<h2 class="title">공지사항</h2>
-		<div id="searchInput">
-			<input type="text" class="sc" placeholder="검색어를 입력하세요">
-			<button class="search">
-				<image src="../img/search_input_right.png"></image>
-			</button>
-		</div>
+		<table class="Notification_Detailedpage_table" >
+			<tr>
+				<td colspan="2"><select id="select">
+						<option value="공지사항">공지사항</option>
+						<option value="Q&A">Q&A</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td class="Notification_Detailedpage_table_td2">
+
+					<h2 class="title">공지사항</h2>
+
+
+				</td>
+				<td class="right_td"><div id="searchInput">
+						<input type="text" class="sc" placeholder="검색어를 입력하세요">
+						<button class="search">
+							<image src="../img/search_input_right.png"></image>
+						</button>
+
+					</div></td>
+			</tr>
+		</table>
 		<br />
 		<hr class="hr" />
-		<div>
-			<table class="tbl view">
+		<div class="tbl">
+			<table class="tbl_view">
 				<tbody>
 					<tr>
 						<th class="th1">제목</th>
@@ -46,9 +58,14 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="bottom_btn_right">
-			<button type="button" onclick="location.href='class_home_Include.jsp?CHnum=4';">목록</button>
+		<div>
+			<div class="bottom_btn_right">
+				<button type="button"
+					onclick="location.href='class_home_Include.jsp?CHnum=4';">목록</button>
+			</div>
 		</div>
+
+
 	</div>
 	<script>
 		// 검색을 수행하는 함수
