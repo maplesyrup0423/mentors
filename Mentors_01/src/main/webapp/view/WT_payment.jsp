@@ -202,6 +202,7 @@
 						 	amount: "1000",
 						 	name: "결제 테스트",
 						 	merchant_uid: "order-2024-02-04",
+						 	m_redirect_url: "WT_payment_success.jsp"
 
 					 	}); 
 					 };
