@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -11,10 +12,12 @@
 <body>
     <footer class="footer">
         <div class="f_top">
-            <span><a href="" >개인정보 처리 방침</a></span>
-            <span><a href="">이용약관</a></span>
-            <span class="telnum"><img src="" alt="전화 아이콘">1544-0714</span>
+            <span class="t_1"><a href="" >&nbsp;개인정보 처리 방침 &nbsp;&nbsp;&nbsp;</a></span>
+            /
+            <span class="t_1"><a href="">&nbsp;&nbsp;&nbsp;이용약관</a></span>
+            <span class="telnum"><i class="fa-solid fa-square-phone"></i>1544-0714</span>
         </div>
+        <HR></HR>
         <div class="f_left">
             <span>
                 사업자번호 123-65-57595 | 대표이사 : 정세나 <br>
