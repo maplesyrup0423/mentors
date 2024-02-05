@@ -42,7 +42,7 @@ body{
 	border-radius: 20px;
 	border: none;
 	color: #fff;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);	
+	background: linear-gradient(325deg, #ffcd19, #a09bff);	
 }
 
 .book_search{
@@ -143,7 +143,7 @@ body{
 }
 
 .title{
-	font: 24px;
+	font-size: 24px;
 	font-weight: bolder;
 }
 
@@ -156,25 +156,33 @@ body{
 }
 
 .list1{
-	font: 15px;
 	color: #888;
+	font-size: 15px;
 	font-weight: bolder;
+	line-height: 2;
 	height: 100px;
+	position: relative;
 }
 
 .list2{
-	font: 15px;
 	color: #888;
+	font-size: 15px;
 	font-weight: bolder;
+	line-height: 2;
 	height: 200px;
+	position: relative;
 }
 
 .ulist1{
 	list-style-type: none;
+	position: absolute;
+	bottom: 25px;
 }
 
 .ulist2{
 	list-style-type: none;
+	position: absolute;
+	bottom: 40px;
 }
 
 .info_box1{
@@ -192,10 +200,10 @@ body{
 }
 
 .iw_btn{
-	font: 15px;
+	font-size: 15px;
 	font-weight: bolder;
 	color: #fff;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	background: linear-gradient(325deg, #ffcd19, #a09bff);
 	border: none;
 	border-radius: 20px;
 	width: 110px;
@@ -203,12 +211,26 @@ body{
 }
 
 #iw_btn{
-	font: 15px;
+	font-size: 15px;
 	font-weight: bolder;
 	color: #fff;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	background: linear-gradient(325deg, #ffcd19, #a09bff);
 	border: none;
 	border-radius: 20px;
 	width: 110px;
 	height: 30px;
+}
+
+#iw_exbtn{
+	display: flex;
+}
+
+#sales {
+	position: absolute;
+	left: 250px;
+	bottom: 30px;
+	width: 150px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 15px;
 }

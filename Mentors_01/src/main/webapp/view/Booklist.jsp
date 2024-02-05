@@ -16,8 +16,8 @@
 			<input type="button" value="도서목록" />
 		</div>
 		<div class="book_search">
-			<img src="../img/search_input_left.png" class="left" /> <input
-				type="text" id="s_bar" size="35" />
+			<img src="../img/search_input_left.png" class="left" />
+			<input type="text" id="s_bar" size="35" />
 			<button class="d_btn">
 				<img src="../img/search_del.png" />
 			</button>
@@ -52,8 +52,7 @@
 						<div class="info_list2">
 							<ul id="sub_info">
 								<li class="autor">저자</li>
-								<li class="translator">옮긴이</li>
-								<li class="artist">그림</li>
+								<li class="ISBN">ISBN</li>
 								<li class="pub_date">발행일</li>
 								<li class="price">정가</li>
 							</ul>

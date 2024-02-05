@@ -225,16 +225,19 @@ body{
 	width: 165px;
 	height: 195px;
 	position:relative;
-	}
+}
+	
 .info_list2{
 	position: absolute;
-	bottom: 0px;
+	bottom: 10px;
 }
 #sub_info{
-	list-style-type: none;	
+	list-style-type: none;
 }
 
 #sub_info > li{
 	color: #737373;
-	font: 14px bolder;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 2;
 }

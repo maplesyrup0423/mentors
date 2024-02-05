@@ -40,7 +40,6 @@
 		             <ul class="ulist1">
 		                 <li>발행일</li>
 		                 <li>ISBN</li>
-		                 <li>추천대상</li>
 		             </ul>
 		         </div>
 		         <hr />
@@ -48,8 +47,10 @@
 		             <ul class="ulist2">
 		                 <li>정가</li>
 		                 <li>판매처(도서)</li>
-		                 <input type="button" class="sales" value="교보문고"/>
-		                 <li>판매처(ebook)</li>
+		                 <button id="sales">교보문고
+		                 <img src="../img/expand_btn.png"/>
+		                 </button>
+		                 <li>링크복사</li>
 		             </ul>
 		         </div>
 		         <hr />
@@ -74,47 +75,10 @@
 		         <h2>도서 정보</h2>
 		     </div>
 		     <div class="box_info1">
-		        <input type="button" id="iw_btn" value="펼쳐보기" />
-		     </div>
-		 </div>
-		 <div class="info_box2">
-		     <div class="box_title2">
-		         <h2>목차 정보</h2>
-		     </div>
-		     <div class="box_info2">
-		         <button class="iw_btn" value="펼쳐보기">
-		             펼쳐보기<img src="../img/expand_btn.png"/>
-		         </button>
-		     </div>
-		 </div>
-		 <div class="info_box3">
-		     <div class="box_title3">
-		         <h2>저자 정보</h2>
-		     </div>
-		     <div class="box_info3">
-		         <button class="iw_btn">
-		             펼쳐보기<img src="../img/expand_btn.png"/>
-		         </button>
-		     </div>
-		 </div>
-		 <div class="info_box4">
-		     <div class="box_title4">
-		         <h2>출판사 서평</h2>
-		     </div>
-		     <div class="box_info4">
-		         <button class="iw_btn">
-		             펼쳐보기<img src="../img/expand_btn.png"/>
-		         </button>
-		     </div>
-		 </div>
-		 <div class="info_box5">
-		     <div class="box_title5">
-		         <h2>추천사</h2>
-		     </div>
-		     <div class="box_info5">
-		         <button class="iw_btn">
-		             펼쳐보기<img src="../img/expand_btn.png"/>
-		         </button>
+		         <div class="box_btn">
+		            <input type="button" id="iw_btn" value="펼쳐보기" />
+		                <img src="../img/expand_btn.png" id="iw_exbtn"/>
+		         </div>
 		     </div>
 		 </div>
 </section>
