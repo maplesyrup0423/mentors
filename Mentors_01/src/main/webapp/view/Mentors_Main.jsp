@@ -20,9 +20,8 @@
 	} else if (mainNum.equals("2")) {
 		mainUrl = "event.jsp";//이벤트
 	} else if (mainNum.equals("2.5")) {
-		mainUrl = "event_end.jsp";//이벤트
+		mainUrl = "event_end.jsp";//기간지난 이벤트
 	}
-
 	else if (mainNum.equals("3")) {
 		mainUrl = "Booklist.jsp";//도서관 가져오기
 	} else if (mainNum.equals("4")) {
@@ -39,15 +38,15 @@
 	//------------------------------------------------------------------------------//
 	else if (mainNum.equals("9")) {
 		mainUrl = "Mypage.jsp";//마이페이지 - 임시 연결 실제로는 로그인시 로그인버튼이 마이페이지 버튼
-	}else if (mainNum.equals("10")) {
+	} else if (mainNum.equals("10")) {
 		mainUrl = "delete_account.jsp"; //회원탈퇴
-	}
-	else if (mainNum.equals("11")) {
+	} else if (mainNum.equals("11")) {
 		mainUrl = "Mypage_change.jsp";// 정보수정
-	}
-	else if (mainNum.equals("12")) {
+	} else if (mainNum.equals("12")) {
 		mainUrl = "Password_change_confirm.jsp";// 비밀번호변경
 	}
+	//------------------------------------------------------------------------------//
+
 	%>
 	<center class="all_center">
 		<table>
@@ -68,8 +67,10 @@
 									class="fas fa-cart-shopping" src="../img/cart.png"></img></a></td>
 							<td class="td_img"><a href="Login.jsp"><img
 									src="../img/login.png" alt="로그인" class="loginicon"></a></td>
+
+							<!-- 마이페이지 임시버튼 -->
 							<td class="td_img"><a href="Mentors_Main.jsp?mainNum=9"><img
-									src="../img/login.png" alt="로그인" class="loginicon"></a></td>
+									src="../img/login.png" alt="마이페이지 class="loginicon"></a></td>
 						</tr>
 					</table></td>
 			</tr>
