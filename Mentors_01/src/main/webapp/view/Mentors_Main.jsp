@@ -26,7 +26,13 @@
 		mainUrl = "Booklist.jsp";//도서관 가져오기
 	} else if (mainNum.equals("4")) {
 		mainUrl = "Boardlist.jsp";//게시판 가져오기
-	} else if (mainNum.equals("5")) {
+	} else if (mainNum.equals("4.1")) {
+		mainUrl = "Boardlist_Detail.jsp";//게시판 상세
+	} else if (mainNum.equals("4.2")) {
+		mainUrl = "Board_insert.jsp";//게시판 글쓰기
+	} 
+	
+	else if (mainNum.equals("5")) {
 		mainUrl = "WT_my_room.jsp";//나의강의실
 	} else if (mainNum.equals("6")) {
 		mainUrl = "WT_cart.jsp";//장바구니
