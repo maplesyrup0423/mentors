@@ -107,10 +107,14 @@ label.right{
 .best_book{
     /* float: left; */
     width: 390px;
+    font-size: 15px;
+    text-align: center;
 }
 
 .new_book{
-    float: left;
+    width: 390px;
+    font-size: 15px;
+    text-align: center;
 }
 
 .best_book img{
@@ -119,10 +123,8 @@ label.right{
 }
 
 .new_book img{
-    margin-right: 20px;
-    float: left;
+    display: block;
     width: 150px;
-    /* clear: both; */
 }
 
 .text{
@@ -132,4 +134,12 @@ label.right{
 
 .noticeboard{
     float: right;
+}
+
+.bestlist{
+    font-size: 30px;
+}
+
+.newlist{
+    font-size: 30px;
 }
