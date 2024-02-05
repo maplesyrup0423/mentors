@@ -70,7 +70,7 @@
 
 							<!-- 마이페이지 임시버튼 -->
 							<td class="td_img"><a href="Mentors_Main.jsp?mainNum=9"><img
-									src="../img/login.png" alt="마이페이지 class="loginicon"></a></td>
+									src="../img/login.png" alt="마이페이지" class="loginicon"></a></td>
 						</tr>
 					</table></td>
 			</tr>
