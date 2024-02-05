@@ -56,7 +56,7 @@
                         <div>
                             <label for="slide02" class="left"></label>
                             <label for="slide01" class="right"></label>
-                            <div><a href=""><img src="../img/img.3.jpg" alt="광고이미지3"></a></div>
+                            <div><a href="https://namu.wiki/w/%EC%8A%A4%EC%A6%88%EB%A9%94%EC%9D%98%20%EB%AC%B8%EB%8B%A8%EC%86%8D"><img src="../img/img.3.jpg" alt="광고이미지3"></a></div>
                         </div>
                     </li>
                 </ul>
@@ -66,13 +66,13 @@
 
         <div class="best_book" >
             <div class="text">인기도서</div>
-            <span><a href=""><img src="../img/bookimg (1).jpg" alt="베스트book1"><p>달러구트 꿈 백화점</p></a></span>
-            <span><a href=""><img src="../img/bookimg (2).jpg" alt="베스트book2"><p>강철 마법사</p></a></span>
+            <span><a href="https://namu.wiki/w/%EB%8B%AC%EB%9F%AC%EA%B5%AC%ED%8A%B8%20%EA%BF%88%20%EB%B0%B1%ED%99%94%EC%A0%90"><img src="../img/bookimg (1).jpg" alt="베스트book1"><p>달러구트 꿈 백화점</p></a></span>
+            <span><a href="https://series.naver.com/novel/detail.series?productNo=9101145"><img src="../img/bookimg (2).jpg" alt="베스트book2"><p>강철 마법사</p></a></span>
         </div>
         
         <div class="new_book">
-            <span><a href=""><img src="../img/bookimg (3).jpg" alt="새책1">카르미스</a></span>
-            <span><a href=""><img src="../img/bookimg (4).jpg" alt="새책2">모스크바의 신사</a></span>
+            <span><a href="https://page.kakao.com/content/48444531"><img src="../img/bookimg (3).jpg" alt="새책1">카르미스</a></span>
+            <span><a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=151652184"><img src="../img/bookimg (4).jpg" alt="새책2">모스크바의 신사</a></span>
         </div>
 
         <div class="noticeboard">
