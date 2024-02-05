@@ -21,6 +21,7 @@ ul,li { list-style: none;}
     margin: auto;
     text-align: center;
     width: 1000px;
+    padding: 0px;
 
 }
 
@@ -28,6 +29,7 @@ ul,li { list-style: none;}
     white-space: nowrap;
     overflow: hidden;
     font-size: 0;
+    padding: 0px;
 }
 
 .slidbox .slideitem{
