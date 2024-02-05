@@ -6,7 +6,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="../style/Notification.css" />
-	<title><a href="#">게시판</a></title>
+	<title><a href="#">Q&A</a></title>
 	<style>
 		#searchInput {
 			text-align: center;
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-	<h2 class="title">게시판</h2>
+	<h2 class="title">Q&A</h2>
 	<div id="searchInput">
 		<input type="text" class="sc" placeholder="검색어를 입력하세요">
 		<button class="search"><image src="../img/search_input_right.png"></image></button>

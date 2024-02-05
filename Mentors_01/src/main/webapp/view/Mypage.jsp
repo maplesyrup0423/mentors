@@ -52,7 +52,7 @@
 							<tr>
 								<td class = "td_left">비밀번호</td>
 								<td class = "td_right"><input class = "change_password" type="button" value = "비밀번호 변경"
-								onClick="location.href='Password_change_confirm.jsp'"/></td>
+								onClick="location.href='Mentors_Main.jsp?mainNum=12'"/></td>
 							</tr>
 
 							<tr>
@@ -127,10 +127,10 @@
 						<table>
 							<tr >
 								<td><input class = "delete_account" type="button" value = "회원탈퇴"
-								onClick="location.href='delete_account.jsp'"/></td>
+								onclick="location.href='Mentors_Main.jsp?mainNum=10'"/></td>
 								
 								<td><input class = "change_account" type="button" value = "정보수정"
-								onClick="location.href='Mypage_change.jsp'"/></td>
+								onClick="location.href='Mentors_Main.jsp?mainNum=11'"/></td>
 							</tr>
 						</table>
 					</div>
