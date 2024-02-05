@@ -205,10 +205,7 @@ li {
 }
 
 .video_out{
-	position: absolute;
-	top: 135px;
-	left: 360px;
-	margin-right: 160px;
+	margin-right: 200px;
 	float: right;
 	width: 100px;
 	height: 40px;
