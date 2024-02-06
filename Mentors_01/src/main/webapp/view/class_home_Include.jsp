@@ -74,7 +74,7 @@
 					<!-- Left 부분 -->
 					<td rowspan="2" width="200" align="center" valign="top" height="2000">
 
-						<div class="sidebar">
+						<div class="sidebar div_shadow">
 							<div class="sidebar_list">
 								<button class="list_home CH_list <%=home%>"
 									onclick="location.href='class_home_Include.jsp?CHnum=1';">강의
