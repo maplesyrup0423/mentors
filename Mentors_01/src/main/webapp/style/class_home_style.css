@@ -27,7 +27,14 @@
 	flex: 1 1 auto;
 	min-height: 1px;
 	padding: 1.25rem
+}/*----------------------------class_home_center_home_top.jsp--------------------------*/
+.navbar{
+	height: 4.375rem;
+	box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, .15) !important;
+	padding: 0.5rem 1rem;
 }
+
+
 /*----------------------------class_home_Include.jsp-------------------------------------*/
 
 html,
@@ -184,7 +191,7 @@ li {
 	color: #ff5345;
 }
 .class_home_center_home_Table{
-	width: 1000px;
+	width: 800px;
 	padding: 5px;
 }
 
@@ -194,10 +201,10 @@ li {
 /*----------------------------class_home_center_test.jsp-------------------------------------*/
 
 .con_test{
-	width: 1080px;
+	width: 900px;
 }
 .con_test_title{
-	width: 1000px;
+	width: 900px;
 }
 /*.con_test_title>p{
 	text-align: left;
