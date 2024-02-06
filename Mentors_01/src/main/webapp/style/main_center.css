@@ -42,14 +42,14 @@ label.left{
     left: 20px;
     opacity: 0.5;
     background-image: url(../img/arrow-left.png);
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
 }
 
 label.right{
     right: 20px;
     opacity: 0.5;
     background-image: url(../img/arrow-right.png);
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
 }
 
 @keyframes slide01{
