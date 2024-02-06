@@ -13,7 +13,7 @@
 		<div class="line"></div>
 		<div class="video">
 			<iframe width="900" height="500"
-				src="https://www.youtube.com/embed/VVVmPjnqT8U?si=KQMtMfVlfDbTav-X?autoplay=1&controls=0&disablekb=1&enablejsapi=1&start=53"
+				src="https://www.youtube.com/embed/VVVmPjnqT8U?si=KQMtMfVlfDbTav-X?autoplay=1&controls=0&disablekb=1&enablejsapi=1&rel=0&start=53"
 				title="YouTube video player" frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 				allowfullscreen></iframe>	
