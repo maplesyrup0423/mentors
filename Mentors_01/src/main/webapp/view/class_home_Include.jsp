@@ -44,15 +44,13 @@
 			test = "non";
 			QnA = "non";
 			notification = "active";
-		}
-		else if (CHnum.equals("5")) {
+		} else if (CHnum.equals("5")) {
 			CHurl = "Notification_Detailedpage.jsp";
 			home = "non";
 			test = "non";
 			QnA = "non";
 			notification = "active";
-		}
-		else if (CHnum.equals("6")) {
+		} else if (CHnum.equals("6")) {
 			CHurl = "QnAlist_Detail.jsp";
 			home = "non";
 			test = "non";
@@ -64,15 +62,19 @@
 	%>
 	<div class="container">
 		<div class="main_f">
-			<table width="1280" >
+			<table width="1280">
 				<!-- Top부분 -->
 				<tr height="80">
 					<td colspan="2" align="center"><jsp:include
 							page="class_home_top.jsp" /></td>
 				</tr>
-				<tr >
+				<tr height="20">
+					<td colspan="2"></td>
+				</tr>
+				<tr>
 					<!-- Left 부분 -->
-					<td rowspan="2" width="200" align="center" valign="top" height="2000">
+					<td rowspan="2" width="200" align="center" valign="top"
+						height="100%">
 
 						<div class="sidebar div_shadow">
 							<div class="sidebar_list">
@@ -88,15 +90,15 @@
 							</div>
 						</div>
 					</td>
-				
-				<!-- Center 부분 -->
-				<td height="80"><jsp:include
+
+					<!-- Center 부분 -->
+					<td height="80"><jsp:include
 							page="class_home_center_home_top.jsp" /></td>
 				</tr>
 				<!-- Center_top 부분 -->
 				<tr>
 					<td width="1080" align="center" valign="top"><jsp:include
-						page="<%=CHurl%>"></jsp:include></td>
+							page="<%=CHurl%>"></jsp:include></td>
 				</tr>
 			</table>
 		</div>
