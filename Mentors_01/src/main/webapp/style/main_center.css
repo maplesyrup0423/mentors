@@ -5,6 +5,17 @@ ul,li { list-style: none;}
     width: 1280px;
 }
 
+.slidbox input{
+
+}
+
+.background-img{
+    width: 1280px;
+    
+    background-image: url(../img/img.3.jpg);
+    opacity: 0.5;
+}
+
 .slidbox{
     margin: auto;
     text-align: center;
@@ -42,14 +53,14 @@ label.left{
     left: 20px;
     opacity: 0.5;
     background-image: url(../img/arrow-left.png);
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
 }
 
 label.right{
     right: 20px;
     opacity: 0.5;
     background-image: url(../img/arrow-right.png);
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
 }
 
 @keyframes slide01{
@@ -132,4 +143,9 @@ label.right{
 
 .besttext{
     text-align: center;
+}
+
+.background-img{
+    background-image: url(../img/img.3.jpg);
+    opacity: 0.5;
 }

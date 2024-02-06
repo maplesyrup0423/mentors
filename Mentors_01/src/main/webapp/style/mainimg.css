@@ -1,16 +1,13 @@
-.main{
-    margin: auto;
-    width: 1280px;
-}
 
 #bannerimg{
     position: absolute;
     z-index: 1;
     height: 512px;
-    width: 100%;
+    width: 1280px;
     animation: fadein 2s ease 1s;
     -webkit-animation: fadein 1s;
-    opacity: 0.5;
+    opacity: 0.6;
+    filter: blur(2px);
 }
 
 #bannerimg img{
@@ -29,7 +26,8 @@
 }
 
 .allimg{
-
+    margin: auto;
+    width: 1280px;
 }
 
 @keyframes fadein{
