@@ -100,10 +100,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 					<td>
 						<div class="WT_table_box">
@@ -118,10 +119,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 					<td>
 						<div class="WT_table_box">
@@ -136,10 +138,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 					<td>
 						<div class="WT_table_box">
@@ -154,10 +157,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 				</tr>
 				<tr class="WT_thumbnail">
@@ -174,10 +178,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 					<td>
 						<div class="WT_table_box">
@@ -192,10 +197,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 					<td>
 						<div class="WT_table_box">
@@ -210,10 +216,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 					<td>
 						<div class="WT_table_box">
@@ -228,10 +235,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 				</tr>
 
@@ -249,10 +257,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 					<td>
 						<div class="WT_table_box">
@@ -267,10 +276,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 					<td>
 						<div class="WT_table_box">
@@ -285,10 +295,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 					<td>
 						<div class="WT_table_box">
@@ -303,10 +314,11 @@
 								</a>
 								<div id="wt_bot">
 									<div>
-										0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
+										<span>0원</span> <span><button onclick="location.href='Mentors_Main.jsp?mainNum=7'">연수신청</button></span>
 									</div>
 								</div>
 							</div>
+						</div>
 					</td>
 				</tr>
 

@@ -54,12 +54,12 @@ button:hover{
 .WT_table_box{
     border: 1px solid #00457e;
     border-radius: 5%;
-    width: 210px;
+    width: 275px;
     height: 250px;
 }
 
 .thumb{
-    width: 210px;
+    width: 275px;
     height: 150px;
     border-bottom: 1px solid #00457e;
 }
