@@ -37,12 +37,12 @@ body{
 
 .list_tab > input{
 	font-size: 16px;
-	width: 150px;
-	height: 40px;
+	width: 300px;
+	height: 50px;
 	border-radius: 20px;
 	border: none;
 	color: #fff;
-	background: linear-gradient(325deg, #ffcd19, #a09bff);	
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 }
 
 .book_search{
@@ -188,6 +188,7 @@ body{
 .info_box1{
 	width: 1275px;
 	border: 1px solid #888;
+	margin-bottom: 100px;
 }
 
 .box_title1{
@@ -203,7 +204,7 @@ body{
 	font-size: 15px;
 	font-weight: bolder;
 	color: #fff;
-	background: linear-gradient(325deg, #ffcd19, #a09bff);
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 	border: none;
 	border-radius: 20px;
 	width: 110px;
@@ -214,7 +215,7 @@ body{
 	font-size: 15px;
 	font-weight: bolder;
 	color: #fff;
-	background: linear-gradient(325deg, #ffcd19, #a09bff);
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 	border: none;
 	border-radius: 20px;
 	width: 110px;
@@ -233,4 +234,11 @@ body{
 	height: 30px;
 	border-radius: 20px;
 	font-size: 15px;
+}
+.ul_list{
+	list-style-type: none;
+}
+
+.another_Books {
+	margin-right: 20px;
 }

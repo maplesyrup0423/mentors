@@ -64,7 +64,7 @@
 		 <div class="another_Books">
 		      <div class="aBook_img"></div>
 		      <div class="aBook_info">
-		           <ul>
+		           <ul class="ul_list">
 		               <li class="aBook_title">제목</li>
 		               <li class="aBook_autor">저자</li>
 		           </ul>
