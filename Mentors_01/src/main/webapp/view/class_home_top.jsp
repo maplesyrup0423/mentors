@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="../style/class_home_style.css" />
 </head>
 <body>
-	<div class="top">
+	<div class="class_home_top">
 		<div class="logo_div">
 			<img src="../img/logo.PNG" id="logo" />
 		</div>
