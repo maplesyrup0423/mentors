@@ -37,13 +37,12 @@ body{
 
 .list_tab > input{
 	font-size: 16px;
-	width: 150px;
-	height: 40px;
+	width: 300px;
+	height: 50px;
 	border-radius: 20px;
 	border: none;
 	color: #fff;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);
-	
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 }
 
 .book_cate{
@@ -54,7 +53,7 @@ body{
 
 .book_c_A{
 	height: 38px;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 	color: #fff;
 	border: none;
 	border-radius: 20px;
@@ -63,7 +62,7 @@ body{
 
 .book_c_1{
 	height: 38px;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 	color: #fff;
 	border: none;
 	border-radius: 20px;
@@ -72,7 +71,7 @@ body{
 
 .book_c_2{
 	height: 38px;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 	color: #fff;
 	border: none;
 	border-radius: 20px;
@@ -81,7 +80,7 @@ body{
 
 .book_c_3{
 	height: 38px;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 	color: #fff;
 	border: none;
 	border-radius: 20px;
@@ -90,7 +89,7 @@ body{
 
 .book_c_4{
 	height: 38px;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 	color: #fff;
 	border: none;
 	border-radius: 20px;
@@ -99,7 +98,7 @@ body{
 
 .book_c_5{
 	height: 38px;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 	color: #fff;
 	border: none;
 	border-radius: 20px;
@@ -107,7 +106,7 @@ body{
 }
 .book_c_6{
 	height: 38px;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 	color: #fff;
 	border: none;
 	border-radius: 20px;
@@ -115,7 +114,7 @@ body{
 }
 .book_c_7{
 	height: 38px;
-	background: linear-gradient(325deg, #ff6c64, #ec407a);
+	background: linear-gradient(325deg, #ffcd19, #ff5345);
 	color: #fff;
 	border: none;
 	border-radius: 20px;
