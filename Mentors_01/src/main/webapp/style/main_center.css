@@ -5,18 +5,6 @@ ul,li { list-style: none;}
     width: 1280px;
 }
 
-/* .main_event{
-    width: 1280px;
-    margin: auto;
-} */
-
-/* .main_event .banner .banner_bg{
-    display: block;
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
-} */
-
 .slidbox{
     margin: auto;
     text-align: center;
@@ -50,23 +38,17 @@ ul,li { list-style: none;}
     cursor: pointer;
 }
 
-/* .slidbox .slidelist .slideitem img{
-    object-fit: cover;
-} */
-
 label.left{
     left: 20px;
-    background-image: url(../img/clean.jpg);
-    background-color: blue;
-    background-size: 50%;
+    opacity: 0.5;
+    background-image: url(../img/arrow-left.png);
     background-repeat: no-repeat;
 }
 
 label.right{
     right: 20px;
-    background-image: url(../img/clean.jpg);
-    background-color: violet;
-    background-size: 50%;
+    opacity: 0.5;
+    background-image: url(../img/arrow-right.png);
     background-repeat: no-repeat;
 }
 
@@ -125,15 +107,6 @@ label.right{
 .new_book img{
     display: block;
     width: 150px;
-}
-
-.text{
-    font-size: 20pt;
-    text-align: center;
-}
-
-.noticeboard{
-    float: right;
 }
 
 .bestlist{
