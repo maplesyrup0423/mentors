@@ -5,7 +5,29 @@
 차트 애니메이션(미정)
 버튼 토글
 */
+/*-------------------------div style----------------------------------------------*/
+.div_card {
+	/*position: relative;
+	display: flex;
+	flex-direction: column;*/
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid #e3e6f0;
+	border-radius: .35rem;
+	margin-top: 15px;
+}
 
+
+.div_shadow {
+	box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important
+}
+.div_card-body {
+	flex: 1 1 auto;
+	min-height: 1px;
+	padding: 1.25rem
+}
 /*----------------------------class_home_Include.jsp-------------------------------------*/
 
 html,
@@ -112,17 +134,18 @@ li {
 
 /*----------------------------class_home_center_home.jsp-------------------------------------*/
 .gray {
-	background-color: rgb(230, 230, 230);
+	/*background-color: rgb(230, 230, 230);*/
+	
 	padding: 15px;
 }
 
-.con_grade_status_div,
+/*.con_grade_status_div,
 .con_TW {
 	background-color: #fff;
 	border-radius: 25px;
 	margin-bottom: 15px;
 	padding: 5px;
-}
+}*/
 
 .color_div {
 
