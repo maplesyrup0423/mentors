@@ -6,8 +6,8 @@
     width: 1280px;
     animation: fadein 2s ease 1s;
     -webkit-animation: fadein 1s;
-    opacity: 0.6;
-    filter: blur(2px);
+    opacity: 0.4;
+    filter: blur(10px);
 }
 
 #bannerimg img{
