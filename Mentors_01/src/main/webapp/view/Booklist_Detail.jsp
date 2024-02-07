@@ -77,7 +77,6 @@
 		     <div class="box_info1">
 		         <div class="box_btn">
 		            <input type="button" id="iw_btn" value="펼쳐보기" />
-		                <img src="../img/expand_btn.png" id="iw_exbtn"/>
 		         </div>
 		     </div>
 		 </div>
