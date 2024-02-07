@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>content</title>
     <link rel="stylesheet" href="../style/main_center.css">
+    <link rel="stylesheet" href="../script/event.js">
+
 </head>
 
 <body>
@@ -100,8 +102,30 @@
                     </td>
                 </tr>
             </table>
-        </div>
+            <div class="main-center_img">
+                <div class="center-img">
+                    <a href=""><img src="../img/E_anime1.png" alt="봇치더락">복치더락</a>
+                </div>
+            
+                <div class="center-img">
+                    <a href=""><img src="../img/E_enimeK-ON.jpg" alt="k-on">
+                        <p>케이온</p>
+                    </a>
+                </div>
+            </div>
+        </div> 
     </main>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>$(document).ready(function(){
+        $('.main-center_img').slick({
+          setting_name: setting_value
+        });
+      });</script>
+
 </body>
 
 </html>
