@@ -120,7 +120,7 @@
 				</tbody>
 		</table>
 	</div>
-	<div><a href="" style="text-decoration: none"><button id="w_btn">글쓰기</button></a>
+	<div><<button id="w_btn" onclick="location.href='Notification_insert.jsp'">글쓰기</button>
 		<center>
 			<c:if test="${count>0 }">
 				<!-- 

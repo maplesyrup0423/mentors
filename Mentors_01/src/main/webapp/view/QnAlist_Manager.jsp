@@ -5,7 +5,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="../style/QnAlist.css" />
+	<link rel="stylesheet" href="../style/Boardlist.css" />
 	<title>Insert title here</title>
 	<style>
 		#searchInput {
@@ -119,7 +119,6 @@
 				</tbody>
 		</table>
 	</div>
-	<div><a href="" style="text-decoration: none"><button id="w_btn">글쓰기</button></a></div>
 		<center>
 			<c:if test="${count>0 }">
 				<!-- 
