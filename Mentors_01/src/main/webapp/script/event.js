@@ -13,7 +13,7 @@
 //     arrows: true //좌우 화살 버튼 노출 여부 ( false 시 안보임 )
 // });
 
-$('.multiple-items').slick({
+$('.main-center_img').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3
