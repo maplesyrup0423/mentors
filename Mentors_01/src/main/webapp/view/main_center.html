@@ -5,9 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>content</title>
-    <link rel="stylesheet" href="../style/main_center.css">
-    <link rel="stylesheet" href="../script/event.js">
+    <link rel="stylesheet" type="text/css" href="../style/main_center.css">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
 
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <script>
+        $( document ).ready( function() {
+            $('.main-center_img').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000
+});
+            
+            
+          } );
 </head>
 
 <body>
@@ -102,15 +117,30 @@
                     </td>
                 </tr>
             </table>
+
             <div class="main-center_img">
                 <div class="center-img">
-                    <a href=""><img src="../img/E_anime1.png" alt="봇치더락">복치더락</a>
+                    <a href=""><img src="../img/E_anime1.png" alt="봇치더락"><p>봇치더락 2기 확정!</p></a>
                 </div>
             
                 <div class="center-img">
-                    <a href=""><img src="../img/E_enimeK-ON.jpg" alt="k-on">
-                        <p>케이온</p>
-                    </a>
+                    <a href=""><img src="../img/E_enimeK-ON.jpg" alt="k-on"><p>케이온 극장판 개봉!</p></a>
+                </div>
+
+                <div class="center-img">
+                    <a href=""><img src="../img/E_maple1.jpg" alt="루시드"><p>메이플 이벤트!</p></a>
+                </div>
+
+                <div class="center-img">
+                    <a href=""><img src="../img/E_maple2.webp" alt="오르카"><p>이 악녀가!</p></a>
+                </div>
+
+                <div class="center-img">
+                    <a href=""><img src="../img/E_mido.webp" alt="미도와 파라솔"><p>미도와 파라솔 노래모음</p></a>
+                </div>
+
+                <div class="center-img">
+                    <a href=""><img src="../img/E_qwer.jpg" alt="qwer"><p>김계란의 qwer데뷔!</p></a>
                 </div>
             </div>
         </div> 
@@ -118,13 +148,8 @@
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="../script/event.js"></script>
 
-    <script>$(document).ready(function(){
-        $('.main-center_img').slick({
-          setting_name: setting_value
-        });
-      });</script>
 
 </body>
 

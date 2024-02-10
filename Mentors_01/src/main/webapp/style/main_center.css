@@ -149,3 +149,20 @@ label.right{
     background-image: url(../img/img.3.jpg);
     opacity: 0.5;
 }
+
+a{
+    text-decoration-line: none;
+    
+}
+
+.center-img img{
+    width: 400px;
+}
+
+.main-center_img{
+    display: block;
+    text-align: center;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
