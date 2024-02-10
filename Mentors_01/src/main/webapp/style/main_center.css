@@ -148,6 +148,8 @@ label.right{
 .background-img{
     background-image: url(../img/img.3.jpg);
     opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a{
@@ -160,9 +162,14 @@ a{
 }
 
 .main-center_img{
-    display: block;
+    display: inline-block;
     text-align: center;
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.slick-next slick-arrow{
+    color: black;
+}
+

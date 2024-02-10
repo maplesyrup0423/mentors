@@ -18,3 +18,5 @@ $('.main-center_img').slick({
     slidesToShow: 3,
     slidesToScroll: 3
   });
+
+  
