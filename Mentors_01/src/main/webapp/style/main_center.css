@@ -169,7 +169,13 @@ a{
     margin-right: auto;
 }
 
-.slick-next slick-arrow{
+.slick-next{
     color: black;
 }
+
+.slick-prev{
+    left: -25px;
+    background-color: black;
+}
+
 
