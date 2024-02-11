@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>class_home_center_home</title>
 <link rel="stylesheet" href="../style/class_home_style.css" />
+
 </head>
 <body>
 	<div class="con">
@@ -23,9 +24,9 @@
 					<table>
 						<tr>
 							<td>
-								<!--TODO.원형 차트(임시)-> 도넛 그래프 플러그인 사용해야함 -->
-								<div class="chart">
-									<div class="chart-bar" data-deg="50"></div>
+								<!--도넛 그래프 -->
+								<div class="chart-container">
+									<div class="chart_d donut_chart1"><span class="chart-center">72%</span></div>
 								</div>
 							</td>
 							<td rowspan="2">
@@ -106,6 +107,6 @@
 	<!-- ------------------------------------------------------------------------------------------------------- -->
 	<!-- ------------------------------------------------------------------------------------------------------- -->
 
-
+<script src="../script/donut_chart.js"></script>
 </body>
 </html>
