@@ -10,44 +10,73 @@
 <body>
 	<div class="gray">
 		<div class="div_card div_shadow">
-			<div class="con_test dsiv_card-body">
-				<table class="class_home_center_home_Table">
-					<tr>
-						<td><div class="con_test_title">
+			<div class="div_card-header">
 
-								<span><div class="color_div"></div>시험</span>
-
-							</div></td>
-					</tr>
-					<tr>
-						<td><div class="con_test_table">
-								<table border="1" width="900">
-									<thead>
-										<tr>
-											<td>평가명</td>
-											<td>반영비율</td>
-											<td>진행상태</td>
-											<td>점수</td>
-											<td>응시/제출</td>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>저작권법 온라인 시험</td>
-											<td>20%</td>
-											<td>X</td>
-											<td>-</td>
-											<td><button onclick="location.href='class_test.jsp'">응시</button></td>
-										</tr>
-									</tbody>
-								</table>
-							</div></td>
-					</tr>
-				</table>
-
-
+				<h6 class="font-weight-bold text-primary">시험</h6>
 			</div>
+			<div class="div_card-body">
+				<div class="con_test_table">
+					<table border="1" width="900">
+						<thead>
+							<tr>
+								<td>평가명</td>
+								<td>반영비율</td>
+								<td>진행상태</td>
+								<td>점수</td>
+								<td>응시/제출</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>저작권법 온라인 시험</td>
+								<td>20%</td>
+								<td>X</td>
+								<td>-</td>
+								<td><button onclick="location.href='class_test.jsp'">응시</button></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<!-- 		<div class="div_card div_shadow">
+				<div class="con_test dsiv_card-body">
+					<table class="class_home_center_home_Table">
+						<tr>
+							<td><div class="con_test_title">
+
+									<span><div class="color_div"></div>시험</span>
+
+								</div></td>
+						</tr>
+						<tr>
+							<td><div class="con_test_table">
+									<table border="1" width="900">
+										<thead>
+											<tr>
+												<td>평가명</td>
+												<td>반영비율</td>
+												<td>진행상태</td>
+												<td>점수</td>
+												<td>응시/제출</td>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>저작권법 온라인 시험</td>
+												<td>20%</td>
+												<td>X</td>
+												<td>-</td>
+												<td><button onclick="location.href='class_test.jsp'">응시</button></td>
+											</tr>
+										</tbody>
+									</table>
+								</div></td>
+						</tr>
+					</table>
+
+
+				</div>
+			</div> -->
 		</div>
-	</div>
 </body>
 </html>

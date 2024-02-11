@@ -65,12 +65,23 @@
 			<table width="1280">
 				<!-- Top부분 -->
 				<tr height="80">
-					<td colspan="2" align="center"><jsp:include
-							page="class_home_top.jsp" /></td>
+					<td colspan="2" align="center"><div class="class_home_top">
+							<div class="logo_div">
+								<img src="../img/logo.PNG" id="logo" />
+							</div>
+							<div class="Exit_div">
+								<div>
+									<a href="Mentors_Main.jsp"> <img src="../img/Exit.png"
+										id="Exit" /></a>
+								</div>
+								<div>
+									<span>나가기</span>
+								</div>
+
+							</div>
+						</div></td>
 				</tr>
-				<tr height="20">
-					<td colspan="2"></td>
-				</tr>
+	
 				<tr>
 					<!-- Left 부분 -->
 					<td rowspan="2" width="200" align="center" valign="top"
@@ -92,7 +103,7 @@
 					</td>
 
 					<!-- Center 부분 -->
-					<td height="80"><jsp:include
+			<td height="80"><jsp:include
 							page="class_home_center_home_top.jsp" /></td>
 				</tr>
 				<!-- Center_top 부분 -->

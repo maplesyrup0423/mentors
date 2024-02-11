@@ -88,7 +88,9 @@ table,
 td,
 th,
 ul,
-li {
+li,
+div,
+button{
 	margin: 0;
 	padding: 0;
 }
@@ -100,7 +102,7 @@ li {
 	height: 80px;
 	display: block;
 	/*border-bottom: 1px solid rgb(192, 192, 192);*/
-	background-color: #fff;
+	background-color: #00457E;
 }
 
 .logo_div {
