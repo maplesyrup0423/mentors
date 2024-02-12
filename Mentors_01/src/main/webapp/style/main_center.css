@@ -162,20 +162,8 @@ a{
 }
 
 .main-center_img{
-    display: inline-block;
     text-align: center;
-    width: 1280px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
-
-.slick-next{
-    color: black;
-}
-
-.slick-prev{
-    left: -25px;
-    background-color: black;
-}
-
-
