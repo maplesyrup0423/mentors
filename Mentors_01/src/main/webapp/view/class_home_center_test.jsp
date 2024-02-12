@@ -15,15 +15,15 @@
 				<h6 class="font-weight-bold text-primary">시험</h6>
 			</div>
 			<div class="div_card-body">
-				<div class="con_test_table">
-					<table border="1" width="900">
+				<div class="GS_table_div">
+					<table class="GS_table">
 						<thead>
 							<tr>
-								<td>평가명</td>
-								<td>반영비율</td>
-								<td>진행상태</td>
-								<td>점수</td>
-								<td>응시/제출</td>
+								<th>평가명</th>
+								<th>반영비율</th>
+								<th>진행상태</th>
+								<th>점수</th>
+								<th>응시/제출</thF>
 							</tr>
 						</thead>
 						<tbody>
@@ -32,7 +32,7 @@
 								<td>20%</td>
 								<td>X</td>
 								<td>-</td>
-								<td><button onclick="location.href='class_test.jsp'">응시</button></td>
+								<td><button class="blue_btn" onclick="location.href='class_test.jsp'">응시</button></td>
 							</tr>
 						</tbody>
 					</table>
