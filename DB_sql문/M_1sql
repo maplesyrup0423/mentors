@@ -1,0 +1,142 @@
+--계정생성
+ALTER SESSION SET "_ORACLE_SCRIPT" = true;
+CREATE USER mentors_01 IDENTIFIED BY 12345;
+GRANT connect, resource to mentors_01;
+GRANT CREATE view, create sequence, create procedure to mentors_01;
+
+-------------------------------------------------------------------------
+
+DROP TABLE teacher_info;
+
+CREATE TABLE teacher_info (
+    teacher_id       VARCHAR2(15) NOT NULL,
+    teacher_name     VARCHAR2(20) NOT NULL,
+    teacher_birth    VARCHAR2(8) NOT NULL,
+    teacher_gender   VARCHAR2(10) NOT NULL,
+    teacher_email    VARCHAR2(25) NOT NULL,
+    teacher_tel      VARCHAR2(13) NOT NULL,
+    teacher_password VARCHAR2(15) NOT NULL,
+    teacher_nickname VARCHAR2(20) NOT NULL,
+    teacher_work_in  VARCHAR2(40) NOT NULL,
+    teacher_type     VARCHAR2(12) NOT NULL,
+    teacher_neis     VARCHAR2(20) NOT NULL
+);
+ALTER TABLE Teacher_Info ADD PRIMARY KEY ( Teacher_Id );
+
+select * from teacher_info;
+
+-------------------------------------------------------------------------
+DROP TABLE  event ;
+
+CREATE TABLE  event ( 
+        event_key VARCHAR2(20) NOT NULL, 
+        event_thumbnail VARCHAR2(500) NOT NULL, 
+        event_content_img VARCHAR2(500) NOT NULL,
+        event_s_date date NOT NULL, 
+        event_e_date date NOT NULL, 
+        event_title VARCHAR2(40) NOT NULL,
+        event_text VARCHAR2(500) NOT NULL 
+);
+
+
+ALTER TABLE event ADD PRIMARY KEY ( Event_Key );
+select* from event;
+
+-------------------------------------------------------------------------
+
+drop table workplace_T;
+
+create table workplace_T(
+    WT_Key VARCHAR2(20) NOT NULL,
+    WT_Title VARCHAR2(50) NOT NULL,
+    WT_Price number NOT NULL,
+    WT_TrainingTime number NOT NULL,
+    WT_Tag_School number NOT NULL,
+    WT_Tag_Time number NOT NULL,
+    WT_Tag_TypeCategory number NOT NULL,
+    WT_Thumbnail VARCHAR2(500) NOT NULL,
+    WT_StartDay date NOT NULL,
+    WT_Info VARCHAR2(500) NOT NULL,
+    WT_Text VARCHAR2(500) NOT NULL,
+    WT_Video VARCHAR2(500) NOT NULL
+);
+
+ALTER TABLE workplace_T ADD PRIMARY KEY ( WT_Key );
+
+select * from workplace_T;
+-------------------------------------------------------------------------
+drop table WTT;
+
+create table WTT(
+    WTT_Key VARCHAR2(20) NOT NULL,
+    WT_Key VARCHAR2(20) NOT NULL,
+    teacher_id VARCHAR2(15) NOT NULL,
+    WTT_payment_date date NOT NULL,
+    WTT_viewing_time number ,
+    WTT_test_result number,
+    WTT_Completion number(1)
+);
+ALTER TABLE WTT MODIFY (WTT_viewing_time DEFAULT 0);
+ALTER TABLE WTT MODIFY (WTT_viewing_time DEFAULT 0);
+ALTER TABLE WTT MODIFY (WTT_Completion DEFAULT 0);
+ALTER TABLE WTT ADD PRIMARY KEY ( WTT_Key );
+ALTER TABLE WTT ADD FOREIGN KEY ( WT_Key ) REFERENCES workplace_T ( WT_Key );
+ALTER TABLE WTT ADD FOREIGN KEY ( teacher_id ) REFERENCES teacher_info ( teacher_id );
+select * from WTT;
+
+
+-------------------------------------------------------------------------
+
+drop table qna_q;
+
+create table qna_q(
+    q_key VARCHAR2(20) NOT NULL,
+    WTT_Key VARCHAR2(20) NOT NULL,
+    q_Title VARCHAR2(50) NOT NULL,
+    q_content VARCHAR2(50) NOT NULL,
+    q_a_check number(1),
+    q_date date
+);
+ALTER TABLE qna_q ADD PRIMARY KEY ( q_key );
+ALTER TABLE qna_q ADD FOREIGN KEY ( WTT_Key ) REFERENCES WTT ( WTT_Key );
+ALTER TABLE qna_q MODIFY (q_a_check DEFAULT 0);
+select * from qna_q;
+
+-------------------------------------------------------------------------
+drop table qna_a;
+
+create table qna_a(
+    a_key VARCHAR2(20) NOT NULL,
+    q_key VARCHAR2(20) NOT NULL,
+    a_content VARCHAR2(50) NOT NULL,
+    a_date date
+);
+ALTER TABLE qna_a ADD PRIMARY KEY ( a_key );
+ALTER TABLE qna_a ADD FOREIGN KEY ( q_key ) REFERENCES qna_q ( q_key );
+select * from qna_a;
+-------------------------------------------------------------------------
+drop table Notification;
+
+create table Notification(
+    noti_key VARCHAR2(20) NOT NULL,
+    WT_Key VARCHAR2(20) NOT NULL,
+    noti_Title VARCHAR2(50) NOT NULL,
+    noti_content VARCHAR2(50) NOT NULL,
+    noti_date date
+);
+ALTER TABLE Notification ADD PRIMARY KEY ( noti_key );
+ALTER TABLE Notification ADD FOREIGN KEY ( WT_Key ) REFERENCES workplace_T ( WT_Key );
+select * from Notification;
+
+-------------------------------------------------------------------------
+drop table cart;
+create table cart(
+    teacher_id VARCHAR2(15) NOT NULL,
+    WT_Key VARCHAR2(20) NOT NULL
+);
+ALTER TABLE cart ADD FOREIGN KEY ( teacher_id ) REFERENCES teacher_info ( teacher_id );
+ALTER TABLE cart ADD FOREIGN KEY ( WT_Key ) REFERENCES workplace_T ( WT_Key );
+select * from cart;
+
+-------------------------------------------------------------------------
+
