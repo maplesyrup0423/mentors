@@ -21,7 +21,7 @@
 							<tr>
 								<th>평가명</th>
 								<th>반영비율</th>
-								<th>진행상태</th>
+								<th>응시/제출 기간</th>
 								<th>점수</th>
 								<th>응시/제출</thF>
 							</tr>
@@ -30,7 +30,7 @@
 							<tr>
 								<td>저작권법 온라인 시험</td>
 								<td>20%</td>
-								<td>X</td>
+								<td>2024-01-01~2023-01-21</td>
 								<td>-</td>
 								<td><button class="blue_btn" onclick="location.href='class_test.jsp'">응시</button></td>
 							</tr>
