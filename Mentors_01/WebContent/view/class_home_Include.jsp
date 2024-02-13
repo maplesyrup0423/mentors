@@ -67,7 +67,7 @@
 				<tr height="80">
 					<td colspan="2" align="center"><div class="class_home_top">
 							<div class="logo_div">
-								<img src="../img/logo.PNG" id="logo" />
+								<img src="../img/M_logo_fff_2.png" id="logo" />
 							</div>
 							<div class="Exit_div">
 								<div>
