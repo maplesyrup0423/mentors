@@ -94,14 +94,10 @@
 										<div class="progress"></div>
 									</div>
 								</div>
-								
 						</tr>
 					</table>
 				</div>
 			</div>
-
-
-
 		</div>
 
 	</div>
@@ -110,6 +106,5 @@
 	<!-- ------------------------------------------------------------------------------------------------------- -->
 
 	<script src="../script/donut_chart.js"></script>
-	<script src="../script/bar_chart.js"></script>
 </body>
 </html>
