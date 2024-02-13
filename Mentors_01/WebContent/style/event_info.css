@@ -4,8 +4,10 @@
     text-align: center;
 }
 
-#up_button fa-circle-chevron-up{
+#up_icon{
     position: fixed;
+    top: 850px;
+    
     bottom: 5px;
     right: 5px;
 }

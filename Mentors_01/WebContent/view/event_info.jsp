@@ -5,18 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style/event_info.css">
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+   // <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="main_all">
+    
+    <div id="up-point"></div>
 
-        dkfslkfjsdlkjflsdkjf ksldajf ;sdjf asj f;djs ljasdlkfjdslkfj
-        salfjasdl;fjsd;lf
-        asfjlsdjflasdjflksdjf
-        aslfkjasldkjfls
-        <br>salfjasdlsjflsdjflksdjfklsdjf
-        sldfjsldfjbr    
-        sldfjlsjbt
+       lpllllll
+        <br>mmmm
         <hr>
         dlfjsdkljflkdsfbt
         <br>
@@ -93,7 +90,7 @@
         lksdfjlsdkjfklsdj
 
         <div>
-            <a href="../view/Mentors_Main.jsp">
+            <a href="#up-point" id="up_icon">
                 <i class="fa-solid fa-circle-chevron-up"></i>
             </a>
         </div>
