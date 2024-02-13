@@ -92,10 +92,10 @@
         <br>
         lksdfjlsdkjfklsdj
 
-        <div >
-            <button id="up_button">
+        <div>
+            <a href="../view/Mentors_Main.jsp">
                 <i class="fa-solid fa-circle-chevron-up"></i>
-            </button>
+            </a>
         </div>
 
     </div>
