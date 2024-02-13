@@ -1,0 +1,11 @@
+.main_all{
+    margin: auto;
+    width: 1280px;
+    text-align: center;
+}
+
+#up_button fa-circle-chevron-up{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
