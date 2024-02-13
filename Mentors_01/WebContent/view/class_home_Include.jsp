@@ -75,7 +75,7 @@
 										id="Exit" /></a>
 								</div>
 								<div>
-									<span>나가기</span>
+									<span class="text_fff">나가기</span>
 								</div>
 
 							</div>

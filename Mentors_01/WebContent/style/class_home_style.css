@@ -59,7 +59,10 @@
 	
 }
 
-
+.text_fff{
+	color: #fff;
+	
+}
 /*----------------------------class_home_Include.jsp-------------------------------------*/
 
 html,
@@ -250,6 +253,10 @@ button{
   background-color: #00457E;
   color: #fff;
 }
+.grade_status{
+	
+	text-align: center;
+}
 /*----------------------------class_home_center_test.jsp-------------------------------------*/
 
 .con_test{
@@ -302,7 +309,7 @@ button{
 	display:  flex;
 	gap: 15px;
 	margin-bottom: 20px;
-	
+	padding: 10px;
 }
 .chart_d{
 	position: relative;
