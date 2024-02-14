@@ -26,7 +26,9 @@
 							<td>
 								<!--도넛 그래프 -->
 								<div class="chart-container">
-									<div class="chart_d donut_chart1"><span class="chart-center">72%</span></div>
+									<div class="chart_d donut_chart1">
+										<span class="chart-center">72%</span>
+									</div>
 								</div>
 							</td>
 							<td rowspan="2">
@@ -91,15 +93,11 @@
 									<div class="progress-bar">
 										<div class="progress"></div>
 									</div>
-								</div></td>
-
+								</div>
 						</tr>
 					</table>
 				</div>
 			</div>
-
-
-
 		</div>
 
 	</div>
@@ -107,6 +105,6 @@
 	<!-- ------------------------------------------------------------------------------------------------------- -->
 	<!-- ------------------------------------------------------------------------------------------------------- -->
 
-<script src="../script/donut_chart.js"></script>
+	<script src="../script/donut_chart.js"></script>
 </body>
 </html>
