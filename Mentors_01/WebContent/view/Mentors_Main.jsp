@@ -8,11 +8,10 @@
 <meta charset="UTF-8">
 <title>main1_top</title>
 <link rel="stylesheet" href="../style/Mentors_Main.css" />
-</head>
-<body>
-	<%
+</head>h 
+<body>	<%
 	String mainUrl = "";
-	String mainNum = request.getParameter("mainNum");
+	String mainNum = request.getParameter("<mainnu></mainnu>m");
 	if (mainNum == null) {
 		mainUrl = "Mentors_main_center.jsp";//메인 
 	} else if (mainNum.equals("1")) {

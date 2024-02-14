@@ -6,10 +6,19 @@
 <meta charset="UTF-8">
 <title>Sign Up</title>
 <link rel="stylesheet" href="../style/Sign_up.css" />
+<script>
+	function changeText1() {
+		document.getElementById("sign_comment").innerHTML = "로그인창으로 이동합니다.";
+	}
+	function restoreText() {
+		document.getElementById("sign_comment").innerHTML = "회원가입 버튼을 눌러 로그인창으로 돌아갈 수 있습니다.";
+	}
+</script>
 </head>
 <body>
 	<div class= "container"> 
-		<div class = "sign">회원가입</div>
+		<div class = "sign" onmouseover="changeText1()" onmouseleave="restoreText()" onclick="location.href='Login.jsp'">회원가입</div>
+		<div class = "sign_comment" id="sign_comment">회원가입 버튼을 눌러 로그인창으로 돌아갈 수 있습니다.</div>
 		<hr />
 		<form action="">
 			<div class = "body">
@@ -61,12 +70,20 @@
 				</div>
 				<div class = "create_account">
 					<!-- 아이디  -->
-					<p>
+					<p class = "absolute">
 						<input type="text" name = "id" required/>
 						<label for="id">
 							<span>아이디를 입력하세요.</span>
 						</label>
+						<button>중복확인</button>
 					</p>
+					<p class = "absolute">
+						<input type="text" name = "nickname" required /> 
+						<label for="nickname">
+							<span>닉네임을 입력하고 중복확인을 눌러주세요 </span>
+						</label> 
+					</p>
+					
 					<!-- 비밀번호 -->
 					<p>
 						<input type="password" name = "pw1" autocomplete = "off" required/>
@@ -116,6 +133,13 @@
 						<input type="radio" name="school_type" value="중등교사">중등교사
 						<input type="radio" name="school_type" value="고등교사">고등교사
 					</div>
+					
+					<p>
+						<input type="text" name = "neis" required /> 
+						<label for="neis">
+							<span>neis 정보를 입력하세요.</span>
+						</label> 
+					</p>
 				</div>	
 					
 			</div>

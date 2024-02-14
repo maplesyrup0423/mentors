@@ -10,7 +10,7 @@
 <body>
 	<center>
 		<table class="main_table" >
-			<h1 class = "title_mypage">MyPage</h1>
+			<h1 class = "title_mypage">마이페이지 수정</h1>
 			<tr class="main_tr">
 				<td class="main_td">
 					<div class = "div_box" >
@@ -19,9 +19,6 @@
 							<tr>
 								<td class = "td_left">성명</td>
 								<td class = "td_right"><input type="text" value = "김씨"/></td>
-							</tr>
-
-							<tr>
 								<td class = "td_left">생년월일</td>
 								<td class = "td_right"><input type="text" value = "1281-01-23"/></td>
 							</tr>
@@ -29,16 +26,13 @@
 							<tr>
 								<td class = "td_left">이메일</td>
 								<td class = "td_right"><input type="text" value = "ajipgagosipda@gipgago.sipda"/></td>
-							</tr>
-
-							<tr>
 								<td class = "td_left">전화번호</td>
 								<td class = "td_right"><input type="text" value = "02-784-8917"/></td>
 							</tr>
 
 							<tr>
 								<td class = "td_left">성별</td>
-								<td class = "td_right">
+								<td class = "td_right_gender">
 									<select>
 										<option value="male" selected>남성</option>
 										<option value="femail">여성</option>
@@ -52,11 +46,13 @@
 							<tr>
 								<td class = "td_left">아이디</td>
 								<td class = "td_right"><input type="text" value = "hahahahah"/></td>
-							</tr>
-
-							<tr>
 								<td class = "td_left">닉네임</td>
 								<td class = "td_right"><input type="text" value = "대머리"/></td>
+							</tr>
+							
+							<tr>
+								<td class = "td_left">현재 비밀번호</td>
+								<td class = "td_right"><input type="password" /></td>
 							</tr>
 						</table>
 						
@@ -65,9 +61,6 @@
 							<tr>
 								<td class = "td_left">직장명</td>
 								<td class = "td_right"><input type="text" value = "솔데스크 대학원생 양성 학습소"/></td>
-							</tr>
-
-							<tr>
 								<td class = "td_left">교직타입</td>
 								<td class = "td_right">
 									<input type="radio" name="school_type" value="초등교사" checked>초등교사 
@@ -81,7 +74,7 @@
 						<table>
 							<tr>
 								<td><input class = "change_fin" type="button" value = "수정완료"
-								onClick="location.href='Mentors_Main.jsp?mainNum=9'"/></td>
+								onClick="location.href='Mypage.jsp'"/></td>
 							</tr>
 						</table>
 					</div>
