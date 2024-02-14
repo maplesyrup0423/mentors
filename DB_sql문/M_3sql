@@ -6,7 +6,7 @@ start with 1
 increment by 1;
 
 --insert into event values('EV' || TO_CHAR(event_seqid.nextval),'썸네일','내용이미지','2024-01-01','2024-12-31','제목','내용');
---'EV' || TO_CHAR(event_seqid.nextval)
+?--'EV' || TO_CHAR(event_seqid.nextval)
  -------------------------------------------------------------------------
  --WT_Key 키값 시퀀스
 drop SEQUENCE WT_seqid;
@@ -17,14 +17,14 @@ increment by 1;
 
 ?--'WT' || TO_CHAR(WT_seqid.nextval)
  -------------------------------------------------------------------------
---WTT_Key 키값 시퀀스
-drop SEQUENCE WTT_seqid;
+--WWT_Key 키값 시퀀스
+drop SEQUENCE WWT_seqid;
 
-create SEQUENCE WTT_seqid
+create SEQUENCE WWT_seqid
 start with 1
 increment by 1;
 
---'WTT' || TO_CHAR(WTT_seqid.nextval)
+?--'WWT' || TO_CHAR(WWT_seqid.nextval)
  
  -------------------------------------------------------------------------
 --q_key 키값 시퀀스
@@ -43,7 +43,7 @@ create SEQUENCE ak_seqid
 start with 1
 increment by 1;
 
---'ak' || TO_CHAR(ak_seqid.nextval)
+?--'ak' || TO_CHAR(ak_seqid.nextval)
  -------------------------------------------------------------------------
 --noti_key 키값 시퀀스
 drop SEQUENCE noti_seqid;
@@ -52,7 +52,14 @@ create SEQUENCE noti_seqid
 start with 1
 increment by 1;
 
---'noti' || TO_CHAR(noti_seqid.nextval)
+?--'noti' || TO_CHAR(noti_seqid.nextval)
  
  -------------------------------------------------------------------------
- 
+ --B_key 키값 시퀀스
+drop SEQUENCE B_key_seqid;
+
+create SEQUENCE B_key_seqid
+start with 1
+increment by 1;
+
+?--'BOOK' || TO_CHAR(B_key_seqid.nextval)
