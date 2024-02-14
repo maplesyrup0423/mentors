@@ -77,6 +77,9 @@
 						</label>
 						<button>중복확인</button>
 					</p>
+					<div class = "id_check_message">
+						사용가능할지도 모르는 아이디입니다.
+					</div>
 					<p class = "absolute">
 						<input type="text" name = "nickname" required /> 
 						<label for="nickname">
