@@ -140,3 +140,25 @@ select * from cart;
 
 -------------------------------------------------------------------------
 
+drop table booklist;
+
+create table booklist(
+    BK_Key VARCHAR2(20) NOT NULL,
+    BK_img VARCHAR2(255),
+    BK_title VARCHAR2(200),
+    BK_autor VARCHAR2(200),
+    BK_date VARCHAR2(20),
+    BK_isbn VARCHAR2(40),
+    BK_publisher VARCHAR2(40),
+    BK_price NUMBER,
+    BK_yes24 VARCHAR2(200),
+    BK_ald VARCHAR2(200),
+    BK_kobo VARCHAR2(200),
+    BK_info VARCHAR2(4000),
+    BK_content VARCHAR2(4000),
+    BK_autorinfo VARCHAR2(4000),
+    BK_category NUMBER(1)
+);
+ALTER TABLE booklist ADD PRIMARY KEY ( BK_Key );
+
+select * from booklist;

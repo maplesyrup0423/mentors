@@ -20,7 +20,7 @@
 		</div>
 		
 		<div class="cart_center_top">
-			장바구니 정보
+			[장바구니 정보]
 		</div>
 
 		<div class="cen">
