@@ -9,14 +9,11 @@
 </head>
 <body>
     <div class="main_all">
+    
+    <div id="up-point"></div>
 
-        dkfslkfjsdlkjflsdkjf ksldajf ;sdjf asj f;djs ljasdlkfjdslkfj
-        salfjasdl;fjsd;lf
-        asfjlsdjflasdjflksdjf
-        aslfkjasldkjfls
-        <br>salfjasdlsjflsdjflksdjfklsdjf
-        sldfjsldfjbr    
-        sldfjlsjbt
+       lpllllll
+        <br>mmmm
         <hr>
         dlfjsdkljflkdsfbt
         <br>
@@ -93,8 +90,8 @@
         lksdfjlsdkjfklsdj
 
         <div>
-            <a href="../view/Mentors_Main.jsp">
-                <i class="fa-solid fa-circle-chevron-up"></i>
+            <a href="#up-point" >
+                <i class="fa-solid fa-circle-chevron-up" id="up_icon"></i>
             </a>
         </div>
 
