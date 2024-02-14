@@ -11,7 +11,7 @@
 </head>h 
 <body>	<%
 	String mainUrl = "";
-	String mainNum = request.getParameter("<mainnu></mainnu>m");
+	String mainNum = request.getParameter("mainNum");
 	if (mainNum == null) {
 		mainUrl = "Mentors_main_center.jsp";//메인 
 	} else if (mainNum.equals("1")) {
