@@ -55,11 +55,11 @@ increment by 1;
 ?--'noti' || TO_CHAR(noti_seqid.nextval)
  
  -------------------------------------------------------------------------
- --B_key 키값 시퀀스
-drop SEQUENCE B_key_seqid;
+ --BK_key 키값 시퀀스
+drop SEQUENCE BK_key_seqid;
 
-create SEQUENCE B_key_seqid
+create SEQUENCE BK_key_seqid
 start with 1
 increment by 1;
 
-?--'BOOK' || TO_CHAR(B_key_seqid.nextval)
+?--'BOOK' || TO_CHAR(BK_key_seqid.nextval)

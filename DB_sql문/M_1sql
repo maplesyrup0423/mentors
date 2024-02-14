@@ -162,3 +162,5 @@ create table booklist(
     BK_category NUMBER
 );
 ALTER TABLE booklist ADD PRIMARY KEY ( BK_Key );
+
+select * from booklist;
