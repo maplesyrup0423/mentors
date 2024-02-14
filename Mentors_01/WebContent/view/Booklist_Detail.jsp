@@ -27,7 +27,7 @@
 		</div>
 		<div class="bookdetail_box">
 			<div class="bd_img">
-				<div class="img_box"></div>
+				<div class="img_box"><img src="../img/인공지능활용교육.jpg"/></div>
 			</div>
 			<div class="bd_info">
 				<div class="info_box">
