@@ -12,12 +12,20 @@
 }
 
 .red{
-    color: red;
+    color:  #FF5345;
 }
 
 .warning{
-    margin: 10px;
-    
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cart_center_top{
+	margin-left: 10px;
+	margin-top: 20px;
+	padding-top: 20px;
+	font-size: 16pt;
+	font-weight: bold;
 }
 
 .cen{
@@ -30,7 +38,8 @@
 }
 
 .WT_pay{
-    margin-top: 20px;
+    margin-top: 30px;
+    padding-top: 20px;
     width: 1280px;
     height: 250px;
     border-top: 1px solid rgb(196, 193, 193);
@@ -45,6 +54,7 @@
     height: 200px;
     margin-right: 50px;
     margin-top: 20px;
+    border-right: 1px solid rgb(212, 212, 212);
 }
 
 .cart_title{
@@ -82,16 +92,22 @@
 
 .cart_payment{
     margin: 20px;
-    padding-top: 50px;
+    padding: 50px;
     width: 100px;
     height: 100px;
     text-align: right;
+    border-right: 1px solid rgb(212, 212, 212);
 }
 
 .cart_pay{
+	margin-top: 30px;
     font-size: 18pt;
     font-weight: 550;
     margin-bottom: 10px;
+}
+
+.cart_buttons{
+	margin-top: 30px;
 }
 
 .cart_del{
