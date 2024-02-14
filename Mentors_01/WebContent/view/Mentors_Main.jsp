@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <title>main1_top</title>
 <link rel="stylesheet" href="../style/Mentors_Main.css" />
-</head>h 
+</head>
 <body>	<%
 	String mainUrl = "";
 	String mainNum = request.getParameter("mainNum");
