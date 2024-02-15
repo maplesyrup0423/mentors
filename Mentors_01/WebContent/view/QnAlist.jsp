@@ -5,13 +5,8 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="../style/Boardlist.css" />
+	<link rel="stylesheet" href="../style/QnAlist.css" />
 	<title>Insert title here</title>
-	<style>
-		#searchInput {
-			text-align: center;
-		}
-	</style>
 </head>
 
 <body>
@@ -55,7 +50,7 @@
 			<thead>
 				<tr class="view">
 					<th id="number">번호</th>
-					<th id="category">카테고리</th>
+					<th id="category">과목명</th>
 					<th id="title">제목</th>
 					<th id="writer">작성자</th>
 					<th id="date">작성일</th>
@@ -65,7 +60,7 @@
 				<tbody>
 					<tr class="number1">
 						<td id="num">1</td>
-						<td id="cate">카테고리</td>
+						<td id="cate">과목명</td>
 						<td id="tit" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
 						<td id="wt">작성자</td>
 						<td id="dt">작성일</td>
@@ -74,7 +69,7 @@
 					</tr>
 					<tr class="category1">
 						<td id="num2">2</td>
-						<td id="cate2">카테고리</td>
+						<td id="cate2">과목명</td>
 						<td id="tit2" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
 						<td id="wt2">작성자</td>
 						<td id="dt2">작성일</td>
@@ -83,7 +78,7 @@
 					</tr>
 					<tr class="title1">
 						<td id="num3">3</td>
-						<td id="cate3">카테고리</td>
+						<td id="cate3">과목명</td>
 						<td id="tit3" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
 						<td id="wt3">작성자</td>
 						<td id="dt3">작성일</td>
@@ -92,7 +87,7 @@
 					</tr>
 					<tr class="writer1">
 						<td id="num4">4</td>
-						<td id="cate4">카테고리</td>
+						<td id="cate4">과목명</td>
 						<td id="tit4" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
 						<td id="wt4">작성자</td>
 						<td id="dt4">작성일</td>
@@ -101,7 +96,7 @@
 					</tr>
 					<tr class="date1">
 						<td id="num5">5</td>
-						<td id="cate5">카테고리</td>
+						<td id="cate5">과목명</td>
 						<td id="tit5" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
 						<td id="wt5">작성자</td>
 						<td id="dt5">작성일</td>
@@ -110,7 +105,7 @@
 					</tr>
 					<tr class="state1">
 						<td id="num6">6</td>
-						<td id="cate6">카테고리</td>
+						<td id="cate6">과목명</td>
 						<td id="tit6" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
 						<td id="wt6">작성자</td>
 						<td id="dt6">작성일</td>
@@ -119,7 +114,7 @@
 				</tbody>
 		</table>
 	</div>
-	<div><a href="" style="text-decoration: none"><button id="w_btn">글쓰기</button></a>
+	<div><style="text-decoration: none"><button onclick="location.href='QnAlist_insert.jsp';"id="w_btn">글쓰기</button></div>
 		<center>
 			<c:if test="${count>0 }">
 				<!-- 
@@ -160,7 +155,7 @@
 				</c:if>
 			</c:if>
 		</center>
-	</div>
+	
 
 </body>
 

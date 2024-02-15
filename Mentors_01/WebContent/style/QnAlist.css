@@ -343,17 +343,19 @@ table.list_tbl{
 	text-align: center;
 }
 
+#w_btn{
 
-
-.search{
-	background-color: gray;
-	width: 80px;
-	height: 40px;
-	border: 0;
-	cursor: pointer;
-	margin-left: 10px;
+    border-radius: 30px;
+    background-color: greenyellow;
+    width: 130px;
+    height: 40px; 
+    font-size: 17px;
+    margin-left: 1360px;
+	
 }
-
+.w_btn_div{
+	width: 1080px;
+}
 
 .sc {
 	position: absolute;
@@ -390,7 +392,4 @@ table.list_tbl{
 	border: none;
 	
 }
-
-
-
 

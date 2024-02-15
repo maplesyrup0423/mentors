@@ -5,13 +5,8 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="../style/Notification.css" />
-	<title><a href="#">공지사항</a></title>
-	<style>
-		#searchInput {
-			text-align: center;
-		}
-	</style>
+	<link rel="stylesheet" href="../style/Boardlist.css" />
+	<title>Insert title here</title>
 </head>
 
 <body>
@@ -66,7 +61,7 @@
 					<tr class="number1">
 						<td id="num">1</td>
 						<td id="cate">카테고리</td>
-						<td id="tit" onclick="location.href='class_home_Include.jsp?CHnum=5';">제목</td>
+						<td id="tit" onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
 						<td id="wt">작성자</td>
 						<td id="dt">작성일</td>
 						<td id="st"> <div class="bordergreen">답변완료</div></td>
@@ -75,7 +70,7 @@
 					<tr class="category1">
 						<td id="num2">2</td>
 						<td id="cate2">카테고리</td>
-						<td id="tit2" onclick="location.href='class_home_Include.jsp?CHnum=5';">제목</td>
+						<td id="tit2" onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
 						<td id="wt2">작성자</td>
 						<td id="dt2">작성일</td>
 						<td id="st2"><div class="bordergrey">답변대기</div></td>
@@ -84,8 +79,7 @@
 					<tr class="title1">
 						<td id="num3">3</td>
 						<td id="cate3">카테고리</td>
-						
-						<td id="tit3" onclick="location.href='class_home_Include.jsp?CHnum=5';">제목</td>
+						<td id="tit3" onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
 						<td id="wt3">작성자</td>
 						<td id="dt3">작성일</td>
 						<td id="st3"><div class="bordergreen2">상태</div></td>
@@ -94,7 +88,7 @@
 					<tr class="writer1">
 						<td id="num4">4</td>
 						<td id="cate4">카테고리</td>
-						<td id="tit4" onclick="location.href='class_home_Include.jsp?CHnum=5';">제목</td>
+						<td id="tit4" onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
 						<td id="wt4">작성자</td>
 						<td id="dt4">작성일</td>
 						<td id="st4"><div class="bordergreen3">상태</div></td>
@@ -103,7 +97,7 @@
 					<tr class="date1">
 						<td id="num5">5</td>
 						<td id="cate5">카테고리</td>
-						<td id="tit5" onclick="location.href='class_home_Include.jsp?CHnum=5';">제목</td>
+						<td id="tit5" onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
 						<td id="wt5">작성자</td>
 						<td id="dt5">작성일</td>
 						<td id="st5"><div class="bordergreen4">상태</div></td>
@@ -112,7 +106,7 @@
 					<tr class="state1">
 						<td id="num6">6</td>
 						<td id="cate6">카테고리</td>
-						<td id="tit6" onclick="location.href='class_home_Include.jsp?CHnum=5';">제목</td>
+						<td id="tit6" onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
 						<td id="wt6">작성자</td>
 						<td id="dt6">작성일</td>
 						<td id="st6"><div class="bordergreen5">상태</div></td>
@@ -120,7 +114,8 @@
 				</tbody>
 		</table>
 	</div>
-	<div><a href="" style="text-decoration: none"><button id="w_btn">글쓰기</button></a>
+	<div class="w_btn_div"><button id="w_btn" onClick="location.href='Mentors_Main.jsp?mainNum=4.2'">글쓰기</button></div>
+	<div>
 		<center>
 			<c:if test="${count>0 }">
 				<!-- 

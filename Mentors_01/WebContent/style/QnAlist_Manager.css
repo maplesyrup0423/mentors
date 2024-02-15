@@ -1,7 +1,7 @@
 
 
 div.list{	
-	width: 1080px;
+	width: 1280px;
 	height: 400px;
 	margin: auto;/*가운데 정렬*/
 	border: 3px solid #c0c0c0;
@@ -34,7 +34,7 @@ tr.view{
 }
 
 table.list_tbl{	
-	width: 1080px;
+	width: 1280px;
 	height: 400px;
 	margin: auto;/*가운데 정렬*/
 	border: 3px solid #c0c0c0;
@@ -336,14 +336,16 @@ table.list_tbl{
     border: 1px solid #4caf50;
 }
 .hr{
-	width: 1080px;
+	width: 1280px;
 }
 
 .title{
 	text-align: center;
 }
 
-
+.w_btn_div{
+	width: 1280px;
+}
 
 .search{
 	background-color: gray;
@@ -354,43 +356,8 @@ table.list_tbl{
 	margin-left: 10px;
 }
 
-
-.sc {
-	position: absolute;
-	top: 0px; 
-	right:50px;
-	width : 390px;
-	height: 36px;
-	padding: 0 60px 0 15px;
-	background: #fafafa;
-	margin-bottom: 5px;
-	width: 390px;
-	
-}
-
-#searchInput {
+.sc{
 	height: 40px;
-	width: 560px;
-	position: relative;
-	margin: auto;
 }
-
-.search {
-	right:8px;
-	position: absolute;
-	top: 0px;
-	background-color: gray;
-	cursor: pointer;
-	margin-left: 10px;
-	/*position: absolute;
-    right: 20px;
-    top: 8px;*/
-	width: 40px;
-	height: 40px;
-	border: none;
-	
-}
-
-
 
 
