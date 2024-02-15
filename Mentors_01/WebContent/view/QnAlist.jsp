@@ -115,7 +115,7 @@
 				</tbody>
 		</table>
 	</div>
-	<div style="text-decoration: none"><button onclick="location.href='QnAlist_insert.jsp';"id="w_btn">글쓰기</button></div>
+	<div style="text-decoration: none"><button class="blue_btn" onclick="location.href='QnAlist_insert.jsp';"id="w_btn">글쓰기</button></div>
 		<center>
 			<c:if test="${count>0 }">
 				<!-- 
