@@ -10,6 +10,7 @@
 </head>
 
 <body>
+<div class="qna_dody">
 	<h2 class="title">Q&A</h2>
 	<div id="searchInput">
 		<input type="text" class="sc" placeholder="검색어를 입력하세요">
@@ -114,7 +115,7 @@
 				</tbody>
 		</table>
 	</div>
-	<div><style="text-decoration: none"><button onclick="location.href='QnAlist_insert.jsp';"id="w_btn">글쓰기</button></div>
+	<div style="text-decoration: none"><button onclick="location.href='QnAlist_insert.jsp';"id="w_btn">글쓰기</button></div>
 		<center>
 			<c:if test="${count>0 }">
 				<!-- 
@@ -155,8 +156,7 @@
 				</c:if>
 			</c:if>
 		</center>
-	
-
+	</div>
 </body>
 
 </html>
