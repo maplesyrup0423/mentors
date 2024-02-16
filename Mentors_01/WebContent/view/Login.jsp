@@ -16,14 +16,19 @@
 </script>
 </head>
 <body>
-	<div class="container">
-		<div class="log_in_letter1" onmouseover="changeText1()" onmouseleave="restoreText()">
-			<a href="Mentors_Main.jsp"> Welcome! <br /></a>
+	<div class="background">
+		<div class="logo_space">
+			<a href="Mypage.jsp"><img src="../img/멘토스_로고1.png" /></a>
 		</div>
-			<div class="log_in_letter2" id="log_in_letter2">
-				Have a nice day!
+
+		<div class="container">
+			<div class="log_in_letter1" onmouseover="changeText1()"
+				onmouseleave="restoreText()">
+				<a href="Mypage.jsp"> Welcome! <br /></a>
 			</div>
-			
+			<div class="log_in_letter2" id="log_in_letter2">Have a nice
+				day!</div>
+
 			<form action="LoginAction.jsp" method="post">
 				<div class="body">
 					<div class="sign_in_id">ID</div>
@@ -31,22 +36,23 @@
 						<input type="text" name="id" placeholder="아이디를 입력하세요" />
 					</div>
 
-				<div class="sign_in_pw">PASSWORD</div>
-				<div class="input_pw">
-					<input type="password" name="pw" placeholder="비밀번호를 입력하세요." />
+					<div class="sign_in_pw">PASSWORD</div>
+					<div class="input_pw">
+						<input type="password" name="pw" placeholder="비밀번호를 입력하세요." />
+					</div>
 				</div>
+				<center>
+					<input type="submit" name="submit" value="Sign-in" />
+				</center>
+			</form>
+			<footer> <a href="Find_ID.jsp">아이디 찾기</a> <span> | </span> <a
+				href="Find_Password.jsp">비밀번호 찾기</a> <span> | </span> <a
+				href="Sign_up.jsp">회원가입</a> </footer>
+			<div class="other_login">
+				<input class="naver" type="button" value="네이버 로그인"
+					onClick="location.href='Mypage.jsp'" /> <input class="google"
+					type="button" value="구글 로그인" />
 			</div>
-			<center>
-				<input type="submit" name="submit" value="Sign-in" />
-			</center>
-		</form>
-		<footer> <a href="Find_ID.jsp">아이디 찾기</a> <span> | </span> <a
-			href="Find_Password.jsp">비밀번호 찾기</a> <span> | </span> <a
-			href="Sign_up.jsp">회원가입</a> </footer>
-		<div class="other_login">
-			<input class="naver" type="button" value="네이버 로그인"
-				onClick="location.href='Mypage.jsp'" /> <input class="google"
-				type="button" value="구글 로그인" />
 		</div>
 	</div>
 </body>
