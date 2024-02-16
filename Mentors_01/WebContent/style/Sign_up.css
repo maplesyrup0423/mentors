@@ -2,9 +2,26 @@ form {
 	margin-top : 30px;
 }
 
-body {
-	padding-top : 60px;
-	background-color : lightgray;
+.background {
+	background-color: lightgray;
+	height : 1660px;
+}
+
+/* 상단 로고 위치할 곳 */
+div.logo_space {
+	display : flex;
+	justify-content: center;
+	width : 800px;
+	height : 60px;
+	background-color : white;
+	margin : 0 auto 60px;
+	border-bottom-left-radius : 8px;
+	border-bottom-right-radius : 8px;
+}
+
+.logo img {
+	border-bottom-left-radius : 8px;
+	border-bottom-right-radius : 8px;
 }
 
 div.container {
