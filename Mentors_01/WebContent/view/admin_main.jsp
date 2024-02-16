@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>class_home_Include</title>
+<title>admin_main</title>
 <link rel="stylesheet" href="../style/class_home_style.css" />
 
 </head>
