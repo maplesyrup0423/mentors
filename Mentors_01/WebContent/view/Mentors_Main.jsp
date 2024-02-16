@@ -9,8 +9,7 @@
 <title>main1_top</title>
 <link rel="stylesheet" href="../style/Mentors_Main.css" />
 </head>
-<body>
-	<%
+<body>	<%
 	String mainUrl = "";
 	String mainNum = request.getParameter("mainNum");
 	if (mainNum == null) {
