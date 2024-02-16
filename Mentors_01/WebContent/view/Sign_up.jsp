@@ -52,7 +52,7 @@
 						</div>
 						<!-- 이메일 -->
 						<p>
-							<input type="email" name="email" required /> <label for="email">
+							<input type="text" name="email" required /> <label for="email">
 								<span>이메일을 입력하세요. ex)Ahjipga@naver.com</span>
 							</label>
 						</p>
