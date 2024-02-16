@@ -7,8 +7,36 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../style/WT_payment_style.css">
 <title>결제</title>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script>
+
+$(function() {
+
+	  var $w = $(window),
+	    footerHei = $('footer').outerHeight() +200,
+	    $blogFloat = $('#blogFloat');
+
+	  $w.on('scroll', function() {
+
+	    var sT = $w.scrollTop();
+	    var val = $(document).height() - $w.height() - footerHei;
+
+	    if (sT >= val)
+	        $blogFloat.addClass('on')
+	    else
+	    		$blogFloat.removeClass('on')
+	    
+
+
+	  });
+
+
+	});
+
+</script>
 </head>
 <body>
+
 	<div class="all">
 		<h2>결제 진행</h2>
 
@@ -159,7 +187,7 @@
         
     </div>-->
 
-		<div class="float">
+		<div class="float" id="blogFloat">
 			<table class="float_table">
 				<tr class="float_table_class">
 					<td class="float_table_class_title_first">제목입니다!</td>
@@ -227,5 +255,7 @@
 
 		</div>
 	</div>
+	
+	<footer></footer>
 </body>
 </html>
