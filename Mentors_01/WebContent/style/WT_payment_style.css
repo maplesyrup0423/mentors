@@ -67,12 +67,16 @@ th, td {
 	cursor: pointer;
 }
 
+footer {
+  background: #fff;
+  height: 10px;
+}
+
 .float {
 	position: fixed;
-	right: 55%;
+	right: 300px;
 	top: 300px;
-	margin-top: 15px;
-	margin-right: -650px;
+	margin-top: 15px;	
 	text-align: center;
 	width: 350px;
 	height: 510px;
@@ -80,6 +84,15 @@ th, td {
 	border-radius: 10px;
 	background-color: #fff;
 }
+
+
+.float.on {
+  position: absolute;
+  bottom: 30px;
+}
+
+
+
 
 .float_table {
 	width: 350px;
