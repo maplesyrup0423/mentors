@@ -9,6 +9,7 @@
     width: 1280px;
 }
 
+/* 
 .C-backimg{
     position: absolute;
     z-index: 1;
@@ -18,36 +19,46 @@
     -webkit-animation: fadein 1s;
     opacity: 0.4;
     filter: blur(10px);
-}
+} */
+
 
 .C-backimg img{
     width: 100%;
 }
 
 .C-mianimg{
+    float: left;
     position: absolute;
-    z-index: 2;
-    width: 1000px;
+    z-index: 1;
+    width: 1280px;
     height: 400px;
     margin-top: 56px;
-    margin-left: 140px;
+    /* margin-left: 140px; */
+    margin-left: -140px;
     animation: fadein 2s ease 1s;
     -webkit-animation: fadein 1s;
 }
 
 .login-circle{
     position: absolute;
-    z-index: 3!important;
-    margin-left: 780px;
+    z-index: 2!important;
+    margin: auto;
+    margin-left: 810px;
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background-color: black;
-    color: black;
+    background-color: white;
     /* opacity: 1 !important; */
     /* filter: blur(0px)  !important; */
 }
 
+.circle-login{
+    margin-top: 160px;
+}
+
+
+/*
+아마 안 쓸거 같음 
 @keyframes fadein{
     from{
         opacity: 0;
@@ -65,6 +76,7 @@
         opacity: 1;
     }
 }
+ */
 
 .C-table{
     /* position: relative; */
