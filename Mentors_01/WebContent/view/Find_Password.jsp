@@ -12,7 +12,7 @@
 		<div class="logo_space">
 			<input type="button" name="find_id_button" value="아이디 찾기"
 			onClick="location.href='Find_ID.jsp'" />
-			<a href="Mypage.jsp"><img src="../img/멘토스_로고1.png" /></a> 
+				<input class = "logo" type="button" onClick="location.href='Mypage.jsp'"/>
 			<input type="button" name="find_password_button" value="비밀번호 찾기"
 			onClick="location.href='Find_Password.jsp'" />
 		</div>

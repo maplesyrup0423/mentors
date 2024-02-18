@@ -6,36 +6,101 @@
 }
 
 .pay_teacher {
+    width: 840px;
 	margin-top: 40px;
 	padding-left: 50px;
 	text-align: left;
+
 }
+
+.pay_teacher_table{
+    width: 600px;
+}
+
+.pay_teacher_table tr td{
+    padding: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    height: 40px;
+    font-size: 12pt;
+}
+
+
+.pay_teacher_table th{
+    padding-bottom: 5px;
+    width: 170px;
+    font-size: 14pt;
+}
+
+
+
+
+
+
+
+
+
+
+table tr{
+    border-spacing: 100px;
+}
+
+
 
 .pay_info {
+    width: 840px;
 	padding-left: 50px;
 	text-align: left;
+    margin-top: 70px;    
 }
+
+.pay_info_table {
+    border-spacing: 0 20px;
+    width: 820px;
+}
+
+.pay_info_table tr td{
+    padding-top: 30px;
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.pay_info_table_thumb{
+    width: 240px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.pay_info_table_title{
+    text-align: left;
+    font-size: 15pt;
+    font-weight: 700;
+}
+
+.pay_info_table_term{
+    margin-top: 15px;
+    font-size: 12pt;
+}
+
+.pay_info_table_price{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-left: 1px solid rgb(211, 211, 211);
+    text-align: right;
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+
+
 
 .line {
-	border-top: 1px solid black;
+	border-top: 3px solid black;
 }
 
-.pay_table {
-	border-top: 2px solid black;
-	border-left: 1px solid rgb(195, 193, 193);
-	border-right: 1px solid rgb(195, 193, 193);
-	border-bottom: 1px solid rgb(195, 193, 193);
-	border-collapse: collapse;
-	width: 600px;
-	margin-bottom: 50px;
-}
-
-th {
-	background-color: #00457e67;
-}
 
 th, td {
-	border-top: 1px solid rgb(211, 211, 211);
+	
 	padding: 15px;
 }
 
@@ -67,33 +132,59 @@ th, td {
 	cursor: pointer;
 }
 
+footer {
+  background: #fff;
+  height: 10px;
+}
+
 .float {
 	position: fixed;
-	right: 55%;
-	top: 300px;
-	margin-top: 15px;
-	margin-right: -650px;
+	right: 300px;	
+	top: 330px;	
+	margin-top: 15px;	
 	text-align: center;
 	width: 350px;
 	height: 510px;
-	border: 2px solid rgb(211, 211, 211);
-	border-radius: 10px;
+	
 	background-color: #fff;
 }
+
+
+.float.on {
+  position: absolute;
+  top: 850px;
+  bottom: 250px;
+}
+
+
+
 
 .float_table {
 	width: 350px;
 	height: 300px;
-	border-style: hidden;
-	border-radius: 10px;
+	border: 1px solid rgb(211, 211, 211);
+    border-collapse: collapse;
+    
 }
 
 .float_table tr {
-	height: 70px;
+	height: 50px;
+}
+
+.float_table tr td {
+    /**border-top: 1px solid rgb(211, 211, 211);**/
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.float_table_title{
+    text-align: left;
+    font-size: 20pt;
+    height: 60px;
+    /**background-color: #00457E;**/
 }
 
 .float_table_class td {
-	padding: 20px;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
@@ -105,15 +196,10 @@ th, td {
 	border: none;
 }
 
-.float_table_class_title_first {
-	font-weight: 700;
-	background-color: #00457e67;
-	border-top-left-radius: 5px;
-}
-
 .float_table_class_title {
+    font-size: 12pt;
 	font-weight: 700;
-	background-color: #00457e67;
+	/**background-color: #00457e67;**/
 }
 
 td.float_table_class_pay {
@@ -121,14 +207,20 @@ td.float_table_class_pay {
 }
 
 .total {
-	text-align: center;
+	text-align: right;
 	font-size: 20px;
 	font-weight: 700;
 	color: #002b4e;
+    height: 60px;
 }
 
 .agree {
-	text-align: center;
+	text-align: left;
+    font-size: 10pt;
+}
+
+#agreeCheck{
+    text-align: center;
 }
 
 .agree_file {

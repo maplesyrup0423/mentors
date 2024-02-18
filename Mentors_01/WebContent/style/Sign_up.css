@@ -19,9 +19,20 @@ div.logo_space {
 	border-bottom-right-radius : 8px;
 }
 
-.logo img {
-	border-bottom-left-radius : 8px;
-	border-bottom-right-radius : 8px;
+/* 이미지크기가 공간에 맞춰지도록 설정 */
+.logo_space input {
+	width: 200px;
+    height: 60px;
+    background-image: url(../img/멘토스_로고1-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color : transparent;
+    border : none;
+}
+
+.logo_space input:hover {
+    cursor : pointer;
 }
 
 div.container {

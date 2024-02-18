@@ -18,7 +18,7 @@
 <body>
 	<div class="background">
 		<div class="logo_space">
-			<a href="Mypage.jsp"><img src="../img/멘토스_로고1.png" /></a>
+			<input type="button" onClick="location.href='Mypage.jsp'"/>
 		</div>
 		<div class="container">
 			<div class="sign" onmouseover="changeText1()"
@@ -52,7 +52,7 @@
 						</div>
 						<!-- 이메일 -->
 						<p>
-							<input type="email" name="email" required /> <label for="email">
+							<input type="text" name="email" required /> <label for="email">
 								<span>이메일을 입력하세요. ex)Ahjipga@naver.com</span>
 							</label>
 						</p>
