@@ -56,6 +56,20 @@
     margin-top: 160px;
 }
 
+.input-id{
+    width: 180px;
+    height:27px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.input-pw{
+    width: 180px;
+    height:27px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
 
 /*
 아마 안 쓸거 같음 
