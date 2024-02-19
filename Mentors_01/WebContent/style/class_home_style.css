@@ -274,30 +274,25 @@ button{
 
 /*----------------------------class_home_center_home_video.jsp-------------------------------------*/
 
-.line{
-	border-top: 1px solid black;
-	margin-bottom: 40px;
+.video_all{
+	margin: auto;
+	width: 1280px;
 }
 
 .video{
 	margin: auto;
+	margin-top: 50px;
 	width: 900px;
 	height: 500px;
 
 }
 
 .video_title{
-	margin-top: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	text-align: center;
 	font-size: 22px;
 	font-weight: 600;
-}
-
-.video_out{
-	margin-right: 200px;
-	float: right;
-	width: 100px;
-	height: 40px;
 }
 
 
