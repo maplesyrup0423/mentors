@@ -16,14 +16,14 @@
 				<h2>나의 학습</h2>
 				<hr>
 			</div>
-			<div claa="Tbox_all">
+			<div class="Tbox_all">
 				<div class="Tbox Tbox_1">학습중 <span class="span_num">1</span>건</div>
 				<div class="Tbox Tbox_2">학습완료 <span class="span_num">2</span>건</div>
 			</div>
 			<br>
 			<br>
 			<div class="select_div">
-				<div> 총<samp class="span_num" id="WT_sum">1</samp>건</div>
+				<div class="div_sum"> 총<samp class="span_num" id="WT_sum">1</samp>건</div>
 				<div class="WT_select">
 					<!--todo : selec 정보에 따라 보여주는 항목 달라짐
                             위에 span_num 숫자도 달라짐!!-->
