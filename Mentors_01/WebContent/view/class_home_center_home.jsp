@@ -85,7 +85,7 @@
 							<td rowspan="2">이것만 알자! 평가문항 출제 길잡이</td>
 							<td><span>진도율(%) 72%</span></td>
 							<td rowspan="2"><button class="blue_btn"
-									onclick="location.href='class_home_center_home_video.jsp'">학습하기</button></td>
+									onclick="location.href='class_video.jsp'">학습하기</button></td>
 						</tr>
 						<tr>
 
