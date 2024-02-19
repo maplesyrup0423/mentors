@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 
@@ -115,7 +116,7 @@
 				</tbody>
 		</table>
 	</div>
-	<div style="text-decoration: none"><button class="blue_btn" onclick="location.href='QnAlist_insert.jsp';"id="w_btn">글쓰기</button></div>
+	
 		<center>
 			<c:if test="${count>0 }">
 				<!-- 
