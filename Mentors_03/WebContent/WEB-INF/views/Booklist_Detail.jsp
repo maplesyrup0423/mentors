@@ -31,7 +31,7 @@
 		</div>
 		<div class="bookdetail_box">
 			<div class="bd_img">
-				<div class="img_box"><img src="${path}/resources/img/${bookbean.BK_img }"/></div>
+				<div class="img_box"><img src="${path}/resources/img/book_img/${bookbean.BK_img }"/></div>
 			</div>
 			<div class="bd_info">
 				<div class="info_box">
