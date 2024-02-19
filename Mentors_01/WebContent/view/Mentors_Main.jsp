@@ -61,7 +61,7 @@
 				<td><table class="table">
 						<tr height="100">
 							<td><a href="Mentors_Main.jsp"><img height="100"
-									src="../img/mantis.jpg" alt="로고 위치" /></a></td>
+									src="../img/M_logo.png" alt="로고 위치" /></a></td>
 							<td class="td_cen"><a href="Mentors_Main.jsp?mainNum=1">연수신청</a></td>
 							<td class="td_cen"><a href="Mentors_Main.jsp?mainNum=2">이벤트</a></td>
 							<td class="td_cen"><a href="Mentors_Main.jsp?mainNum=3">도서관</a></td>
