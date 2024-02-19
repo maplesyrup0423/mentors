@@ -1,6 +1,5 @@
 .all{
     margin: auto;
-    padding: 50px;
     /*padding: 50px 350px 50px 350px;*/
     width: 1280px;
     
@@ -22,12 +21,17 @@
     font-weight: 600;
 }
 
+.test_q{
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
 .test_a{
     position: fixed; 
-    right: 70%; 
+    right: 60%; 
     top: 180px;
     margin-top: 15px;
-    margin-right: -650px;
+    margin-right: -700px;
     text-align:center;
     width: 240px;
     border: 2px solid black;
@@ -42,7 +46,7 @@
 }
 
 .test_a_table tr td{
-    border: 1px solid black;
+    border: 1px solid #00457e;
     width: 60px;
     height: 40px;
     padding: 5px;

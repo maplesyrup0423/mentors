@@ -7,6 +7,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../style/class_test_style.css">
+<link rel="stylesheet" href="../style/class_home_style.css">
 <title>시험</title>
 <script>
 	function getAnswer1(event) {
@@ -53,8 +54,23 @@
 
 <body>
 	<div class="all">
-		<h2>시험</h2>
-		<div class="line"></div>
+	
+	<div class="class_home_top" align="center">
+		<div class="logo_div">
+			<img src="../img/M_logo_fff_2.png" id="logo" />
+		</div>
+		<div class="Exit_div">
+			<div>
+				<a href="class_home_Include.jsp"> <img src="../img/Exit.png" id="Exit" /></a>
+			</div>
+			<div>
+				<span class="text_fff">나가기</span>
+			</div>
+
+		</div>
+	</div>
+	
+	
 		<div class="test_q">
 			<div class="question">
 				<div>
