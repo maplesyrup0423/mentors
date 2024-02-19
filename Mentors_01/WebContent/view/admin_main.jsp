@@ -12,81 +12,81 @@
 	<%
 	String adminUrl = "";
 	String adminNum = request.getParameter("adminUrl");
-	String a1 = "active";
-	String a2 = "non";
-	String a3 = "non";
-	String a4 = "non";
-	String a5 = "non";
-	String a6 = "non";
-	String a7 = "non";
+	String a_home = "active";
+	String a_wt = "non";
+	String a_qna = "non";
+	String a_noti = "non";
+	String a_event = "non";
+	String a_pay = "non";
+	String a_user = "non";
 
 	if (adminNum == null) {
-		adminUrl = "class_home_center_test.jsp";
+		adminUrl = "admin_home.jsp";
 	} else {
 		if (adminNum.equals("1")) {
-			adminUrl = "class_home_center_test.jsp";
-			a1 = "active";
-			a2 = "non";
-			a3 = "non";
-			a4 = "non";
-			a5 = "non";
-			a6 = "non";
-			a7 = "non";
+			adminUrl = "admin_home.jsp";
+			a_home = "active";
+			a_wt = "non";
+			a_qna = "non";
+			a_noti = "non";
+			a_event = "non";
+			a_pay = "non";
+			a_user = "non";
 		} else if (adminNum.equals("2")) {
-			adminUrl = "class_home_center_test.jsp";
-			a1 = "non";
-			a2 = "active";
-			a3 = "non";
-			a4 = "non";
-			a5 = "non";
-			a6 = "non";
-			a7 = "non";
+			adminUrl = "admin_wt.jsp";
+			a_home = "non";
+			a_wt = "active";
+			a_qna = "non";
+			a_noti = "non";
+			a_event = "non";
+			a_pay = "non";
+			a_user = "non";
 		} else if (adminNum.equals("3")) {
-			adminUrl = "class_home_center_test.jsp";
-			a1 = "non";
-			a2 = "non";
-			a3 = "active";
-			a4 = "non";
-			a5 = "non";
-			a6 = "non";
-			a7 = "non";
+			adminUrl = "admin_qna.jsp";
+			a_home = "non";
+			a_wt = "non";
+			a_qna = "active";
+			a_noti = "non";
+			a_event = "non";
+			a_pay = "non";
+			a_user = "non";
 		} else if (adminNum.equals("4")) {
-			adminUrl = "class_home_center_test.jsp";
-			a1 = "non";
-			a2 = "non";
-			a3 = "non";
-			a4 = "active";
-			a5 = "non";
-			a6 = "non";
-			a7 = "non";
+			adminUrl = "admin_noti.jsp";
+			a_home = "non";
+			a_wt = "non";
+			a_qna = "non";
+			a_noti = "active";
+			a_event = "non";
+			a_pay = "non";
+			a_user = "non";
 		} else if (adminNum.equals("5")) {
-			adminUrl = "class_home_center_test.jsp";
-			a1 = "non";
-			a2 = "non";
-			a3 = "non";
-			a4 = "non";
-			a5 = "active";
-			a6 = "non";
-			a7 = "non";
+			adminUrl = "admin_event.jsp";
+			a_home = "non";
+			a_wt = "non";
+			a_qna = "non";
+			a_noti = "non";
+			a_event = "active";
+			a_pay = "non";
+			a_user = "non";
 		} else if (adminNum.equals("6")) {
-			adminUrl = "class_home_center_test.jsp";
-			a1 = "non";
-			a2 = "non";
-			a3 = "non";
-			a4 = "non";
-			a5 = "non";
-			a6 = "active";
-			a7 = "non";
+			adminUrl = "admin_pay.jsp";
+			a_home = "non";
+			a_wt = "non";
+			a_qna = "non";
+			a_noti = "non";
+			a_event = "non";
+			a_pay = "active";
+			a_user = "non";
 		}
 		else if (adminNum.equals("7")) {
-			adminUrl = "class_home_center_test.jsp";
-			a1 = "non";
-			a2 = "non";
-			a3 = "non";
-			a4 = "non";
-			a5 = "non";
-			a6 = "non";
-			a7 = "active";
+			adminUrl = "admin_user.jsp";
+			a_home = "non";
+			a_wt = "non";
+			a_qna = "non";
+			a_noti = "non";
+			a_event = "non";
+			a_pay = "non";
+			a_user = "active";
 		}
 
 	}
@@ -120,20 +120,20 @@
 
 						<div class="sidebar div_shadow">
 							<div class="sidebar_list">
-								<button class="list_home CH_list <%=a1%>"
+								<button class="list_home CH_list <%=a_home%>"
 									onclick="location.href='admin_main.jsp?adminUrl=1';">관리자
 									홈</button>
-								<button class="list_test CH_list <%=a2%>"
+								<button class="list_test CH_list <%=a_wt%>"
 									onclick="location.href='admin_main.jsp?adminUrl=2';">연수</button>
-								<button class="list_QnA CH_list <%=a3%>"
+								<button class="list_QnA CH_list <%=a_qna%>"
 									onclick="location.href='admin_main.jsp?adminUrl=3';">Q&A</button>
-								<button class="list_notification CH_list <%=a4%>"
+								<button class="list_notification CH_list <%=a_noti%>"
 									onclick="location.href='admin_main.jsp?adminUrl=4';">공지사항</button>
-										<button class="list_notification CH_list <%=a5%>"
+										<button class="list_notification CH_list <%=a_event%>"
 									onclick="location.href='admin_main.jsp?adminUrl=5';">이벤트</button>
-										<button class="list_notification CH_list <%=a6%>"
+										<button class="list_notification CH_list <%=a_pay%>"
 									onclick="location.href='admin_main.jsp?adminUrl=6';">수익</button>
-										<button class="list_notification CH_list <%=a7%>"
+										<button class="list_notification CH_list <%=a_user%>"
 									onclick="location.href='admin_main.jsp?adminUrl=7';">회원</button>
 							</div>
 						</div>
