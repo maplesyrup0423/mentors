@@ -2,9 +2,37 @@ form {
 	margin-top : 30px;
 }
 
-body {
-	padding-top : 60px;
-	background-color : lightgray;
+.background {
+	background-color: lightgray;
+	height : 1660px;
+}
+
+/* 상단 로고 위치할 곳 */
+div.logo_space {
+	display : flex;
+	justify-content: center;
+	width : 800px;
+	height : 60px;
+	background-color : white;
+	margin : 0 auto 60px;
+	border-bottom-left-radius : 8px;
+	border-bottom-right-radius : 8px;
+}
+
+/* 이미지크기가 공간에 맞춰지도록 설정 */
+.logo_space input {
+	width: 200px;
+    height: 60px;
+    background-image: url(../img/멘토스_로고1-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color : transparent;
+    border : none;
+}
+
+.logo_space input:hover {
+    cursor : pointer;
 }
 
 div.container {
@@ -27,6 +55,19 @@ div.sign {
 	text-align: center;
 }
 
+div.sign:hover {
+	cursor : pointer;
+	font-size : 52px;
+}
+
+div.sign_comment {
+	width : 100%;
+	padding-top : 10px;
+	font-size : 15px;
+	color : rgb(118, 119, 133);
+	text-align: center;
+}
+
 /*정보입력란 일괄 크기 설정*/
 .body {
 	width : 80%;
@@ -38,11 +79,17 @@ p button{
 	position : absolute;
 	right : 20px;
 	border-radius : 30px;
-	background-color : greenyellow;
+	background-color : #00457E;
 	transform : translateY(20%);
 	width : 130px;
 	height : 40px;
 	font-size : 17px;
+	font-weight : bold;	
+	color : white;
+}
+
+p button:focus, p button:hover{
+	cursor : pointer;
 }
 
 /*카테고리 묶음 글자 영역&글씨*/
@@ -91,17 +138,32 @@ div.gender_choice select{
 /*비밀번호 재확인 문구 설정*/
 div.password_check_message{
 	width : 100%;
-	height : 30px;
+	height : 25px;
 	font-size :17px;
 	color : orangered;
+	margin-top : 3px;
+	margin-bottom : 0px;
+	padding-bottom : 0px;
+}
+
+/* 아이디 중복 확인 문구 설정 */
+.id_check_message{
+	width : 100%;
+	height : 25px;
+	font-size :17px;
+	color : orangered;
+	margin-top : 3px;
+	margin-bottom : 0px;
+	padding-bottom : 0px;
 }
 
 /*닉네임 중복 확인 문구 설정*/
 .nickname_check_message{
 	width : 100%;
-	height : 30px;
+	height : 25px;
 	font-size :17px;
 	color : orangered;
+	margin-top : 3px;
 	margin-bottom : 0px;
 	padding-bottom : 0px;
 }

@@ -30,10 +30,10 @@ button:hover{
     height: 150px;
     margin-left:10px;
     margin-right: 10px;
-    border: 1px solid #a09bff;
+    border: 1px solid #00457e;
     border-radius: 5px;
     margin: auto;
-    background: linear-gradient(#a09bff 25%, #fff 25%);
+    background: linear-gradient(#00457e 25%, #fff 25%);
     text-align: left;
 
 }
