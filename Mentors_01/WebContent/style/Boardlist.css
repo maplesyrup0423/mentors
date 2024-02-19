@@ -403,6 +403,15 @@ table.list_tbl{
 	
 }
 
-
+#blue_btn {
+    height: 40px;
+    width: 80px;
+    color: white;
+    border: 1px solid #00457E;
+    background-color: #00457E;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left:1120px;
+}
 
 
