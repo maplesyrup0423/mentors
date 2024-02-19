@@ -1,13 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:set var="path" value="${pageContext.request.contextPath}"/>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="path" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta charset="UTF-8">
 <title>class_home_Include</title>
-<link rel="stylesheet" href="${path}/resources/style/class_home_style.css" />
+<link rel="stylesheet"
+	href="${path}/resources/style/class_home_style.css" />
 
 </head>
 <body>
@@ -29,7 +30,7 @@
 			QnA = "non";
 			notification = "non";
 		} else if (CHnum.equals("2")) {
-			CHurl = "/WEB-INF/views/class_home_center_test.jsp";
+			CHurl = "class_home_center_test.jsp";
 			home = "non";
 			test = "active";
 			QnA = "non";
@@ -73,8 +74,8 @@
 							</div>
 							<div class="Exit_div">
 								<div>
-									<a href="Mentors_Main.jsp"> <img src="${path}/resources/img/Exit.png"
-										id="Exit" /></a>
+									<a href="Mentors_Main.jsp"> <img
+										src="${path}/resources/img/icon/Exit.png" id="Exit" /></a>
 								</div>
 								<div>
 									<span>나가기</span>
@@ -83,7 +84,7 @@
 							</div>
 						</div></td>
 				</tr>
-	
+
 				<tr>
 					<!-- Left 부분 -->
 					<td rowspan="2" width="200" align="center" valign="top"
@@ -105,13 +106,14 @@
 					</td>
 
 					<!-- Center 부분 -->
-			<td height="80"><jsp:include
-							page="class_home_center_home_top.jsp" /></td>
+					<td height="80"><c:import
+							url="/WEB-INF/views/class_home/class_home_center_home_top.jsp" />
+					</td>
 				</tr>
 				<!-- Center_top 부분 -->
 				<tr>
-					<td width="1080" align="center" valign="top"><jsp:include
-							page="<%=CHurl%>"></jsp:include></td>
+					<td width="1080" align="center" valign="top"><c:import
+							url="/WEB-INF/views/class_home/<%=CHurl %>" /></td>
 				</tr>
 			</table>
 		</div>
