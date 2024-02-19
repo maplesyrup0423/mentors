@@ -122,6 +122,7 @@ $(function(){
 	  var videos = [
 	    {videoURL:"VVVmPjnqT8U",containment:'self',autoPlay:true, mute:false, startAt:0, opacity:1, loop:false, showControls:false, useOnMobile:true, stopMovieOnBlur :false, abundance: 0, showYTLogo: false }
 	  ];
+	  //videoURL부분에 유튜브 비디오 id 값(v=뒤에 부분), startAt에 시작 시간(초)
 
 	  // play list 불러오기
 	  $("#myPlayer").YTPlaylist(videos, false);

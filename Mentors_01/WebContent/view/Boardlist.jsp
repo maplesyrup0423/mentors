@@ -114,7 +114,7 @@
 				</tbody>
 		</table>
 	</div>
-	<div class="w_btn_div"><button id="w_btn" onClick="location.href='Mentors_Main.jsp?mainNum=4.2'">글쓰기</button></div>
+	<div class="w_btn_div"><button id="blue_btn" onClick="location.href='Mentors_Main.jsp?mainNum=4.2'">글쓰기</button></div>
 	<div>
 		<center>
 			<c:if test="${count>0 }">
