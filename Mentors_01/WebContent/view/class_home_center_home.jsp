@@ -80,7 +80,7 @@
 					<h6 class="font-weight-bold text-primary">강의 학습</h6>
 				</div>
 				<div class="div_card-body">
-					<table>
+					<table  width="1000px">
 						<tr>
 							<td rowspan="2">이것만 알자! 평가문항 출제 길잡이</td>
 							<td><span>진도율(%) 72%</span></td>

@@ -16,15 +16,15 @@
 </script>
 </head>
 <body>
+	<div class="logo_space">
+		<input type="button"
+			onClick="location.href='Mypage.jsp'" onmouseover="changeText1()"
+			onmouseleave="restoreText()" />
+	</div>
 	<div class="background">
-		<div class="logo_space">
-			<input type="button" onClick="location.href='Mypage.jsp'"/>
-		</div>
-
 		<div class="container">
-			<div class="log_in_letter1" onmouseover="changeText1()"
-				onmouseleave="restoreText()">
-				<a href="Mypage.jsp"> Welcome! <br /></a>
+			<div class="log_in_letter1">
+				Welcome! <br />
 			</div>
 			<div class="log_in_letter2" id="log_in_letter2">Have a nice
 				day!</div>
@@ -49,9 +49,8 @@
 				href="Find_Password.jsp">비밀번호 찾기</a> <span> | </span> <a
 				href="Sign_up.jsp">회원가입</a> </footer>
 			<div class="other_login">
-				<input class="naver" type="button" value="네이버 로그인"
-					onClick="location.href='Mypage.jsp'" /> <input class="google"
-					type="button" value="구글 로그인" />
+				<input class="naver" type="button" value="네이버 로그인" /> 
+				<input class="google" type="button" value="구글 로그인" />
 			</div>
 		</div>
 	</div>

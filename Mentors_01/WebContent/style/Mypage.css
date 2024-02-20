@@ -81,8 +81,7 @@ th.payment_status {
 	border-top: 1px solid black;
 	border-right: 1px solid black;
 	border-spacing: 0px;
-	background-color: #00457E;
-	opacity: 0.7;
+	background-color : rgb(0,69,126, 70%);
 	color: white;
 	text-align: center;
 }

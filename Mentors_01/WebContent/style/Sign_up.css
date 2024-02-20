@@ -2,9 +2,10 @@ form {
 	margin-top : 30px;
 }
 
-.background {
+body {
 	background-color: lightgray;
 	height : 1660px;
+	margin : 0;
 }
 
 /* 상단 로고 위치할 곳 */
@@ -51,13 +52,13 @@ div.sign {
 	width : 100%;
 	padding-top : 30px;
 	font-size : 50px;
-	color : rgb(118, 119, 133);
+	font-weight : bold;
+	color : black;
 	text-align: center;
 }
 
 div.sign:hover {
 	cursor : pointer;
-	font-size : 52px;
 }
 
 div.sign_comment {
@@ -79,7 +80,7 @@ p button{
 	position : absolute;
 	right : 20px;
 	border-radius : 30px;
-	background-color : #00457E;
+	background-color : rgb(0,69,126, 80%);
 	transform : translateY(20%);
 	width : 130px;
 	height : 40px;
@@ -96,7 +97,7 @@ p button:focus, p button:hover{
 .letter_personal_information, .letter_create_account, .letter_work_in_information{ 
 	width : 100%;
 	height : 40px;
-	background-color : black;
+	background-color : #00457E;
 	color : white;
 	font-weight: bold;
 	font-size : 23px;
@@ -108,7 +109,7 @@ p button:focus, p button:hover{
 
 /*카테고리 묶음 글자 영역 설정*/
 div.personal_information, .create_account, .work_in_information {
-	border : 2px solid black;
+	border : 2px solid #00457E;
 	padding : 10px;
 	margin-bottom : 30px;
 }
@@ -241,14 +242,19 @@ input[type="submit"] {
 	width: 200px;
 	height: 60px;
 	border-radius: 30px;
-	background-color: rgb(192, 192, 192);
+	background-color: #00457E;
 	transition: background-color 0.3s ease;
 	font-size: 25px;
 	font-weight: bold;
+	color : white;
 	margin-top : 20px;
 	margin-bottom : 20px;
 }
 
 input[type="submit"]:hover {
-	background-color: rgb(128, 128, 128);
+	font-size : 26px;
+}
+
+input[type="submit"]:focus {
+	font-size : 24px;
 }
