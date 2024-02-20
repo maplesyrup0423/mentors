@@ -46,6 +46,7 @@ div.container { /*전체 영역*/
 div.log_in_letter1{ /*맨 위 제일 큰 로그인 글자*/
 	padding : 30px 0px 0px 20px;
 	font-size : 50px;
+	font-weight : bold;
 	color : black;
 	text-align: center;
 }
