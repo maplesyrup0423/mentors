@@ -29,16 +29,6 @@
 								<td class = "td_left">전화번호</td>
 								<td class = "td_right"><input type="text" value = "02-784-8917"/></td>
 							</tr>
-
-							<tr>
-								<td class = "td_left">성별</td>
-								<td class = "td_right_gender">
-									<select>
-										<option value="male" selected>남성</option>
-										<option value="femail">여성</option>
-									</select>
-								</td>
-							</tr>
 						</table>
 
 						<table class="account_info_table">
