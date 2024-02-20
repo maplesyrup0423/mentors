@@ -12,6 +12,7 @@
 	<section id="detail_view">
 		<h2 class="top_title">쌤도서</h2>
 		<p class="top_text">테크빌교육 출판은 교사, 학생, 부모가 함께 만드는 교육 전문 출판사입니다.</p>
+		<div class="A_view">
 		<div class="list_tab">
 			<input type="button" value="도서목록" />
 		</div>
@@ -113,6 +114,8 @@
 				</div>
 			</div>
 
+		</div>
+		
 		</div>
 	</section>
 </body>

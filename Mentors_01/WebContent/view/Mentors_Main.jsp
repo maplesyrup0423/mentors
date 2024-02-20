@@ -23,6 +23,8 @@
 	}
 	else if (mainNum.equals("3")) {
 		mainUrl = "Booklist.jsp";//도서관 가져오기
+	} else if (mainNum.equals("3.1")) {
+		mainUrl = "Booklist_Detail.jsp";//도서관 상세
 	} else if (mainNum.equals("4")) {
 		mainUrl = "Boardlist.jsp";//게시판 가져오기
 	} else if (mainNum.equals("4.1")) {
