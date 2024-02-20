@@ -65,11 +65,11 @@
 				<tbody>
 					<tr class="number1">
 						<td id="num">1</td>
-						<td id="cate">카테고리</td>
+						<td id="cate">출석 및 결석</td>
 						<td id="tit"
-							onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
-						<td id="wt">작성자</td>
-						<td id="dt">작성일</td>
+							onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">휴가는 언제 사용할 수 있을까요?</td>
+						<td id="wt">YO_Uli</td>
+						<td id="dt">2024-02-18</td>
 						<td id="st">
 							<div class="bordergreen">답변완료</div>
 						</td>
