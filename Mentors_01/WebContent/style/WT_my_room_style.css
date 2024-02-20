@@ -42,11 +42,11 @@
 		*/
 .Tbox_1 {
 	margin-left: 30px;
-	background-color: rgb(246, 249, 255);
+	background-color: rgb(0,69,126,50%) ;
 }
 
 .Tbox_2 {
-	background-color: rgb(241, 249, 241)
+	background-color:  rgb( 255,205,25,50%);
 }
 
 .select_div {
@@ -75,14 +75,14 @@
 	margin-top:5px;
 	display: block;
 	height: 120px;
-	border: 1px solid rgb(193, 189, 189);
+	border: 1px solid #00457E;
 	border-radius: 10px;
 	padding: 20px;
 }
 
 .WT:hover {
-	border-color: rgb(31, 90, 252);
-	box-shadow: 3px 3px 15px rgb(00, 45, 116, 0.2);
+	border-color: #00457E;
+	box-shadow: 3px 3px 15px rgb(0,69,126, 0.2);
 }
 
 .classbtn_div {
@@ -93,18 +93,25 @@
 	width: 80%;
 }
 
+.WT_left td{
+	padding: 5px;
+}
+.colorbox_pos{
+padding-right: 230px !important;
+}
+
 .WT .WT_schol_type {
-	border: 1px solid rgb(66, 126, 146);
-	background-color: rgb(218, 234, 239);
+	border: 1px solid  rgb(0,69,126) ;
+	background-color:  rgb(0,69,126,50%) ;
 	border-radius: 5px;
 	text-align: center;
 	width: 100px;
 }
 
 .WT .WT_category {
-	border: 1px solid rgb(49, 114, 71);
+	border: 1px solid rgb( 255,205,25);
 	margin-left: 5px;
-	background-color: rgb(218, 239, 228);
+	background-color: rgb( 255,205,25,50%);
 	border-radius: 5px;
 	text-align: center;
 	width: 100px;
