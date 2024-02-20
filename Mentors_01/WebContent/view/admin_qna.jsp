@@ -67,11 +67,11 @@
 				<tbody>
 					<tr class="number1">
 						<td id="num">1</td>
-						<td id="cate">과목명</td>
+						<td id="cate">이것만 알자! <br /> 평가문항 출제 길잡이</td>
 						<td id="tit"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
-						<td id="wt">작성자</td>
-						<td id="dt">작성일</td>
+							onclick="location.href='class_home_Include.jsp?CHnum=6';">세상에..이게머선일이고?</td>
+						<td id="wt">YO_Uli</td>
+						<td id="dt">2024-02-18</td>
 						<td id="st">
 							<div class="bordergreen">답변완료</div>
 						</td>
@@ -81,7 +81,7 @@
 						<td id="num2">2</td>
 						<td id="cate2">과목명</td>
 						<td id="tit2"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
+							onclick="location.href='class_home_Include.jsp?CHnum=6';">저희좀 살려주세요..</td>
 						<td id="wt2">작성자</td>
 						<td id="dt2">작성일</td>
 						<td id="st2"><div class="bordergrey">답변대기</div></td>
@@ -91,7 +91,7 @@
 						<td id="num3">3</td>
 						<td id="cate3">과목명</td>
 						<td id="tit3"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
+							onclick="location.href='class_home_Include.jsp?CHnum=6';">궁금한게 참 많답니다?!</td>
 						<td id="wt3">작성자</td>
 						<td id="dt3">작성일</td>
 						<td id="st3"><div class="bordergreen2">상태</div></td>
@@ -101,7 +101,7 @@
 						<td id="num4">4</td>
 						<td id="cate4">과목명</td>
 						<td id="tit4"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
+							onclick="location.href='class_home_Include.jsp?CHnum=6';">시간을 조금더 내주실순 없을까요?</td>
 						<td id="wt4">작성자</td>
 						<td id="dt4">작성일</td>
 						<td id="st4"><div class="bordergreen3">상태</div></td>
@@ -111,7 +111,7 @@
 						<td id="num5">5</td>
 						<td id="cate5">과목명</td>
 						<td id="tit5"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
+							onclick="location.href='class_home_Include.jsp?CHnum=6';">빠따는 때리지 말아주세요..</td>
 						<td id="wt5">작성자</td>
 						<td id="dt5">작성일</td>
 						<td id="st5"><div class="bordergreen4">상태</div></td>
@@ -121,7 +121,7 @@
 						<td id="num6">6</td>
 						<td id="cate6">과목명</td>
 						<td id="tit6"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
+							onclick="location.href='class_home_Include.jsp?CHnum=6';">맞아야하나..?</td>
 						<td id="wt6">작성자</td>
 						<td id="dt6">작성일</td>
 						<td id="st6"><div class="bordergreen5">상태</div></td>
