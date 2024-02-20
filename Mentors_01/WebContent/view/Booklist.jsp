@@ -43,7 +43,7 @@
 				<img src="../img/type_thumb_off.png" id="btn_img2" />
 			</button>
 		</div>
-		<div class="book_list" id="b_list">
+		<div class="book_list" id="b_list" onclick="location.href='Booklist_Detail.jsp';">
 			<div class="book_info">
 				<div class="book_img"></div>
 				<div class="book_info_list">
