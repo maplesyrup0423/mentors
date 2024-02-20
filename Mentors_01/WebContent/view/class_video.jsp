@@ -181,7 +181,6 @@
 </head>
 <body>
 
-	<form:form action="abc"  method="get">
 	<div class="wrap">
 
 		<div class="class_home_top" align="center">
@@ -230,12 +229,6 @@
 
 	</div>
 
-	
-		<div>
-			<input type="text" id="now_time" name="now_time" />
-			<form:button class="button">나가기</form:button>
-		</div>
-	</form:form>
 
 </body>
 </html>
