@@ -20,18 +20,18 @@ h1.delete_account_h1 {
 	font-size : 45px;
 	text-align : center;
 	margin : auto;
-	background-image: linear-gradient(90deg, red,yellow, green);
-	background-clip : text;
-	color: transparent;
+	color: black;
 	margin-top : 30px;
 }
 
 div.delete_account_div{
 	display : flex;
-	width : 400px;
+	width : 600px;
 	height : 80px;
 	text-align : center;	
-	font-size : 15px;
+	align-items: center; /* 수직 가운데 정렬 */
+    justify-content: center;
+	font-size : 20px;
 	color : gray;
 	margin : auto;
 }
@@ -69,25 +69,29 @@ input.delete_account_input:focus {
 .delete_account_cancel {
 	background-color : white;
 	margin-right : 30px;
+	color : black;
 }
 
 .delete_account_cancel:hover {
-	font-size : 17px;
+	font-size : 16px;
+	cursor : pointer;
 }
 
 .delete_account_cancel:focus {
-	box-shadow : 2px 2px 2px 4px #d8d8d8 inset;
+	font-size : 14px;
 }
 
 .delete_account_submit {
-	background-color : #97eea0;
+	background-color : #00457E;
 	margin-left : 30px;
+	color : white;
 }
 
 .delete_account_submit:hover {
-	font-size : 17px;
+	font-size : 16px;
+	cursor : pointer;
 }
 
 .delete_account_submit:focus {
-	box-shadow : 2px 2px 2px 4px #33d644 inset;
+	font-size : 14px;
 }

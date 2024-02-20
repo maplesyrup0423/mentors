@@ -26,7 +26,7 @@
 							
 						<center>
 							<input class = "delete_account_cancel" type="button" value = "취소" 
-							onClick="location.href='Mentors_Main.jsp?mainNum=9'"/>
+							onClick="location.href='Mypage.jsp'"/>
 							<input class = "delete_account_submit" type="submit" name = "submit" value = "확인" />
 						</center>
 					</td>
