@@ -47,15 +47,18 @@
                 </div>
             </div>
 
-            <div class="C-mianimg"><!-- bannerimg -->
+            <!-- <div class="C-mianimg">/* bannerimg */
                 <a href=""><img src="../img/img.3.jpg" alt="메인 이미지"></a>
+            </div> -->
+
+            <div class="C-mianimg"><!-- bannerimg -->
+                <div><a href=""><img src="../img/img.3.jpg" alt="메인 이미지"></a></div>
             </div>
 
-            <!--             
-            <div class="C-backimg"> // imgmain
-                <a href=""><img src="../img/img.3.jpg" alt="백그라운드 이미지"></a>
+            <div class="E_buttonList">
+                <div><button class="leftButton"><img src="../img/arrow-left.png" alt="이전버튼"></button></div>
+                <div><button class="nextButton"><img src="../img/arrow-right.png" alt="다음버튼"></button></div>
             </div>
-             -->
             
         </div>
 
