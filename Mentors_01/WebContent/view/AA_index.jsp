@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="../style/class_home_style.css" />
+<link rel="stylesheet" href="../style/basic_style.css" />
 </head>
 <body>
 	<!-- 테이블1 -->
@@ -36,7 +36,7 @@
 	
 	<hr>
 	<!-- 테이블2 -->
-	<div class="div_card-body">
+	
 		<div class="GS_table_div">
 			<table class="GS_table">
 				<thead>
@@ -69,7 +69,7 @@
 				</tbody>
 			</table>
 		</div>
-	</div>
+
 	
 	<hr>
 	<!-- 제목/내용 상자 -->
