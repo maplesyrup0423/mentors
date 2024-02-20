@@ -1,174 +1,100 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-	pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="../style/QnAlist.css" />
 <title>Insert title here</title>
+<link rel="stylesheet" href="../style/admin_style.css" />
 </head>
-
 <body>
-	<div class="qna_dody">
-		<h2 class="title">Q&A</h2>
-		<div id="searchInput">
-			<input type="text" class="sc" placeholder="검색어를 입력하세요">
-			<button class="search">
-				<image src="../img/search_input_right.png"></image>
-			</button>
+	<div class="all_view">
+		<div class="div_card div_shadow">
+			<div class="div_card-header">
+				<h2 class="font-weight-bold text-primary">Q&A</h2>
+			</div>
+			<div class="div_card-body">
+				<div class="qna_select">
+					<select>
+						<option value="1">이것만 알자! 평가문항 출제 길잡이1</option>
+						<option value="1">이것만 알자! 평가문항 출제 길잡이2</option>
+					</select>
+				</div>
+				<div class="searchbar">
+					<input type="text" class="searchbar_text" placeholder="검색어를 입력하세요">
+					<img class="search_btn" src="../img/admin_search_btn.png"></img>
+				</div>
+				<div>
+					<table class="list_tb">
+						<thead>
+							<tr>
+								<th>번호</th>
+								<th>과목명</th>
+								<th>제목</th>
+								<th>작성자</th>
+								<th>신청일</th>
+								<th>상태</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>이것만 알자! 평가문항 출제 길잡이1</td>
+								<td>세상에..이게 머선일이고?</td>
+								<td>YO_Uli</td>
+								<td>2024-02-18</td>
+								<td>답변완료</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>이것만 알자! 평가문항 출제 길잡이2</td>
+								<td>저희좀 살려주세요..</td>
+								<td>작성자</td>
+								<td>신청일</td>
+								<td>답변대기</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>과목명</td>
+								<td>궁금한게 참 많답니다?!</td>
+								<td>작성자</td>
+								<td>신청일</td>
+								<td>상태</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>과목명</td>
+								<td>시간을 조금만 더 내주실수는 없을까요?</td>
+								<td>작성자</td>
+								<td>신청일</td>
+								<td>상태</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>과목명</td>
+								<td>빠따는 때리지 말아주세요..</td>
+								<td>작성자</td>
+								<td>신청일</td>
+								<td>상태</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td>과목명</td>
+								<td>맞아야하나..?</td>
+								<td>작성자</td>
+								<td>신청일</td>
+								<td>상태</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="bottom_move_btn">
+					<input class="m_btn" type="button" value="<">
+					<input class="m_btn" type="button" value="1">
+					<input class="m_btn" type="button" value=">">
+				</div>
+			</div>
 		</div>
-		<br />
-		<hr class="hr" />
-		<select name="WT_select" id="WT_select">
-			<option value="1">이것만 알자! 평가문항 출제 길잡이</option>
-			<option value="2">이것만 알자! 평가문항 출제 길잡이2</option>
-		</select>
-		<script>
-			// 검색을 수행하는 함수
-			function search() {
-				// 검색어 입력 상자에서 검색어를 가져옴
-				var searchText = document.getElementById('searchInput').value
-						.toLowerCase();
-
-				// 결과를 초기화
-				searchResultsElement.innerHTML = '';
-
-				// 검색어와 일치하는 항목을 찾아 결과에 추가
-				for (var i = 0; i < data.length; i++) {
-					if (data[i].toLowerCase().includes(searchText)) {
-						var li = document.createElement('li');
-						li.textContent = data[i];
-						searchResultsElement.appendChild(li);
-					}
-				}
-			}
-
-			// 검색어 입력 상자에서 Enter 키가 눌렸을 때 검색 함수 호출
-			document.getElementById('searchInput').addEventListener('keyup',
-					function(event) {
-						if (event.key === 'Enter') {
-							search();
-						}
-					});
-		</script>
-		<div class="list">
-			<table class="list_tbl">
-				<thead>
-					<tr class="view">
-						<th id="number">번호</th>
-						<th id="category">과목명</th>
-						<th id="title">제목</th>
-						<th id="writer">작성자</th>
-						<th id="date">작성일</th>
-						<th id="state">상태</th>
-					</tr>
-				<thead>
-				<tbody>
-					<tr class="number1">
-						<td id="num">1</td>
-						<td id="cate">이것만 알자! <br /> 평가문항 출제 길잡이</td>
-						<td id="tit"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">세상에..이게머선일이고?</td>
-						<td id="wt">YO_Uli</td>
-						<td id="dt">2024-02-18</td>
-						<td id="st">
-							<div class="bordergreen">답변완료</div>
-						</td>
-
-					</tr>
-					<tr class="category1">
-						<td id="num2">2</td>
-						<td id="cate2">과목명</td>
-						<td id="tit2"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">저희좀 살려주세요..</td>
-						<td id="wt2">작성자</td>
-						<td id="dt2">작성일</td>
-						<td id="st2"><div class="bordergrey">답변대기</div></td>
-
-					</tr>
-					<tr class="title1">
-						<td id="num3">3</td>
-						<td id="cate3">과목명</td>
-						<td id="tit3"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">궁금한게 참 많답니다?!</td>
-						<td id="wt3">작성자</td>
-						<td id="dt3">작성일</td>
-						<td id="st3"><div class="bordergreen2">상태</div></td>
-
-					</tr>
-					<tr class="writer1">
-						<td id="num4">4</td>
-						<td id="cate4">과목명</td>
-						<td id="tit4"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">시간을 조금더 내주실순 없을까요?</td>
-						<td id="wt4">작성자</td>
-						<td id="dt4">작성일</td>
-						<td id="st4"><div class="bordergreen3">상태</div></td>
-
-					</tr>
-					<tr class="date1">
-						<td id="num5">5</td>
-						<td id="cate5">과목명</td>
-						<td id="tit5"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">빠따는 때리지 말아주세요..</td>
-						<td id="wt5">작성자</td>
-						<td id="dt5">작성일</td>
-						<td id="st5"><div class="bordergreen4">상태</div></td>
-
-					</tr>
-					<tr class="state1">
-						<td id="num6">6</td>
-						<td id="cate6">과목명</td>
-						<td id="tit6"
-							onclick="location.href='class_home_Include.jsp?CHnum=6';">맞아야하나..?</td>
-						<td id="wt6">작성자</td>
-						<td id="dt6">작성일</td>
-						<td id="st6"><div class="bordergreen5">상태</div></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<center>
-			<c:if test="${count>0 }">
-				<!-- 
-            전체글 10개 => 1페이지(10/10+1)=>1
-            전체글 34개 => 4페이지(34/10+1)=>4 -->
-				<c:set var="pageCount"
-					value="${count/pageSize + (count%pageSize==0? 0:1) }" />
-				<!-- 시작 페이지 숫자 지정 -->
-				<c:set var="startPage" value="1" />
-				<c:if test="${currentPage%10 != 0 }">
-					<fmt:parseNumber var="result" value="${currentPage/10 }"
-						integerOnly="true" />
-					<c:set var="startPage" value="${result*10+1 }" />
-				</c:if>
-				<!-- 화면에 보여질 페이지 처리 숫자 -->
-				<c:set var="pageBlock" value="${10 }" />
-				<!-- 첫번째 페이지 기준 : 1+10-1 = 10 -->
-				<c:set var="endPage" value="${startPage+pageBlock-1 }" />
-				<c:if test="${endPage>pageCount }">
-					<c:set var="endPage" value="${pageCount}" />
-				</c:if>
-				<!-- 이전페이지 -->
-				<c:if test="${startPage>10 }">
-					<a href="BoardListCon.do?pageNum=${startPage-10 }"
-						style="text-decoration: none"> [이전] </a>
-				</c:if>
-
-				<c:forEach var="i" begin="${startPage }" end="${endPage }">
-					<a href="BoardListCon.do?pageNum=${i }"
-						style="text-decoration: none"> [1] </a>
-				</c:forEach>
-
-				<c:if test="${endPage<pageCount }">
-					<!-- 다음페이지 -->
-					<a href="BoardListCon.do?pageNum=${startPage+10 }"
-						style="text-decoration: none"> [다음] </a>
-				</c:if>
-			</c:if>
-		</center>
 	</div>
 </body>
-
 </html>

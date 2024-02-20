@@ -1,10 +1,10 @@
-.ad_body{
-	text-align: center;
+.all_view{
+	padding: 15px;
 }
 
 .list_tb{
 	border-collapse: collapse;
-    width: 800px;
+    width: 900px;
     margin: 1rem auto;
     border: 1px solid #000;
     background-color: white;
@@ -22,6 +22,7 @@
     color: #fff;
 }
 
+
 .div_card {
     /*position: relative;
     display: flex;
@@ -35,14 +36,14 @@
     margin-top: 15px;
 }
 
-
 .div_shadow {
     box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important
 }
 .div_card-body {
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 1.25rem
+    padding: 1.25rem;
+    background-color: #fff;
 }
 
 
@@ -66,4 +67,41 @@
 .text-primary {
 	text-align: center;
     color: #00457E !important;
+}
+
+
+.qna_select{
+	margin-bottom: 15px;
+}
+
+.searchbar{
+	position: relative;
+	width: 400px;
+}
+.searchbar_text {
+	height: 40px;
+	width: 100%;
+	background: #fafafa;
+	margin: auto;
+	font-size: 16px;
+}
+.search_btn {
+	position: absolute;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	top: 8px;
+	right: 2px;
+	margin: 0;
+}
+
+
+.bottom_move_btn{
+	text-align: center;
+}
+
+.m_btn{
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
 }
