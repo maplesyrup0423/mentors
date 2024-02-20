@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var='root' value="${pageContext.request.contextPath }/" />
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -178,7 +181,7 @@
 </head>
 <body>
 
-
+	<form:form action="abc"  method="get">
 	<div class="wrap">
 
 		<div class="class_home_top" align="center">
@@ -212,7 +215,7 @@
 				</div>
 				<div class="btn_w">
 
-					<button class="btn_play pause">Pause</button>
+					<button class="btn_play pause" type="button">Pause</button>
 
 				</div>
 				<!--
@@ -227,12 +230,12 @@
 
 	</div>
 
-	<form action=""  >
+	
 		<div>
 			<input type="text" id="now_time" name="now_time" />
-			<button type="submit">나가기</button>
+			<form:button class="button">나가기</form:button>
 		</div>
-	</form>
+	</form:form>
 
 </body>
 </html>
