@@ -1,12 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/event2.css">
-    <title>Document</title>
+<title>Insert title here</title>
 </head>
 <body>
+
 
     <div class="Event_main">
         
@@ -125,6 +128,5 @@
 
 
     </div>
-    
 </body>
 </html>
