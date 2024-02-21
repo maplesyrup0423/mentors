@@ -140,6 +140,6 @@
                 </div>
     </footer>
         
-        <script type="text/javascript" src="../script/slidestest.js"></script>
+        <script type="text/javascript" src="../script/main_center.js"></script>
     </body>
     </html>
