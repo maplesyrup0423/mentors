@@ -17,7 +17,7 @@
 	} else if (mainNum.equals("1")) {
 		mainUrl = "WT_list.jsp";//연수신청
 	} else if (mainNum.equals("2")) {
-		mainUrl = "event.jsp";//이벤트
+		mainUrl = "event2.jsp";//이벤트
 	} else if (mainNum.equals("2.5")) {
 		mainUrl = "event_end.jsp";//기간지난 이벤트
 	}
