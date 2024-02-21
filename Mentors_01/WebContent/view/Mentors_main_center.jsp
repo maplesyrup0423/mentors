@@ -19,9 +19,10 @@
                 <div class="C-eventList"> <!-- /*allimg*/ -->
             
                     <div class="C-mianimg"><!-- /*bannerimg*/ -->
-                        <div><img src="../img/img.3.jpg" alt=""></div>
-                        <div><img src="../img/img1.jpg" alt=""></div>
-                        <div><img src="../img/img2.png" alt=""></div>
+                        <div><img src="../img/banner1.png" alt=""></div>
+                        <div><img src="../img/banner2.png" alt=""></div>
+                        <div><img src="../img/banner3.png" alt=""></div>
+                        <div><img src="../img/banner4.png" alt=""></div>
                     </div>
                     <div class="login-circle">
                         <div class="circle-login">
@@ -51,13 +52,13 @@
                                     <td>
                                         <a
                                             href="https://namu.wiki/w/%EB%8B%AC%EB%9F%AC%EA%B5%AC%ED%8A%B8%20%EA%BF%88%20%EB%B0%B1%ED%99%94%EC%A0%90"><img
-                                                src="../img/bookimg (1).jpg" alt="베스트book1">
+                                                src="../img/인공지능활용교육.jpg" alt="베스트book1">
                                             <p>달러구트 꿈 백화점</p>
                                         </a>
                                     </td>
                                     <td>
                                         <a href="https://series.naver.com/novel/detail.series?productNo=9101145"><img
-                                                src="../img/bookimg (2).jpg" alt="베스트book2">
+                                                src="../img/bookimg1.jpg" alt="베스트book2">
                                             <p>강철 마법사</p>
                                         </a>
                                     </td>
@@ -66,12 +67,12 @@
                                 <th class="newlist" colspan="2">이번달 신권 추천</th>
                                 <tr class="new_book">
                                     <td>
-                                        <a href="https://page.kakao.com/content/48444531"><img src="../img/bookimg (3).jpg"
+                                        <a href="https://page.kakao.com/content/48444531"><img src="../img/bookimg2.jpg"
                                                 alt="새책1"><p>카르미스</p></a>
                                     </td>
                                     <td>
                                         <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=151652184"><img
-                                                src="../img/bookimg (4).jpg" alt="새책2"><p>모스크바의 신사</p></a>
+                                                src="../img/bookimg3.png" alt="새책2"><p>모스크바의 신사</p></a>
                                     </td>
                                 </tr>
                             </table>

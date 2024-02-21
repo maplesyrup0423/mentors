@@ -19,7 +19,7 @@
 	} else if (mainNum.equals("2")) {
 		mainUrl = "event3.jsp";//이벤트
 	} else if (mainNum.equals("2.5")) {
-		mainUrl = "event_end.jsp";//기간지난 이벤트
+		mainUrl = "event_info.jsp";//기간지난 이벤트
 	}
 	else if (mainNum.equals("3")) {
 		mainUrl = "Booklist.jsp";//도서관 가져오기
