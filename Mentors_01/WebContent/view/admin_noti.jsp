@@ -23,62 +23,41 @@
 						<thead>
 							<tr>
 								<th>번호</th>
-								<th>카테고리</th>
 								<th>제목</th>
-								<th>작성자</th>
 								<th>등록일</th>
-								<th>상태</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td>1</td>
-								<td>출석 및 결석</td>
 								<td>휴가는 언제 사용할 수 있을까요?</td>
-								<td>YO_Uli</td>
 								<td>2024-02-18</td>
-								<td>답변완료</td>
 							</tr>
 							<tr>
 								<td>2</td>
-								<td>카테고리</td>
 								<td>제목</td>
-								<td>작성자</td>
 								<td>등록일</td>
-								<td>답변대기</td>
 							</tr>
 							<tr>
-								<td>3</td>
-								<td>카테고리</td>
-								<td>제목</td>
-								<td>작성자</td>
-								<td>등록일</td>
-								<td>상태</td>
-							</tr>
-							<tr>
-								<td>4</td>
-								<td>카테고리</td>
-								<td>제목</td>
-								<td>작성자</td>
-								<td>등록일</td>
-								<td>상태</td>
-							</tr>
-							<tr>
-								<td>5</td>
-								<td>카테고리</td>
-								<td>제목</td>
-								<td>작성자</td>
-								<td>등록일</td>
-								<td>상태</td>
-							</tr>
-							<tr>
-								<td>6</td>
-								<td>카테고리</td>
-								<td>제목</td>
-								<td>작성자</td>
-								<td>등록일</td>
-								<td>상태</td>
-							</tr>
+                                <td>3</td>
+                                <td>제목</td>
+                                <td>등록일</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>제목</td>
+                                <td>등록일</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>제목</td>
+                                <td>등록일</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>제목</td>
+                                <td>등록일</td>
+                            </tr>
 						</tbody>
 					</table>
 				</div>

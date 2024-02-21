@@ -6,14 +6,13 @@
 	border-collapse: collapse;
     width: 900px;
     margin: 1rem auto;
-    border: 1px solid #000;
     background-color: white;
 }
 
 .list_tb th, .list_tb td{
 	padding: 8px;
     text-align: left;
-    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     text-align: center;
 }
 
