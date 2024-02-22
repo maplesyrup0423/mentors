@@ -162,3 +162,19 @@ create table booklist(
 ALTER TABLE booklist ADD PRIMARY KEY ( BK_Key );
 
 select * from booklist;
+
+create table board(
+   board_id number PRIMARY KEY,
+   board_title VARCHAR(255) NOT NULL,
+   board_author VARCHAR(100) NOT NULL,
+   board_created_at date,
+   board_text varchar2(500)
+);
+
+create table comment(
+    comment_id number PRIMARY KEY,
+    post_id INT NOT NULL,
+    content TEXT NOT NULL,
+    author VARCHAR(100) NOT NULL,
+    created_at date,
+);

@@ -20,10 +20,6 @@
 
 		<table class="Notification_Detailedpage_table" >
 			<tr>
-				<td colspan="2"><select id="select">
-						<option value="공지사항">공지사항</option>
-						<option value="Q&A">Q&A</option>
-				</select></td>
 			</tr>
 			<tr>
 				<td class="Notification_Detailedpage_table_td2">
@@ -51,9 +47,6 @@
 					</tr>
 					<tr>
 						<th class="th2">내용</th>
-					</tr>
-					<tr>
-						<th class="th3">첨부파일</th>
 					</tr>
 				</tbody>
 			</table>
@@ -96,5 +89,41 @@
 				});
 	</script>
 
+<div class="box">
+
+		<table class="Notification_Detailedpage_table" >
+			<tr>
+			</tr>
+			<tr>
+				<td class="Notification_Detailedpage_table_td2">
+
+					<h2 class="title">Q&A</h2>
+
+
+				</td>
+				<td class="right_td"><div id="searchInput">
+						<input type="text" class="sc" placeholder="검색어를 입력하세요">
+						<button class="search" onclick="search()">
+							<image src="../img/search_input_right.png"></image>
+						</button>
+
+					</div></td>
+			</tr>
+		</table>
+		<br />
+		<hr class="hr" />
+		<div class="tbl">
+			<table class="tbl_view">
+				<tbody>
+					<tr>
+						<th class="th1">제목</th>
+					</tr>
+					<tr>
+						<th class="th2">내용</th>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
 </body>
 </html>
