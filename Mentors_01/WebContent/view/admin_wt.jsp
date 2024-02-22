@@ -11,7 +11,7 @@
 	<div class="all_view">
 		<div class="div_card div_shadow">
 			<div class="div_card-header">
-				<h2 class="font-weight-bold text-primary">연수신청</h2>
+				<h2 class="font-weight-bold text-primary">연수관리</h2>
 			</div>
 			<div class="div_card-body">
 				<div class="qna_select">
