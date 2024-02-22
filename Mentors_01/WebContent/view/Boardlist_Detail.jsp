@@ -20,12 +20,6 @@
 
 		<table class="Notification_Detailedpage_table" >
 			<tr>
-				<td colspan="2"><select id="select">
-						<option value="공지사항">공지사항</option>
-						<option value="Q&A">Q&A</option>
-				</select></td>
-			</tr>
-			<tr>
 				<td class="Notification_Detailedpage_table_td2">
 
 					<h2 class="title">게시판</h2>
@@ -51,9 +45,6 @@
 					</tr>
 					<tr>
 						<th class="th2">내용</th>
-					</tr>
-					<tr>
-						<th class="th3">첨부파일</th>
 					</tr>
 				</tbody>
 			</table>
