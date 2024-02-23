@@ -1,49 +1,20 @@
 body {
-	background-color: lightgray;
 	height : 900px;
-	margin : 0;
 }
 
-/* 상단 로고 위치할 곳 */
-div.logo_space {
-	display : flex;
-	justify-content: center;
-	width : 700px;
-	height : 60px;
-	background-color : white;
-	margin : 0 auto 60px;
-	border-bottom-left-radius : 8px;
-	border-bottom-right-radius : 8px;
-}
-
-/* 이미지크기가 공간에 맞춰지도록 설정 */
-.logo_space input {
-	width: 200px;
-    height: 60px;
-    background-image: url(../img/멘토스_로고1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color : transparent;
-    border : none;
-}
-
-.logo_space input:hover {
-    cursor : pointer;
-}
 
 div.container { /*전체 영역*/
-	max-width : 700px;
+	width : 1280px;
 	max-height : 1600px;
-	margin : 0 auto;
-	border : 1px solid gray;
+	margin : 30px auto;
+	border : none;
 	padding-bottom : 30px;
 	border-radius : 20px;
-	box-shadow: 4px 4px 5px 0px gray;
+	box-shadow: 0 2px 24px 0 rgb(58, 59, 69, 15%) !important;
 	background-color : white;
 }
 
-div.log_in_letter1{ /*맨 위 제일 큰 로그인 글자*/
+div.log_in_letter{ /*맨 위 제일 큰 로그인 글자*/
 	padding : 30px 0px 0px 20px;
 	font-size : 50px;
 	font-weight : bold;
@@ -51,47 +22,27 @@ div.log_in_letter1{ /*맨 위 제일 큰 로그인 글자*/
 	text-align: center;
 }
 
-div.log_in_letter2{ /*맨 위 제일 큰 로그인 글자 밑 작은 글*/
-	padding : 10px 0px 0px 20px;
-	font-size : 19px;
-	color : #303030;
-	text-align: center;
-}
-
-div.sign_in_id { /*ID  문자*/
-	color: black;
-	font-size : 20px;
-	padding-bottom : 5px;
-	padding-left : 40px;
-}
-
-div.sign_in_pw { /*PASSWORD 문자*/
-	color : black;
-	font-size: 20px;
-	margin-top : 10px;
-	padding-bottom : 5px;
-	padding-left : 40px;
-}
-
 /*ID와 PW입력이 담긴 상자 공간 여백*/
 .body { 
 	margin-top : 70px;
 	margin-bottom : 40px;
-	margin-left : 10%;
-	margin-right : 10%;	
 }
 
 .input_id {
+	width : 500px;
+	height : 70px;
 	display : flex;
 	align-items : center;
-	padding-left : 40px;
-}
-.input_pw {
-	display : flex;
-	align-items : center;
-	padding-left : 40px;
+	margin : auto;
 }
 
+.input_pw {
+	width : 500px;
+	height : 70px;
+	display : flex;
+	align-items : center;
+	margin : 20px auto;
+}
 
 	/*footer 하단 하이퍼링크 설정*/
 a { 
@@ -104,20 +55,23 @@ a:hover {
 }
 
 input[type=text], input[type=password] {
-	border-width : 0 0 1px;
-	width : 450px;
-	height : 70px;
+	border : none;
+	width : 500px;
+	height : 60px;
 	border-radius : 7px;
-	font-size : 20px;
+	padding-left : 10px;
+	font-size : 15px;
+	box-shadow : 0px 1px 5px 0px rgb(0,69,126, 20%);
 }
 
 input[type=text]:focus, input[type=password]:focus{
-	outline : 1px solid rgb(175, 175, 175);
+	box-shadow : 0px 1px 5px 0px rgb(0,69,126, 70%);
+	outline : none;
 	transition: 0.3s;
 }
 
 input[type=submit] {
-	width : 300px;
+	width : 500px;
 	height : 50px;
 	border-radius : 7px;
 	font-size : 25px;
@@ -125,7 +79,7 @@ input[type=submit] {
 	background-color : #00457E;
 	border-width : 0px 0px 1px;
 	border : 1px solid gray;
-	box-shadow : 3px 3px 2px #002c7e;
+	box-shadow : 0px 1px 5px rgb(0, 69, 126, 60%);
 }
 
 input[type=submit]:hover {
@@ -142,52 +96,3 @@ footer {
 	text-align : center;
 }
 
-/*외부 로그인 버튼이 들어있는 공간 크기*/
-div.other_login {
-	width : 400px;
-	margin : auto;
-}
-
-/*외부 로그인 각 버튼 설정*/
-div.other_login input {
-	width : 100%;
-	height : 60px;
-	border-radius : 30px;
-	border : 1px solid black;
-	font-size : 20px;
-	font-weight : bold;
-	margin-bottom : 10px;
-}
-
-/*외부 로그인 - 네이버 채우기*/
-div.other_login input.naver {
-	color : white;
-	background-image : url("../img/btnG_아이콘원형.png") ;
-	background-size : contain;
-	background-repeat: no-repeat;
-	background-color : #03C75A;
-}
-
-/*외부 로그인 - 구글 채우기*/
-div.other_login input.google {
-	color : black;
-	background-image : url("../img/구글1.png") ;
-	background-size : contain;
-	background-repeat: no-repeat;
-}
-
-/*외부 로그인 클릭 시 설정 - 네이버*/
-div.other_login input.naver:focus {
-	border : 2px solid #03C75A;
-}
-
-/*외부 로그인 클릭 시 설정 - 구글*/
-div.other_login input.google:focus {
-	border : 1px solid gray;
-}
-
-/*외부 로그인 버튼 위에 커서 올렸을 시*/
-div.other_login input:hover {
-	cursor : pointer;
-	font-size : 21px;
-}
