@@ -115,13 +115,14 @@
 						</label>
 					</p>
 				</div>
-
+				<div class = "sign_up_button">
+					<input type="button" name="cancle" value="돌아가기" 
+					onclick="location.href='Login.jsp'"/>
+					<input type="submit" name="submit" value="회원가입" />
+				</div>
 			</div>
-
-			<center>
-				<input type="submit" name="submit" value="회원가입" />
-			</center>
 		</form>
+			
 	</div>
 </body>
 </html>
