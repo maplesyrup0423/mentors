@@ -6,24 +6,10 @@
 <meta charset="UTF-8">
 <title>Sign Up</title>
 <link rel="stylesheet" href="../style/Sign_up.css" />
-<script>
-	function changeText1() {
-		document.getElementById("sign_comment").innerHTML = "로그인창으로 이동합니다.";
-	}
-	function restoreText() {
-		document.getElementById("sign_comment").innerHTML = "회원가입 버튼을 눌러 로그인창으로 돌아갈 수 있습니다.";
-	}
-</script>
 </head>
 <body>
-	<div class="logo_space">
-		<input type="button" onClick="location.href='Mypage.jsp'" />
-	</div>
 	<div class="container">
-		<div class="sign" onmouseover="changeText1()"
-			onmouseleave="restoreText()" onclick="location.href='Login.jsp'">회원가입</div>
-		<div class="sign_comment" id="sign_comment">회원가입 버튼을 눌러 로그인창으로
-			돌아갈 수 있습니다.</div>
+		<div class="sign">회원가입</div>
 		<hr />
 		<form action="">
 			<div class="body">
