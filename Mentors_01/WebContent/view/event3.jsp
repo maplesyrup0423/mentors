@@ -13,11 +13,13 @@
 
     <div class="Event_main">
         
+        <h1>진행중인 이벤트</h1>
+        <hr style="margin-bottom: 30px;">
         <div class="E_button">
             <button class="blue_btn">진행중인 이벤트</button>
-            <button class="blue_btn">종료된 이벤트</button>
+            <button class="blue_btn"><a href="event_end.jsp">종료된 이벤트</a></button>
         </div>
-        <hr>
+        
         <div class="E_list">
             <div class="event">
                 <a href="Mentors_Main.jsp?mainNum=2.5">

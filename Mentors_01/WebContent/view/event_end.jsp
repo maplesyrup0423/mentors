@@ -2,72 +2,124 @@
     pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
-
 <head>
-<link rel="stylesheet" href="../style/event.css" />
-    <meta charset="UTF-8">
-    <title>멘토스, 솔데스크 NO.1 교원들의 연수원</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/end-event3.css">
+<title>Insert title here</title>
 </head>
-
 <body>
-   <div class="event">
-      <h3 align="center">이벤트</h3>
-   </div>
-   <hr>
-   <div class="live_ev" id="libox" align="center">
-      <button type="button" id="on" onclick="location.href='Mentors_Main.jsp?mainNum=2'">진행중인 이벤트</button>
-      <button type="button" id="off" onclick="location.href='Mentors_Main.jsp?mainNum=2.5'">종료된 이벤트</button>
-   </div>
-   <a href="https://namu.wiki/w/%ED%83%80%EC%B9%B4%EB%82%98%EC%8B%9C%20%EB%A6%BF%EC%B9%B4" class="aa">
-      <div class="e_main">
-         <span class="test">
-            <img src="../img/rika.png" alt="릿카"><br>
-         </span>
-         <div class="tit">
-            <h3>타카나시 릿카</h3>
-         </div>
-         <span class="txt">타카나시 릿카 입니다 귀엽읍니다 입니다 
-            하나부터 열까지 다 널위한 소리 말 듣지 않는 너에게는 뻔한 잔소리 
-            그만하자 그만 하자 너의 잔소리만 들려 &nbsp;
-         </span> <br>
-         <span class="day">
-            <span>
-               "기간"
-            </span>
-            1996.06.12~2024.01.19
-         </span>
 
-         <div class="circle"><Strong>D-7</Strong></div>
 
-      </div>
-   </a>
+    <div class="Event_main">
+      
+        <h1>종료된 이벤트</h1>
+        <hr style="margin-bottom: 30px;">
+        <div class="E_button">
+            <button class="blue_btn"><a href="event3.jsp">진행중인 이벤트</a></button>
+            <button class="blue_btn"><a href="event_end.jsp">종료된 이벤트</a></button>
+        </div>
+        <div class="E_list">
+            <div class="event">
+                <a href="Mentors_Main.jsp?mainNum=2.5">
+                    <img src="../img/event1-1.jpg" alt="">
+                    <br>
+                    <div id="title"><h3>이벤트 제목이자 간략한 내용</h3></div>
+                    <br>
+                    <div id="e_day">"이벤트 기간"</div>
+                    <div class="day_circle">
+                        <h2>종료</h2>
+                    </div>
+                    <div class="endfilter">
+                        <div class="endtext">마감완료</div>
+                    </div>
+                </a>
+            </div>
 
-   <a href="https://namu.wiki/w/%ED%83%80%EC%B9%B4%EB%82%98%EC%8B%9C%20%EB%A6%BF%EC%B9%B4" class="aa">
-      <div class="e_main">
-         <span class="test">
-            <img src="../img/rika.png" alt="릿카"><br>
-         </span>
-         <div class="tit">
-            <h3>타카나시 릿카</h3>
-         </div>
-         <span class="txt">타카나시 릿카 입니다 귀엽읍니다 입니다 
-            하나부터 열까지 다 널위한 소리 말 듣지 않는 너에게는 뻔한 잔소리 
-            그만하자 그만 하자 너의 잔소리만 들려 &nbsp;
-         </span> <br>
-         <span class="day">
-            <span>
-               "기간"
-            </span>
-            1996.06.12~2024.01.19
-         </span>
+            <div class="event" style="background-color: white;">
+                <a href="">
+                    <img src="../img/event2-2.png" alt="">
+                    <br>
+                    <div id="title"><h3>이벤트 제목이자 간략한 내용</h3></div>
+                    <br>
+                    <div id="e_day">"이벤트 기간"</div>
+                    <div class="day_circle">
+                        <h2>종료</h2>
+                    </div>
+                    <div class="endfilter">
+                        <div class="endtext">마감완료</div>
+                    </div>
+                </a>
+            </div>
 
-         <div class="circle"><Strong>D-7</Strong></div>
+            <div class="event">
+                <a href="">
+                    <img src="../img/event3-3.jpg" alt="">
+                    <br>
+                    <div id="title"><h3>이벤트 제목이자 간략한 내용</h3></div>
+                    <br>
+                    <div id="e_day">"이벤트 기간"</div>
+                    <div class="day_circle">
+                        <h2>종료</h2>
+                    </div>
+                    <div class="endfilter">
+                        <div class="endtext">마감완료</div>
+                    </div>
+                </a>
+            </div>
 
-      </div>
-   </a>
+            <div class="event">
+                <a href="">
+                    <img src="../img/event4-4.png" alt="">
+                    <br>
+                    <div id="title"><h3>이벤트 제목이자 간략한 내용</h3></div>
+                    <br>
+                    <div id="e_day">"이벤트 기간"</div>
+                    <div class="day_circle">
+                        <h2>종료</h2>
+                    </div>
+                    <div class="endfilter">
+                        <div class="endtext">마감완료</div>
+                    </div>
+                </a>
+            </div>
 
-  
+            <div class="event">
+                <a href="">
+                    <img src="../img/event5-5.png" alt="">
+                    <br>
+                    <div id="title"><h3>이벤트 제목이자 간략한 내용</h3></div>
+                    <br>
+                    <div id="e_day">"이벤트 기간"</div>
+                    <div class="day_circle">
+                        <h2>종료</h2>
+                    </div>
+                    <div class="endfilter">
+                        <div class="endtext">마감완료</div>
+                    </div>
+                </a>
+            </div>
 
+            <div class="event">
+                <a href="">
+                    <img src="../img/event6-6.jpg" alt="">
+                    <br>
+                    <div id="title"><h3>이벤트 제목이자 간략한 내용</h3></div>
+                    <br>
+                    <div id="e_day">"이벤트 기간"</div>
+                    <div class="day_circle">
+                        <h2>종료</h2>
+                    </div>
+                    <div class="endfilter">
+                        <div class="endtext">마감완료</div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+
+
+    </div>
 </body>
-
 </html>
