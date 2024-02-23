@@ -19,9 +19,9 @@
                 <div class="C-eventList"> <!-- /*allimg*/ -->
             
                     <div class="C-mianimg"><!-- /*bannerimg*/ -->
-                        <div><img src="../img/banner1.png" alt=""></div>
+                        <div><img src="../img/img.3.jpg" alt=""></div>
                         <div><img src="../img/banner2.png" alt=""></div>
-                        <div><img src="../img/banner3.png" alt=""></div>
+                        <div><img src="../img/img2.png" alt=""></div>
                         <div><img src="../img/banner4.png" alt=""></div>
                     </div>
                     <div class="login-circle">
