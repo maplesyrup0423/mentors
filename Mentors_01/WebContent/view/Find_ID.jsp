@@ -33,8 +33,8 @@
 			</div>
 			<center>
 				<input class="cancel" type="button" value="취소"
-					onClick="location.href='Login.jsp'" /> 
-					<input type="submit"name = "submit" value="확인" />
+				onClick="location.href='Login.jsp'" /> 
+				<input type="submit"name = "submit" value="확인" />
 			</center>
 		</form>
 	</div>
