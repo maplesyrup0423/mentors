@@ -25,7 +25,7 @@
 					</div>
 				</div>
 				<center>
-					<input type="submit" name="submit" value="Sign-in" />
+					<input type="submit" name="submit" value="로그인" />
 				</center>
 			</form>
 			<footer> 
