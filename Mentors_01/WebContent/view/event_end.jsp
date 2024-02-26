@@ -13,11 +13,11 @@
 
     <div class="Event_main">
       
-        <h1>종료된 이벤트</h1>
-        <hr style="margin-bottom: 30px;">
-        <div class="E_button">
-            <button class="blue_btn"><a href="event3.jsp">진행중인 이벤트</a></button>
-            <button class="blue_btn"><a href="event_end.jsp">종료된 이벤트</a></button>
+        <h1 style="font-size: 50px; margin-left: -800;" >종료된 이벤트</h1>
+        <!-- <hr style="margin-bottom: 30px;"> -->
+        <div class=" endE_button">
+            <button class="blue_btn"><a href="./event3.jsp">진행중인 이벤트</a></button>
+            <button class="blue_btn">종료된 이벤트</button>
         </div>
         <div class="E_list">
             <div class="event">
@@ -28,7 +28,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>
@@ -44,7 +44,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>
@@ -60,7 +60,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>
@@ -76,7 +76,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>
@@ -92,7 +92,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>
@@ -108,7 +108,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>
