@@ -12,7 +12,8 @@
     
     <div id="up-point"></div>
 
-      <img src="../img/eventinfo3.jpg" style="width: 100%; height: auto;">
+      <img src="../img/eventinfo3.jpg" 
+      style="width: 100%; height: auto;">
 
         <div>
             <a href="#up-point" >

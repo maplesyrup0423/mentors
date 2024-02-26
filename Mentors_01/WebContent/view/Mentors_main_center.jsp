@@ -24,7 +24,9 @@
                         <div><img src="../img/img2.png" alt=""></div>
                         <div><img src="../img/banner4.png" alt=""></div>
                     </div>
-                    <div class="login-circle">
+
+
+                    <!-- <div class="login-circle">
                         <div class="circle-login">
             
                             <h1> 로그인 이후 <br>이용해주세요!</h1>
@@ -35,6 +37,18 @@
                             ·
                             <span>비밀번호</span>
                             <span id="newUser">회원가입</span>
+                        </div>
+                    </div> -->
+
+                    <div class="login-circle2">
+                        <div class="circle-login2">
+            
+                            <span id="My">내 정보  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                 <button style="border-radius: 25px;">로그아웃</button></span>
+                                 <h1>사용자 이름</h1>
+                                    <br>
+                                    
+                                 <button class="loginbutton">뭐든 가는 버튼&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 〉</button>
                         </div>
                     </div>
             
