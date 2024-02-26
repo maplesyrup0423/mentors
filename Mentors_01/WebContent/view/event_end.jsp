@@ -20,9 +20,9 @@
             <button class="blue_btn">종료된 이벤트</button>
         </div>
         <div class="E_list">
-            <div class="event">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="Mentors_Main.jsp?mainNum=2.5">
-                    <img src="../img/event1-1.jpg" alt="">
+                    <img src="../img/event1-1.jpg" >
                     <br>
                     <div id="title"><h3>이벤트 제목이자 간략한 내용</h3></div>
                     <br>
@@ -36,9 +36,9 @@
                 </a>
             </div>
 
-            <div class="event" style="background-color: white;">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="">
-                    <img src="../img/event2-2.png" alt="">
+                    <img src="../img/event2-2.png" >
                     <br>
                     <div id="title"><h3>이벤트 제목이자 간략한 내용</h3></div>
                     <br>
@@ -52,7 +52,7 @@
                 </a>
             </div>
 
-            <div class="event">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="">
                     <img src="../img/event3-3.jpg" alt="">
                     <br>
@@ -68,7 +68,7 @@
                 </a>
             </div>
 
-            <div class="event">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="">
                     <img src="../img/event4-4.png" alt="">
                     <br>
@@ -84,7 +84,7 @@
                 </a>
             </div>
 
-            <div class="event">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="">
                     <img src="../img/event5-5.png" alt="">
                     <br>
@@ -100,7 +100,7 @@
                 </a>
             </div>
 
-            <div class="event">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="">
                     <img src="../img/event6-6.jpg" alt="">
                     <br>
