@@ -41,9 +41,8 @@ public class HomeController {
 		model.addAttribute("eventbean",eventbean);
 		model.addAttribute("bookbean",bookbean);
 		System.out.println("1");
-		System.out.println("class_home/class_home_Include");
 		//return "Booklist_Detail";
-		return "class_home/class_home_Include";
+		return "index.jsp";
 	}
 
 }
