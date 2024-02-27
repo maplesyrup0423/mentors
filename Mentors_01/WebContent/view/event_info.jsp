@@ -16,7 +16,7 @@
       style="width: 100%; height: auto;">
 
         <div>
-            <a href="#up-point" >
+            <a href=".main_all" >
                 <i class="fa-solid fa-circle-chevron-up" id="up_icon"></i>
             </a>
         </div>
