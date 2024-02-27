@@ -17,7 +17,6 @@ public class Book_dao {
 	Book_mapper bookM;
 	
 	public List<Book_Bean> select_Book_Bean(){
-		
 		String sql = "select * from booklist";
 		List<Book_Bean> BookB = db.query(sql, bookM);
 		return BookB;
