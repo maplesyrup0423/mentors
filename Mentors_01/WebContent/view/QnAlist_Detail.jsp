@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 
@@ -28,11 +29,7 @@
 
 
 				</td>
-				<td class="right_td"><div id="searchInput">
-						<input type="text" class="sc" placeholder="검색어를 입력하세요">
-						<button class="search">
-							<image src="../img/search_input_right.png"></image>
-						</button>
+				
 
 					</div></td>
 			</tr>
@@ -51,10 +48,20 @@
 				</tbody>
 			</table>
 		</div>
+		<c:if test="true">
+		<div class="answer">
+		<h3>답변등록</h3>
+		 <textarea class="text"style="resize: none"rows="10" cols="100" ></textarea>
+		<div class=button_q>
+		<button class="answerbtn submit">등록</button>
+		<button class="answerbtn cancle">취소</button>
+		</div>
+		</div>
+		</c:if>
 		<div>
 			<div class="bottom_btn_right">
 				<button type="button"
-					onclick="location.href='class_home_Include.jsp?CHnum=4';">목록</button>
+					onclick="location.href='class_home_Include.jsp?CHnum=3';">목록</button>
 			</div>
 		</div>
 
@@ -89,41 +96,7 @@
 				});
 	</script>
 
-<div class="box">
 
-		<table class="Notification_Detailedpage_table" >
-			<tr>
-			</tr>
-			<tr>
-				<td class="Notification_Detailedpage_table_td2">
-
-					<h2 class="title">Q&A</h2>
-
-
-				</td>
-				<td class="right_td"><div id="searchInput">
-						<input type="text" class="sc" placeholder="검색어를 입력하세요">
-						<button class="search" onclick="search()">
-							<image src="../img/search_input_right.png"></image>
-						</button>
-
-					</div></td>
-			</tr>
-		</table>
-		<br />
-		<hr class="hr" />
-		<div class="tbl">
-			<table class="tbl_view">
-				<tbody>
-					<tr>
-						<th class="th1">제목</th>
-					</tr>
-					<tr>
-						<th class="th2">내용</th>
-					</tr>
-				</tbody>
-			</table>
-		</div>
 		
 </body>
 </html>

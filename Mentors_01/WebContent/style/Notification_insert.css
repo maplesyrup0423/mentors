@@ -52,3 +52,11 @@ body {
         .btn:hover {
             background-color: #0056b3;
         }
+        
+         #title{
+        width: 780px;
+        }
+        
+        #content{
+        width: 780px;
+        }

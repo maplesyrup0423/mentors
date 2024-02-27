@@ -57,45 +57,11 @@
 				<thead>
 				<tbody>
 					<tr class="number1">
-						<td id="num">1</td>
-						<td id="tit" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
-						<td id="wt">작성자</td>
-						<td id="dt">작성일</td>
+						<td class="num">1</td>
+						<td class="tit" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
+						<td class="wt">작성자</td>
+						<td class="dt">작성일</td>
 
-					</tr>
-					<tr class="category1">
-						<td id="num2">2</td>
-						<td id="tit2" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
-						<td id="wt2">작성자</td>
-						<td id="dt2">작성일</td>
-
-					</tr>
-					<tr class="title1">
-						<td id="num3">3</td>
-						<td id="tit3" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
-						<td id="wt3">작성자</td>
-						<td id="dt3">작성일</td>
-
-					</tr>
-					<tr class="writer1">
-						<td id="num4">4</td>
-						<td id="tit4" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
-						<td id="wt4">작성자</td>
-						<td id="dt4">작성일</td>
-
-					</tr>
-					<tr class="date1">
-						<td id="num5">5</td>
-						<td id="tit5" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
-						<td id="wt5">작성자</td>
-						<td id="dt5">작성일</td>
-
-					</tr>
-					<tr class="state1">
-						<td id="num6">6</td>
-						<td id="tit6" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
-						<td id="wt6">작성자</td>
-						<td id="dt6">작성일</td>
 					</tr>
 				</tbody>
 		</table>

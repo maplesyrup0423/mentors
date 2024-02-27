@@ -26,13 +26,7 @@
 
 
 				</td>
-				<td class="right_td"><div id="searchInput">
-						<input type="text" class="sc" placeholder="검색어를 입력하세요">
-						<button class="search">
-							<image src="../img/search_input_right.png"></image>
-						</button>
-
-					</div></td>
+				
 			</tr>
 		</table>
 		<br />

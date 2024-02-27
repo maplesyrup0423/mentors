@@ -67,7 +67,7 @@ tr.view{
 }
 
 table.list_tbl{	
-	width: 1080px;
+	width: 1060px;
 	height: 400px;
 	margin: auto;/*가운데 정렬*/
 	border-collapse: collapse;
@@ -532,7 +532,7 @@ table.list_tbl{
     border: 1px solid #4caf50;
 }
 .hr{
-	width: 1080px;
+	width: 1060px;
 }
 
 .title{
