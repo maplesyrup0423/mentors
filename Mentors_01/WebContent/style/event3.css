@@ -22,9 +22,9 @@ a{
     text-decoration-line: none;
 }
 
-/* .E_button :hover{
-    background-color: #a09bff;
-} */
+.E_button{
+    margin-bottom: 20px;
+}
 
 
 .E_list{
@@ -71,4 +71,8 @@ margin-top: 50px;
     width: 80px;
     height: 80px;
     margin-left: 280px;
+}
+
+.ing-day{
+    margin-top: 22px;
 }

@@ -13,22 +13,22 @@
 
     <div class="Event_main">
       
-        <h1>종료된 이벤트</h1>
-        <hr style="margin-bottom: 30px;">
-        <div class="E_button">
-            <button class="blue_btn"><a href="event3.jsp">진행중인 이벤트</a></button>
-            <button class="blue_btn"><a href="event_end.jsp">종료된 이벤트</a></button>
+        <h1 style="font-size: 50px; margin-left: -800;" >종료된 이벤트</h1>
+        <!-- <hr style="margin-bottom: 30px;"> -->
+        <div class=" endE_button">
+            <button class="blue_btn"><a href="./event3.jsp">진행중인 이벤트</a></button>
+            <button class="blue_btn">종료된 이벤트</button>
         </div>
         <div class="E_list">
-            <div class="event">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="Mentors_Main.jsp?mainNum=2.5">
-                    <img src="../img/event1-1.jpg" alt="">
+                    <img src="../img/event1-1.jpg" >
                     <br>
                     <div id="title"><h3>이벤트 제목이자 간략한 내용</h3></div>
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>
@@ -36,15 +36,15 @@
                 </a>
             </div>
 
-            <div class="event" style="background-color: white;">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="">
-                    <img src="../img/event2-2.png" alt="">
+                    <img src="../img/event2-2.png" >
                     <br>
                     <div id="title"><h3>이벤트 제목이자 간략한 내용</h3></div>
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>
@@ -52,7 +52,7 @@
                 </a>
             </div>
 
-            <div class="event">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="">
                     <img src="../img/event3-3.jpg" alt="">
                     <br>
@@ -60,7 +60,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>
@@ -68,7 +68,7 @@
                 </a>
             </div>
 
-            <div class="event">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="">
                     <img src="../img/event4-4.png" alt="">
                     <br>
@@ -76,7 +76,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>
@@ -84,7 +84,7 @@
                 </a>
             </div>
 
-            <div class="event">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="">
                     <img src="../img/event5-5.png" alt="">
                     <br>
@@ -92,7 +92,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>
@@ -100,7 +100,7 @@
                 </a>
             </div>
 
-            <div class="event">
+            <div class="event" onclick="alert('종료된 이벤트입니다')">
                 <a href="">
                     <img src="../img/event6-6.jpg" alt="">
                     <br>
@@ -108,7 +108,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>종료</h2>
+                        <h2 class="day_end">종료</h2>
                     </div>
                     <div class="endfilter">
                         <div class="endtext">마감완료</div>

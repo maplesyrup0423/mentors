@@ -13,8 +13,8 @@
 
     <div class="Event_main">
         
-        <h1>진행중인 이벤트</h1>
-        <hr style="margin-bottom: 30px;">
+        <h1 style="font-size: 50px; margin-left: -800;" >진행중인 이벤트</h1>
+        <!-- <hr style="margin-bottom: 30px;"> -->
         <div class="E_button">
             <button class="blue_btn">진행중인 이벤트</button>
             <button class="blue_btn"><a href="event_end.jsp">종료된 이벤트</a></button>
@@ -29,7 +29,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>D-1</h2>
+                        <h2 class="ing-day">D-1</h2>
                     </div>
                 </a>
             </div>
@@ -42,7 +42,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>D-1</h2>
+                        <h2 class="ing-day">D-1</h2>
                     </div>
                 </a>
             </div>
@@ -55,7 +55,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>D-1</h2>
+                        <h2 class="ing-day">D-1</h2>
                     </div>
                 </a>
             </div>
@@ -68,7 +68,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>D-1</h2>
+                        <h2 class="ing-day">D-1</h2>
                     </div>
                 </a>
             </div>
@@ -81,7 +81,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>D-1</h2>
+                        <h2 class="ing-day">D-1</h2>
                     </div>
                 </a>
             </div>
@@ -94,7 +94,7 @@
                     <br>
                     <div id="e_day">"이벤트 기간"</div>
                     <div class="day_circle">
-                        <h2>D-1</h2>
+                        <h2 class="ing-day">D-1</h2>
                     </div>
                 </a>
             </div>
