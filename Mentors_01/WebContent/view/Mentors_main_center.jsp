@@ -1,7 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
     <!DOCTYPE html>
     <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,21 +12,26 @@
         <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     </head>
+
     <body>
-    
-        <!-- <div class="C-main"> /*class="main"*/
+
+        <div class="C-main">
+            <!-- /*class="main"*/
             <header>
-                <div class="C-eventList"> /*allimg*/
+                <div class="C-eventList"> 
+                    /*allimg*/
             
-                    <div class="C-mianimg">/*bannerimg*/
-                        <div><img src="../img/img.3.jpg" alt=""></div>
-                        <div><img src="../img/banner2.png" alt=""></div>
-                        <div><img src="../img/img2.png" alt=""></div>
-                        <div><img src="../img/banner4.png" alt=""></div>
+                    <div class="C-mianimg">
+                        /*bannerimg*/
+                        <div><img src="../img/bannerimg1 (1).png" alt=""></div>
+                        <div><img src="../img/bannerimg2 (1).jpg" alt=""></div>
+                        <div><img src="../img/bannerimg3 (1).jpg" alt=""></div>
+                        <div><img src="../img/bannerimg4 (1).png" alt=""></div>
+                        <div><img src="../img/bannerimg5 (1).png" alt=""></div>
                     </div> -->
 
 
-                    <!-- <div class="login-circle">
+            <!-- <div class="login-circle">
                         <div class="circle-login">
             
                             <h1> 로그인 이후 <br>이용해주세요!</h1>
@@ -40,7 +45,7 @@
                         </div>
                     </div> -->
 
-                    <!-- <div class="login-circle2">
+            <!-- <div class="login-circle2">
                         <div class="circle-login2">
             
                             <span id="My">내 정보  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -53,13 +58,15 @@
                     </div>
             
                 </div>
-            </header> -->
+            </header>
     
-            <!-- <div class="C-table">
-                <table class="C-contentTable" border="1"> //contentall
+            <div class="C-table">
+                <table class="C-contentTable" border="1"> 
+                    //contentall
                     <tr>
                         <td align="center">
-                            <div class="C-list_div"> //contentlist_div
+                            <div class="C-list_div"> 
+                                //contentlist_div
                             <table class="contentlist">
                                 <th class="bestlist" colspan="2">베스트 도서</th>
                                 <tr class="best_book">
@@ -93,7 +100,8 @@
                         </div>
                     </td>
                         <td  align="center">
-                            <div class="C-list_div"> //contentlist_div
+                            <div class="C-list_div"> 
+                                //contentlist_div
                                 <table class="besttext">
                                     <th style="font-size: 30px;">인기 게시글</th>
                                     
@@ -103,9 +111,9 @@
                     </tr>
                 </table>
             </div> -->
-            
-            
-           <ul class="teb_list">
+
+
+            <ul class="teb_list">
                 <li value="1" name class="nomal">
                     <button type="button">전체</button>
                 </li>
@@ -117,53 +125,54 @@
                 <div style="text-align: center; width: 1280px;">
                     <h1>현재 신청 가능한 강의</h1>
                 </div>
-            
+
                 <div class="C-classlist"><!-- main-center_img -->
-            
+
                     <div class="list-img"><!--center-img-->
-                        <a href=""><img src="../img/E_anime1.png" alt="봇치더락">
+                        <a href=""><img src="../img/best-lecture1 (1).png" alt="봇치더락">
                             <p>봇치더락 2기 확정!</p>
                         </a>
                     </div>
-            
+
                     <div class="list-img"><!--center-img-->
-                        <a href=""><img src="../img/E_enimeK-ON.jpg" alt="k-on">
+                        <a href=""><img src="../img/best-lecture2 (1).png" alt="k-on">
                             <p>케이온 극장판 개봉!</p>
                         </a>
                     </div>
-            
+
                     <div class="list-img"><!--center-img-->
-                        <a href=""><img src="../img/E_maple1.jpg" alt="루시드">
+                        <a href=""><img src="../img/best-lecture3 (1).jpg" alt="루시드">
                             <p>메이플 이벤트!</p>
                         </a>
                     </div>
-            
+
                     <div class="list-img"><!--center-img-->
-                        <a href=""><img src="../img/E_maple2.webp" alt="오르카">
+                        <a href=""><img src="../img/best-lecture4 (1).png" alt="오르카">
                             <p>이 악녀가!</p>
                         </a>
                     </div>
-            
+
                     <div class="list-img"><!--center-img-->
-                        <a href=""><img src="../img/E_mido.webp" alt="미도와 파라솔">
+                        <a href=""><img src="../img/best-lecture5 (1).jpg" alt="미도와 파라솔">
                             <p>미도와 파라솔 노래모음</p>
                         </a>
                     </div>
-            
+
                     <div class="list-img"><!--center-img-->
-                        <a href=""><img src="../img/E_qwer.jpg" alt="qwer">
+                        <a href=""><img src="../img/best-lecture6 (1).png" alt="qwer">
                             <p>김계란의 qwer데뷔!</p>
                         </a>
                     </div>
-            
+
                     <!-- <img src="../img/arrow-left.png" alt="">
                         <img src="../img/arrow-right.png" alt=""> -->
-            
-            
+
+
                 </div>
-                </div>
-    </footer>
-        
+        </div>
+        </footer>
+
         <script type="text/javascript" src="../script/main_center.js"></script>
     </body>
+
     </html>
