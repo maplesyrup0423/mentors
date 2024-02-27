@@ -12,7 +12,7 @@
     
     <div id="up-point"></div>
 
-      <img src="../img/eventinfo3.jpg" 
+      <img src="../img/eventinfo1.jpg" 
       style="width: 100%; height: auto;">
 
         <div>

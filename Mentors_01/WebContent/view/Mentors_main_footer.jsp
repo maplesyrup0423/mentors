@@ -26,9 +26,9 @@
             </span>
         </div>
         <div class="f_right">
-            <div id="log"><img src="../img/mantis.jpg" alt="로고1"></div>
-            <div id="log"><img src="../img/mantis.jpg" alt="로고2"></div>
-            <div id="log_but"><img src="../img/mantis.jpg" alt="로고3"></div>
+            <div id="log"><img src="../img/footer_img1.png" alt="로고1"></div>
+            <div id="log"><img src="../img/footer_img2.png" alt="로고2"></div>
+            <div id="log"><img src="../img/footer_img3.png" alt="로고3"></div>
         </div>
     </footer>
 </body>
