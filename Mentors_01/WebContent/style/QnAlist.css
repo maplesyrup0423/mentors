@@ -14,7 +14,6 @@ tr.view{
 }
 
 .number1>td{
-	border-right: 1px solid black;
 }
 .view>#number{
 	width: 13%;
@@ -24,7 +23,6 @@ tr.view{
 	text-align: left;
 	border: 1px solid #ddd;
 	text-align: center;
-	border-left: 1px solid #000;
 }
 .view>#subject{
 	width: 13%;
@@ -76,22 +74,20 @@ tr.view{
 	border: 1px solid #ddd;
 	text-align: center;
 	border-bottom: 1px solid #ddd;
-	border-right: 1px solid #000;
 }
 
 table.list_tbl{	
-	width: 1060px;
+	width: 900px;
 	margin: auto;/*가운데 정렬*/
 	border-collapse: collapse;
 	margin: 1rem auto;
-	border: 1px solid #000;
 	background-color: white;
 	}
 
 
 
 .hr{
-	width: 1060px;
+	width: 900px;
 }
 
 .title{
@@ -99,7 +95,7 @@ table.list_tbl{
 }
 
 .w_btn_div{
-	width: 1080px;
+	width: 1060px;
 }
 
 .search{
@@ -156,7 +152,68 @@ table.list_tbl{
     background-color: #00457E;
     border-radius: 20px;
     font-size: 15px;
-    margin-left:980px;
+    margin-left:830px;
 }
 
+.num{
+	padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
 
+.sub{
+	padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.tit{
+	padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.wt{
+	padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.dt{
+	padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;;
+}
+
+.st{
+	padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+	
+}
+
+.m_btn {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.bottom_move_btn {
+    text-align: center;
+}
+
+.qna_dody{
+	
+}
+
+.list{
+	width: 900px;
+}

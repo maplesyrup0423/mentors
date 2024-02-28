@@ -58,7 +58,7 @@
 				<tbody>
 					<tr class="number1">
 						<td class="num">1</td>
-						<td class="tit" onclick="location.href='class_home_Include.jsp?CHnum=6';">제목</td>
+						<td class="tit" onclick="location.href='Mentors_Main.jsp?mainNum=4.1';">제목</td>
 						<td class="wt">작성자</td>
 						<td class="dt">작성일</td>
 
@@ -67,48 +67,11 @@
 		</table>
 	</div>
 	<div class="w_btn_div"><button id="blue_btn" onClick="location.href='Mentors_Main.jsp?mainNum=4.2'">글쓰기</button></div>
-	<div>
-		<center>
-			<c:if test="${count>0 }">
-				<!-- 
-            전체글 10개 => 1페이지(10/10+1)=>1
-            전체글 34개 => 4페이지(34/10+1)=>4 -->
-				<c:set var="pageCount" value="${count/pageSize + (count%pageSize==0? 0:1) }" />
-				<!-- 시작 페이지 숫자 지정 -->
-				<c:set var="startPage" value="1" />
-				<c:if test="${currentPage%10 != 0 }">
-					<fmt:parseNumber var="result" value="${currentPage/10 }" integerOnly="true" />
-					<c:set var="startPage" value="${result*10+1 }" />
-				</c:if>
-				<!-- 화면에 보여질 페이지 처리 숫자 -->
-				<c:set var="pageBlock" value="${10 }" />
-				<!-- 첫번째 페이지 기준 : 1+10-1 = 10 -->
-				<c:set var="endPage" value="${startPage+pageBlock-1 }" />
-				<c:if test="${endPage>pageCount }">
-					<c:set var="endPage" value="${pageCount}" />
-				</c:if>
-				<!-- 이전페이지 -->
-				<c:if test="${startPage>10 }">
-					<a href="BoardListCon.do?pageNum=${startPage-10 }" style="text-decoration:none">
-						[이전]
-					</a>
-				</c:if>
-
-				<c:forEach var="i" begin="${startPage }" end="${endPage }">
-						<a href="BoardListCon.do?pageNum=${i }" style="text-decoration: none">
-						[1]
-					</a>
-				</c:forEach>
-
-				<c:if test="${endPage<pageCount }">
-					<!-- 다음페이지 -->
-					<a href="BoardListCon.do?pageNum=${startPage+10 }" style="text-decoration:none">
-						[다음]
-					</a>
-				</c:if>
-			</c:if>
-		</center>
-	</div>
+	<div class="bottom_move_btn">
+			<input class="m_btn" type="button" value="<"/>
+			<input class="m_btn" type="button" value="1"/>
+			<input class="m_btn" type="button" value=">"/>
+		</div>
 
 </body>
 
