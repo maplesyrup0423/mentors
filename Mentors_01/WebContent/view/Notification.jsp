@@ -63,87 +63,18 @@
 					<tr class="number1">
 						<td id="num">1</td>
 						<td id="tit"
-							onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
+							onClick="location.href='class_home_Include.jsp?CHnum=5'">제목</td>
 						<td id="dt">작성일</td>
 
 					</tr>
-					<tr class="category1">
-						<td id="num2">2</td>
-						<td id="tit2"
-							onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
-						<td id="dt2">작성일</td>
-
-					</tr>
-					<tr class="title1">
-						<td id="num3">3</td>
-						<td id="tit3"
-							onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
-						<td id="dt3">작성일</td>
-
-					</tr>
-					<tr class="writer1">
-						<td id="num4">4</td>
-						<td id="tit4"
-							onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
-						<td id="dt4">작성일</td>
-
-					</tr>
-					<tr class="date1">
-						<td id="num5">5</td>
-						<td id="tit5"
-							onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
-						<td id="dt5">작성일</td>
-
-					</tr>
-					<tr class="state1">
-						<td id="num6">6</td>
-						<td id="tit6"
-							onClick="location.href='Mentors_Main.jsp?mainNum=4.1'">제목</td>
-						<td id="dt6">작성일</td>
-					</tr>
+					
 				</tbody>
 			</table>
 		</div>
-		<div>
-			<center>
-				<c:if test="${count>0 }">
-					<!-- 
-            전체글 10개 => 1페이지(10/10+1)=>1
-            전체글 34개 => 4페이지(34/10+1)=>4 -->
-					<c:set var="pageCount"
-						value="${count/pageSize + (count%pageSize==0? 0:1) }" />
-					<!-- 시작 페이지 숫자 지정 -->
-					<c:set var="startPage" value="1" />
-					<c:if test="${currentPage%10 != 0 }">
-						<fmt:parseNumber var="result" value="${currentPage/10 }"
-							integerOnly="true" />
-						<c:set var="startPage" value="${result*10+1 }" />
-					</c:if>
-					<!-- 화면에 보여질 페이지 처리 숫자 -->
-					<c:set var="pageBlock" value="${10 }" />
-					<!-- 첫번째 페이지 기준 : 1+10-1 = 10 -->
-					<c:set var="endPage" value="${startPage+pageBlock-1 }" />
-					<c:if test="${endPage>pageCount }">
-						<c:set var="endPage" value="${pageCount}" />
-					</c:if>
-					<!-- 이전페이지 -->
-					<c:if test="${startPage>10 }">
-						<a href="BoardListCon.do?pageNum=${startPage-10 }"
-							style="text-decoration: none"> [이전] </a>
-					</c:if>
-
-					<c:forEach var="i" begin="${startPage }" end="${endPage }">
-						<a href="BoardListCon.do?pageNum=${i }"
-							style="text-decoration: none"> [1] </a>
-					</c:forEach>
-
-					<c:if test="${endPage<pageCount }">
-						<!-- 다음페이지 -->
-						<a href="BoardListCon.do?pageNum=${startPage+10 }"
-							style="text-decoration: none"> [다음] </a>
-					</c:if>
-				</c:if>
-			</center>
+		<div class="bottom_move_btn">
+			<input class="m_btn" type="button" value="<"/>
+			<input class="m_btn" type="button" value="1"/>
+			<input class="m_btn" type="button" value=">"/>
 		</div>
 	</div>
 </body>

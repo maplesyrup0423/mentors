@@ -12,10 +12,8 @@ tr.view{
 	background-color: #00457E;
 	color: #fff;
 	padding: 8px;
-	text-align: left;
 	border: 1px solid #ddd;
 	text-align: center;
-	border-left: 1px solid #000;
 }
 
 
@@ -24,7 +22,6 @@ tr.view{
 	background-color: #00457E;
 	color: #fff;
 	padding: 8px;
-	text-align: left;
 	border: 1px solid #ddd;
 	text-align: center;
 }
@@ -34,7 +31,6 @@ tr.view{
 	background-color: #00457E;
 	color: #fff;
 	padding: 8px;
-	text-align: left;
 	border: 1px solid #ddd;
 	text-align: center;
 }
@@ -44,22 +40,10 @@ tr.view{
 	background-color: #00457E;
 	color: #fff;
 	padding: 8px;
-	text-align: left;
 	border: 1px solid #ddd;
 	text-align: center;
-	border-right: 1px solid black;
 }
 
-.view>#state{
-	width: 10%;
-	background-color: #00457E;
-	color: #fff;
-	padding: 8px;
-	text-align: left;
-	border: 1px solid #ddd;
-	text-align: center;
-	
-}
 
 table.list_tbl{	
 	width: 1080px;
@@ -68,6 +52,7 @@ table.list_tbl{
 	margin: 1rem auto;
 	border: 1px solid #000;
 	background-color: white;
+	padding: 20px;
 	}
 
 .number1{
@@ -80,81 +65,34 @@ table.list_tbl{
 }
 .number1>.num{
 	width: 13%;
-	text-align: center;
-	font-weight: bold;
 	padding: 8px;
-	text-align: left;
 	border: 1px solid #ddd;
 	text-align: center;
 }
 
-.number1>.cate{
-	width: 15%;
-	text-align: center;
-	color: steelblue;
-	font-weight: bold;
-	padding: 8px;
-	text-align: left;
-	border: 1px solid #ddd;
-	text-align: center;
-}
 
 .number1>.tit{
 	width: 30%;
-	text-align: center;
-	font-weight: bold;
 	cursor: pointer;
 	padding: 8px;
-	text-align: left;
 	border: 1px solid #ddd;
 	text-align: center;
 }
 
 .number1>.wt{
 	width: 13%;
-	text-align: center;
-	font-weight: bold;
 	padding: 8px;
-	text-align: left;
 	border: 1px solid #ddd;
 	text-align: center;
 }
 
 .number1>.dt{
 	width: 15%;
-	text-align: center;
-	font-weight: bold;
 	padding: 8px;
-	text-align: left;
 	border: 1px solid #ddd;
 	text-align: center;
 }
 
-.number1>.st{
-	width: 10%;
-	text-align: center;
-    height: 38px;
-    background: #4caf50;
-    color: #4caf50;
-    background-color: white;
-   /* border-radius: 20px;
-    border: 1px solid #4caf50;*/
-    padding: 8px;
-	text-align: left;
-	border: 1px solid #ddd;
-	text-align: center;
-}
-.bordergreen{
-	height: 30px;
-	border-radius: 20px;
-    background-color: white;
-    border: 1px solid #4caf50;
-    padding: 8px;
-	text-align: left;
-	border: 1px solid #ddd;
-	text-align: center;
-	
-}
 
 
 }
@@ -236,5 +174,18 @@ table.list_tbl{
     font-size: 15px;
     margin-left:1120px;
 }
+.m_btn {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
 
+.bottom_move_btn {
+    text-align: center;
+}
 
+.hr{
+	width: 1080px;
+}
