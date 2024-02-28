@@ -54,7 +54,7 @@
 		 <textarea class="text"style="resize: none"rows="10" cols="100" ></textarea>
 		<div class=button_q>
 		<button class="answerbtn submit">등록</button>
-		<button class="answerbtn cancle">취소</button>
+		<button class="answerbtn cancle" onclick="location.href='class_home_Include.jsp?CHnum=3';">취소</button>
 		</div>
 		</div>
 		</c:if>

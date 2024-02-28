@@ -46,7 +46,7 @@
 		<div>
 			<div class="bottom_btn_right">
 				<button type="button"
-					onclick="location.href='class_home_Include.jsp?CHnum=4';">목록</button>
+					onclick="location.href='location.href='Mentors_Main.jsp?mainNum=4';">목록</button>
 			</div>
 		</div>
 
