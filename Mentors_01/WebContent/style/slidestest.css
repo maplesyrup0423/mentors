@@ -177,6 +177,38 @@ a {
 	text-align: center;
 }
 
+.teb_list{
+	list-style-type: none;
+	float: left;
+	/* outline: 1px solid; */
+	margin-bottom: 0px;
+}
+
+.teb_list li{
+display: inline-block;
+outline: 1px solid;
+}
+
+.teb_item{
+	padding: 20px;
+}
+
+.item_list{
+	display: inline-block;
+	outline: 1px solid;
+	margin-top: 0px;
+}
+
+.item{
+	display: inline-block;
+	margin: 10px;
+}
+
+.item img{
+	width: 280px;
+	height: 154px;
+}
+
 /* ================================= */
 
 .C-classlist {
@@ -188,6 +220,8 @@ a {
 
 .list-img{
     margin-left: 13.5px;
+	font-size: large;
+	font-weight: 700;
 }
 
 .list-img img {

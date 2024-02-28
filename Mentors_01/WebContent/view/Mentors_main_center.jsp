@@ -112,12 +112,76 @@
                 </table>
             </div> -->
 
+            <div class="main_list">
+                <div class="user_teb_list">
+                    <ul class="teb_list">
+                        <li class="teb_item">
+                            <a href="" class="tab_link">
+                                <span class="teb_text">전체메뉴</span>
+                            </a>
+                        </li>
+                        <li class="teb_item">
+                            <a href="" class="tab_link">
+                                <span class="teb_text">유치원생</span>
+                            </a>
+                        </li>
+                        <li class="teb_item">
+                            <a href="" class="tab_link">
+                                <span class="teb_text">초등학생</span>
+                            </a>
+                        </li>
+                        <li class="teb_item">
+                            <a href="" class="tab_link">
+                                <span class="teb_text">중학생</span>
+                            </a>
+                        </li>
+                        <li class="teb_item">
+                            <a href="" class="tab_link">
+                                <span class="teb_text">고등학생</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            
+                <br>
+            
+                <div class="item_list">
 
-            <ul class="teb_list">
-                <li value="1" name class="nomal">
-                    <button type="button">전체</button>
-                </li>
-           </ul>
+                    <div class="item">
+                        <a href="">
+                            <img src="../img/event1-1.jpg" alt="" >
+                            <br>
+                            제목이자 설명
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="">
+                            <img src="../img/event1-1.jpg" alt="" >
+                            <br>
+                            제목이자 설명
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="">
+                            <img src="../img/event1-1.jpg" alt="" >
+                            <br>
+                            제목이자 설명
+                        </a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="">
+                            <img src="../img/event1-1.jpg" alt="" >
+                            <br>
+                            제목이자 설명
+                        </a>
+                    </div>
+            
+                </div>
+            
+            </div>
 
              
     <br><br><br><br><br><br><br><br><br><br><br><br>
@@ -130,37 +194,38 @@
 
                     <div class="list-img"><!--center-img-->
                         <a href=""><img src="../img/best-lecture1 (1).png" alt="봇치더락">
-                            <p>봇치더락 2기 확정!</p>
+                            <p>생각과 마음이 자라는 그림책 수업!</p>
                         </a>
                     </div>
 
                     <div class="list-img"><!--center-img-->
                         <a href=""><img src="../img/best-lecture2 (1).png" alt="k-on">
-                            <p>케이온 극장판 개봉!</p>
+                            <p>노션으로  만들고 활용하는 디지털 교무수첩</p>
                         </a>
                     </div>
 
                     <div class="list-img"><!--center-img-->
                         <a href=""><img src="../img/best-lecture3 (1).jpg" alt="루시드">
-                            <p>메이플 이벤트!</p>
+                            <p>인성교육 연구대회 <br>
+                                입상을 좌우하는 방법!</p>
                         </a>
                     </div>
 
                     <div class="list-img"><!--center-img-->
                         <a href=""><img src="../img/best-lecture4 (1).png" alt="오르카">
-                            <p>이 악녀가!</p>
+                            <p> 법적 의무 교육15선 </p>
                         </a>
                     </div>
 
                     <div class="list-img"><!--center-img-->
                         <a href=""><img src="../img/best-lecture5 (1).jpg" alt="미도와 파라솔">
-                            <p>미도와 파라솔 노래모음</p>
+                            <p>돈으로 움직이는 교실 이야기</p>
                         </a>
                     </div>
 
                     <div class="list-img"><!--center-img-->
                         <a href=""><img src="../img/best-lecture6 (1).png" alt="qwer">
-                            <p>김계란의 qwer데뷔!</p>
+                            <p>내일은 나도 직무 연수 강사</p>
                         </a>
                     </div>
 
