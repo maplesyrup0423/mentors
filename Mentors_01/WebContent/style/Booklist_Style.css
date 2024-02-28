@@ -193,10 +193,11 @@ body{
 	border: 1px solid #888;
 	margin: 10px;
 	cursor: pointer;
+	float: left;
 }
 .book_list:hover,
 .active {
-	border-color:#00457E;
+	border: 2px solid #00457E;
 }
 
 .book_info{
@@ -244,6 +245,7 @@ body{
 	position: absolute;
 	bottom: 10px;
 }
+
 #sub_info{
 	list-style-type: none;
 }
