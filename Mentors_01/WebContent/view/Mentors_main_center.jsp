@@ -170,7 +170,7 @@
                             제목이자 설명
                         </a>
                     </div>
-                    
+
                     <div class="item">
                         <a href="">
                             <img src="../img/event1-1.jpg" alt="" >
