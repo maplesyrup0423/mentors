@@ -16,51 +16,50 @@
     <body>
 
         <div class="C-main">
-            <!-- /*class="main"*/
             <header>
-                <div class="C-eventList"> 
-                    /*allimg*/
-            
+                <div class="C-eventList">
+
                     <div class="C-mianimg">
-                        /*bannerimg*/
                         <div><img src="../img/bannerimg1 (1).png" alt=""></div>
                         <div><img src="../img/bannerimg2 (1).jpg" alt=""></div>
                         <div><img src="../img/bannerimg3 (1).jpg" alt=""></div>
                         <div><img src="../img/bannerimg4 (1).png" alt=""></div>
                         <div><img src="../img/bannerimg5 (1).png" alt=""></div>
-                    </div> -->
+                    </div>
 
 
-            <!-- <div class="login-circle">
+                    <div class="login-circle">
                         <div class="circle-login">
-            
+
                             <h1> 로그인 이후 <br>이용해주세요!</h1>
                             <button class="login blue_btn">로그인</button>
                             <br>
-            
+
                             <span>아이디 </span>
                             ·
                             <span>비밀번호</span>
                             <span id="newUser">회원가입</span>
                         </div>
-                    </div> -->
+                    </div>
 
-            <!-- <div class="login-circle2">
+                    <div class="login-circle2">
                         <div class="circle-login2">
-            
-                            <span id="My">내 정보  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                 <button style="border-radius: 25px;">로그아웃</button></span>
-                                 <h1>사용자 이름</h1>
-                                    <br>
-                                    
-                                 <button class="loginbutton">뭐든 가는 버튼&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 〉</button>
+
+                            <span id="My">내 정보
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <button style="border-radius: 25px;">로그아웃</button></span>
+                            <h1>사용자 이름</h1>
+                            <br>
+
+                            <button class="loginbutton">뭐든 가는 버튼&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                〉</button>
                         </div>
                     </div>
-            
+
                 </div>
             </header>
-    
-            <div class="C-table">
+
+            <!-- <div class="C-table">
                 <table class="C-contentTable" border="1"> 
                     //contentall
                     <tr>
@@ -122,11 +121,6 @@
                         </li>
                         <li class="teb_item">
                             <a href="" class="tab_link">
-                                <span class="teb_text">유치원생</span>
-                            </a>
-                        </li>
-                        <li class="teb_item">
-                            <a href="" class="tab_link">
                                 <span class="teb_text">초등학생</span>
                             </a>
                         </li>
@@ -142,14 +136,14 @@
                         </li>
                     </ul>
                 </div>
-            
+
                 <br>
-            
+
                 <div class="item_list">
 
                     <div class="item">
                         <a href="">
-                            <img src="../img/event1-1.jpg" alt="" >
+                            <img src="../img/event1-1.jpg" alt="">
                             <br>
                             제목이자 설명
                         </a>
@@ -157,7 +151,7 @@
 
                     <div class="item">
                         <a href="">
-                            <img src="../img/event1-1.jpg" alt="" >
+                            <img src="../img/event1-1.jpg" alt="">
                             <br>
                             제목이자 설명
                         </a>
@@ -165,7 +159,7 @@
 
                     <div class="item">
                         <a href="">
-                            <img src="../img/event1-1.jpg" alt="" >
+                            <img src="../img/event1-1.jpg" alt="">
                             <br>
                             제목이자 설명
                         </a>
@@ -173,18 +167,19 @@
 
                     <div class="item">
                         <a href="">
-                            <img src="../img/event1-1.jpg" alt="" >
+                            <img src="../img/event1-1.jpg" alt="">
                             <br>
                             제목이자 설명
                         </a>
                     </div>
-            
+
                 </div>
-            
+
             </div>
 
-             
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <br>
+
             <footer>
                 <div style="text-align: center; width: 1280px;">
                     <h1>현재 신청 가능한 강의</h1>
@@ -200,7 +195,7 @@
 
                     <div class="list-img"><!--center-img-->
                         <a href=""><img src="../img/best-lecture2 (1).png" alt="k-on">
-                            <p>노션으로  만들고 활용하는 디지털 교무수첩</p>
+                            <p>노션으로 만들고 활용하는 디지털 교무수첩</p>
                         </a>
                     </div>
 
