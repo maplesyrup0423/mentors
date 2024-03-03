@@ -177,6 +177,72 @@
 
             </div>
 
+            <div class="main_list">
+                <div class="user_teb_list">
+                    <ul class="teb_list">
+                        <li class="teb_item">
+                            <a href="" class="tab_link">
+                                <span class="teb_text">전체메뉴</span>
+                            </a>
+                        </li>
+                        <li class="teb_item">
+                            <a href="" class="tab_link">
+                                <span class="teb_text">교과지도</span>
+                            </a>
+                        </li>
+                        <li class="teb_item">
+                            <a href="" class="tab_link">
+                                <span class="teb_text">학습지도</span>
+                            </a>
+                        </li>
+                        <li class="teb_item">
+                            <a href="" class="tab_link">
+                                <span class="teb_text">생활지도</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <br>
+
+                <div class="item_list">
+
+                    <div class="item">
+                        <a href="">
+                            <img src="../img/event1-1.jpg" alt="">
+                            <br>
+                            제목이자 설명
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="">
+                            <img src="../img/event1-1.jpg" alt="">
+                            <br>
+                            제목이자 설명
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="">
+                            <img src="../img/event1-1.jpg" alt="">
+                            <br>
+                            제목이자 설명
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="">
+                            <img src="../img/event1-1.jpg" alt="">
+                            <br>
+                            제목이자 설명
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
 
             <br>
 
