@@ -196,6 +196,8 @@ border-bottom: -0px;
 .teb_item{
 	padding: 20px;
 	overflow: hidden;
+	width: 65px;
+	height: 20px;
 }
 
 .item_list{
