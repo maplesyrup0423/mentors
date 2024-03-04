@@ -121,65 +121,9 @@
 
 /* ================================= */
 
-.C-table {
-	/* position: relative; */
-	padding-top: 550px;
-}
-
-.C-contentTable {
-	width: 1280px;
-}
-
-.C-list_div {
-	width: 640px;
-}
-
-.contentlist td {
-	padding: 15px;
-}
-
 a {
 	text-decoration-line: none;
 }
-
-.bestlist {
-	font-size: 30px;
-}
-
-.best_book {
-	/* float: left; */
-	width: 390px;
-	font-size: 15px;
-	text-align: center;
-}
-
-.best_book img {
-	display: block;
-	width: 150px;
-}
-
-.newlist {
-	font-size: 30px;
-}
-
-.new_book {
-	width: 390px;
-	font-size: 15px;
-	text-align: center;
-}
-
-.new_book img {
-	display: block;
-	width: 150px;
-}
-
-.besttext {
-	text-align: center;
-}
-
-/* .main_list{
-	margin-top: 50px;
-} */
 
 .user_teb_list{
 	margin-top: 50px;
