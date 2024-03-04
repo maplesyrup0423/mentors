@@ -177,6 +177,14 @@ a {
 	text-align: center;
 }
 
+/* .main_list{
+	margin-top: 50px;
+} */
+
+.user_teb_list{
+	margin-top: 50px;
+}
+
 .teb_list{
 	list-style-type: none;
 	float: left;

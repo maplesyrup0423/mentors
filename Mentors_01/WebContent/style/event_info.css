@@ -5,8 +5,9 @@
 }
 
 #up_icon{
+    position: sticky;
     position: fixed;
-    right: 60%;
+    right: 55%;
     top: 650px;
     bottom: 50px;
     margin-right: -600px;
